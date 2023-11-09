@@ -5,6 +5,8 @@ import Layout from '../layouts/Layout.astro';
 
 import Link from '../components/Link.astro';
 
+import PostsList from '../components/PostsList.astro';
+
 import '../styles/index.css';
 
 const posts = await getCollection('blog');
@@ -19,20 +21,7 @@ const posts = await getCollection('blog');
 	</div>
 	<div class='flex flex-col'>
 		<h2 class='text-2xl font-semibold'>Recent blog posts:</h2>
-		<ol class='mt-4 px-10 space-y-2 list-decimal'>
-		  {
-			posts.map((post) => (
-			  <li>
-				<Link class='flex justify-between' href={`/blog/${post.slug}`}>
-				  {post.data.title}
-				  <span class='text-gray-400'>
-					{post.data.date.toUTCString().slice(0, -13)}
-				  </span>
-				</Link>
-			  </li>
-			))
-		  }
-		</ol>
+		<PostsList posts={posts.slice(0, 3)}/>
 	  </div>
 	
 	
