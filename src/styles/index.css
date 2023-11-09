@@ -1,3 +1,7 @@
-h1 {
-    text-decoration: underline;
-}
+.text-heading-1 {
+    @apply text-3xl font-bold tracking-tight;
+  }
+
+.text-tagline {
+    @apply text-xl font-bold;
+}  
