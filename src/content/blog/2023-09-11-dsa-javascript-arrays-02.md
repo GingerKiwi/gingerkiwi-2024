@@ -1,6 +1,6 @@
 ---
 title: Data Structures and Algorithms - Javascript Arrays 02
-tags: ["code", "dsa", "javascript", "technical"]
+tags: ["code", "data structures", "algorithms", "javascript", "technical"]
 date: 2023-09-01
 ---
 
