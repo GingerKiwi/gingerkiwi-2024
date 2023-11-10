@@ -22,7 +22,7 @@ const { Content } = await post.render();
 
 ---
 
-<Layout title={post.data.title}>
+<Layout seo={{ title: post.data.title }}>
     <article class="prose dark:prose-invert">
         <Content />
     </article>

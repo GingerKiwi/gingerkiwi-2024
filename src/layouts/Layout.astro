@@ -1,10 +1,10 @@
 ---
 import Link from '../components/Link.astro';
-import { SEO } from 'astro-seo';
+import { SEO, type Props as SEOProps } from 'astro-seo';
 import '../styles/index.css';
 
 interface Props {
-	title: string;
+	seo?: SEOProps;
 }
 
 const { seo } = Astro.props;
