@@ -19,6 +19,14 @@ export default defineConfig({
         item.url = item.url.slice(0, -1);
       }
       return item;
+    },
+    i18n: {
+      defaultLocale: 'en',
+      locales: {
+        en: 'en-CA',
+        en: 'en-NZ',
+        fr: 'fr-FR'
+      }
     }
   })]
 });
