@@ -1,6 +1,6 @@
 ---
 import { getCollection, type CollectionEntry } from "astro:content";
-import { type GetStaticPaths, Page } from "astro";
+import type { GetStaticPaths, Page } from "astro";
 
 import Link from '../../components/Link.astro';
 import Layout from '../../layouts/Layout.astro';
@@ -12,7 +12,11 @@ export const getStaticPaths: GetStaticPaths = async ({ paginate }) => {
 	return paginate(posts, {pageSize: 3})
 };
 
-const page: Page<CollectionEntry<'blog'>> = Astro.props.page;
+type Props = {
+  page: Page<CollectionEntry<'blog'>>;
+};
+
+const { page } = Astro.props;
 
 ---
 
