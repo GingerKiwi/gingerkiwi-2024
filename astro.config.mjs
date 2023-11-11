@@ -14,5 +14,11 @@ export default defineConfig({
     changefreq: 'weekly',
     lastmod: new Date(),
     priority: 0.85,
+    serialize: (item) => {
+      if (item.url.at(-1) === '/'){
+        item.url = item.url.slice(0, -1);
+      }
+      return item;
+    }
   })]
 });
