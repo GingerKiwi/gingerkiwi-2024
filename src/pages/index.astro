@@ -13,6 +13,15 @@ const posts = await getCollection('blog');
 ---
 
 <Layout seo={{ title: "Welcome to GingerKiwi.dev"}}>
+	<div class='flex flex-col mx-6 bg-slate-300 text-sky-900 font-bold max-w-lg rounded-md mt-4 px-5 py-2 border-8 border-pink-700 '>
+		<h2 class="py-2 text-pink-700 text-xl">BUILDING IN PUBLIC 🥳</h2>
+		<p>Things might look a little janky for a bit, but that’s okay! </p>
+			<p class="py-2">I am in the process of completely rebuilding my blog with Astro and combining it with my dev portfolio at gingerkiwi.dev. Less to maintain is awesome!</p>
+
+			<p>🙏 Thanks to <a href="https://nikolovlazar.com" class="text-pink-700 hover:text-green-600 hover:text-lg underline">Lazar Nikolov</a> for his new <a href="https://egghead.io/courses/build-a-full-stack-blog-with-astro-7ffcf9ec" class="text-pink-700 hover:text-green-600 hover:text-lg underline">Astro Course </a> on Egghead.io which is the inspiration for my finally redeveloping my sites.</p>
+			
+			<p class="py-2">For a full list of my articles with images (including cat photos 😻!) please visit <a href="http://gingerkiwi.blog" class="text-pink-700 hover:text-green-600 hover:text-lg underline">https://gingerkiwi.blog</a> </p>
+	</div>
 	<div class='h-64 flex flex-col justify-center items-start mx-6'>
 		<h1 class="
 		text-heading-1 
@@ -28,7 +37,7 @@ const posts = await getCollection('blog');
 			</p>
 	</div>
 	<div class='flex flex-col mx-6'>
-		<h2 class='text-2xl font-semibold'>Recent blog posts:</h2>
+		<h2 class='text-2xl font-semibold'>Recent Blog Posts</h2>
 		<PostsList posts={posts.slice(0, 3)}/>
 	  </div>
 	

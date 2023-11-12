@@ -1,5 +1,5 @@
 ---
-import Link from '../components/Link.astro';
+// import Link from '../components/Link.astro';
 import LinkNav from '../components/LinkNav.astro';
 import { SEO, type Props as SEOProps } from 'astro-seo';
 import '../styles/index.css';
@@ -38,7 +38,7 @@ const { seo } = Astro.props;
 					to-pink-800'
 			>
 			<header>
-				<a href="#main" id="skipToMain" class="a11y--skip-to-main">Skip to main content</a>
+				<a href="#main" id="skipToMain" class="a11y--skip-to-main text-xs underline underline-offset-4 ml-2">Skip to main content</a>
 			  <a 
 			  	href='/' 
 				class='
@@ -80,19 +80,21 @@ const { seo } = Astro.props;
 				bg-gradient-to-r
 					from-orange-800 
 					to-pink-800 mt-8
-				aria-label="Secondary navigation"
+				
 				'
 			>
-			<span>© {new Date().getFullYear()} Elizabeth McCready.</span>
-			<nav class="a11y-webring-club mt-2" aria-labelledby="a11y-webring-club">
-				<h2 id="a11y-webring-club">A11y-Webring.club</h2>
-				<p>This site is a member of the <a class="underline my-2" rel="external" href="https://a11y-webring.club/">a11y-webring.club</a>.</p>
+			
+			<nav class="a11y-webring-club mt-2" aria-labelledby="a11y-webring-club" aria-label="Secondary navigation">
+				<h2 id="a11y-webring-club" class="font-bold">A11y-Webring.club</h2>
+				<p class="font-bold">This site is a member of the <a class="underline my-2" rel="external" href="https://a11y-webring.club/">a11y-webring.club</a>.</p>
 				<ul class="my-2">
-				  <li><LinkNav class="underline my-2"rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/prev">Previous website</LinkNav></li>
-				  <li><LinkNav class="underline my-2"rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/random">Random website</LinkNav></li>
-				  <li><LinkNav class="underline my-2"rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/next">Next website</LinkNav></li>
+					<li><LinkNav href='/a11y-statement'>Site Accessibility (A11y)</a></li>
+					<li><LinkNav class="underline my-2"rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/prev">Previous website</LinkNav></li>
+					<li><LinkNav class="underline my-2"rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/random">Random website</LinkNav></li>
+					<li><LinkNav class="underline my-2"rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/next">Next website</LinkNav></li>
 				</ul>
 			  </nav>
+			  <span>© {new Date().getFullYear()} Elizabeth McCready.</span>
 		  </footer>
 	</body>
 </html>
