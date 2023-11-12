@@ -1,11 +1,11 @@
 ---
 // import Link from '../components/Link.astro';
-import LinkNav from '../components/LinkNav.astro';
-import { SEO, type Props as SEOProps } from 'astro-seo';
-import '../styles/index.css';
+import LinkNav from "../components/LinkNav.astro";
+import { SEO, type Props as SEOProps } from "astro-seo";
+import "../styles/index.css";
 
 interface Props {
-	seo?: SEOProps;
+  seo?: SEOProps;
 }
 
 const { seo } = Astro.props;
@@ -13,124 +13,161 @@ const { seo } = Astro.props;
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon-gk.png" />
-		<meta name="generator" content={Astro.generator} />
-		<link rel='sitemap' href='/sitemap-index.xml' />
-		
-		<SEO 
-		{...seo}
-		title={seo?.title ?? 'Ginger Kiwi - Liz McCready'}
-		description={seo?.description ?? "Liz McCready's personal blog and portfolio site"}
-		/>
-	</head>
-	<body>
-		<div class='
-			flex 
-			justify-between 
-			items-center 
-			py-4 
-				bg-gradient-to-r
-				from-orange-700 
-					to-pink-800'
-			>
-			<header>
-				<a href="#main" id="skipToMain" class="a11y--skip-to-main text-xs underline underline-offset-4 ml-2">Skip to main content</a>
-			  <a 
-			  	href='/' 
-				class='
-					font-bold text-2xl ml-6 
-					hover:bg-stone-200 h
-					over:rounded-lg 
-					hover:py-1 
-					hover:px-4 
-					hover:text-orange-600
-					hover:rounded-lg
-					'
-				>GingerKiwi 💖 Astro</a
-			  >
-			  
-			  <!-- <span class='text-tagline'>Exploring Web Development, Accessibility, and Design </span> -->
-			</header>
-			<nav>
-			  <ul class='flex gap-4 mr-6' aria-label="Primary navigation">
-				<li><LinkNav href='/'>Home</a></li>
-				<li><LinkNav href='/about'>About</a></li>
-				<li><LinkNav href='/blog/1'>Blog</a></li>
-				<li><LinkNav href='/feed.xml'>RSS</a></li>
-				<li>
-				  <LinkNav href='https://github.com/gingerkiwi' isExternal> GitHub</LinkNav>
-				</li>
-			  </ul>
-			</nav>
-		  </div>
-		  <main class='flex-1'>
-			<slot />
-		  </main>
-		  <footer 
-		  	class='
-				w-full 
-				mx-auto 
-				text-center 
-				py-4 
-				bottom-0 
-				bg-gradient-to-r
-					from-orange-800 
-					to-pink-800 mt-8
-				
-				'
-			>
-			
-			<nav class="a11y-webring-club mt-2" aria-labelledby="a11y-webring-club" aria-label="Secondary navigation">
-				<h2 id="a11y-webring-club" class="font-bold">A11y-Webring.club</h2>
-				<p class="font-bold">This site is a member of the <a class="underline my-2" rel="external" href="https://a11y-webring.club/">a11y-webring.club</a>.</p>
-				<ul class="my-2">
-					<li><LinkNav href='/a11y-statement'>Site Accessibility (A11y)</a></li>
-					<li><LinkNav class="underline my-2"rel="external" href="https://a11y-webring.club/prev">Previous website</LinkNav></li>
-					<li><LinkNav class="underline my-2"rel="external" href="https://a11y-webring.club/random">Random website</LinkNav></li>
-					<li><LinkNav class="underline my-2"rel="external" href="https://a11y-webring.club/next">Next website</LinkNav></li>
-				</ul>
-			  </nav>
-			  <span>© {new Date().getFullYear()} Elizabeth McCready.</span>
-		  </footer>
-	</body>
-</html>
-<style is:global>
-	:root {
-		--accent: 16, 69, 42; 
-		--accent-light: 337, 74, 45; 
-		--accent-dark: 49, 10, 101;
-		--bg-medium-dark: #052029;
-		--bg-dark-article: #04171d;
-		--accent-gradient: linear-gradient(
-			45deg,
-			rgb(var(--accent)),
-			rgb(var(--accent-light)) 30%,
-			white 60%
-		);
-	}
-	html {
-		font-family: system-ui, sans-serif;
-		background: var(--bg-medium-dark);
-		color: #f6f6f6;
-		background-size: 224px;
-	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
-	}
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon-gk.png" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
 
-	/* h1 {
+    <SEO
+      {...seo}
+      title={seo?.title ?? "Ginger Kiwi - Liz McCready"}
+      description={seo?.description ??
+        "Liz McCready's personal blog and portfolio site"}
+    />
+  </head>
+  <body>
+    <div
+      class="flex
+			justify-between
+			items-center
+			py-4
+				bg-gradient-to-r
+				from-orange-700
+					to-pink-800"
+    >
+      <header>
+        <a
+          href="#main"
+          id="skipToMain"
+          class="a11y--skip-to-main text-xs underline underline-offset-4 ml-2"
+          >Skip to main content</a
+        >
+        <a
+          href="/"
+          class="font-bold text-2xl ml-6
+					hover:bg-stone-200 h
+					over:rounded-lg
+					hover:py-1
+					hover:px-4
+					hover:text-orange-600
+					hover:rounded-lg"
+          >GingerKiwi 💖 Astro</a
+        >
+
+        <!-- <span class='text-tagline'>Exploring Web Development, Accessibility, and Design </span> -->
+      </header>
+      <nav>
+        <ul class="flex gap-4 mr-6" aria-label="Primary navigation">
+          <li><LinkNav href="/">Home</LinkNav></li>
+          <li><LinkNav href="/about">About</LinkNav></li>
+          <li><LinkNav href="/blog/1">Blog</LinkNav></li>
+          <li><LinkNav href="/feed.xml">RSS</LinkNav></li>
+          <li>
+            <LinkNav href="https://github.com/gingerkiwi" isExternal>
+              GitHub
+            </LinkNav>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main class="flex-1">
+      <slot />
+    </main>
+    <footer
+      class="w-full
+				mx-auto
+				text-center
+				py-4
+				bottom-0
+				bg-gradient-to-r
+					from-orange-800
+					to-pink-800 mt-8"
+    >
+      <nav
+        class="a11y-webring-club mt-2"
+        aria-labelledby="a11y-webring-club"
+        aria-label="Secondary navigation"
+      >
+        <h2 id="a11y-webring-club" class="font-bold">A11y-Webring.club</h2>
+        <p class="font-bold">
+          This site is a member of the <a
+            class="underline my-2"
+            rel="external"
+            href="https://a11y-webring.club/">a11y-webring.club</a
+          >.
+        </p>
+        <ul class="my-2">
+          <li>
+            <LinkNav href="/a11y-statement">Site Accessibility (A11y)</LinkNav>
+          </li>
+          <li>
+            <LinkNav
+              class="underline my-2"
+              rel="external"
+              href="https://a11y-webring.club/prev"
+            >
+              Previous website
+            </LinkNav>
+          </li>
+          <li>
+            <LinkNav
+              class="underline my-2"
+              rel="external"
+              href="https://a11y-webring.club/random"
+            >
+              Random website
+            </LinkNav>
+          </li>
+          <li>
+            <LinkNav
+              class="underline my-2"
+              rel="external"
+              href="https://a11y-webring.club/next"
+            >
+              Next website
+            </LinkNav>
+          </li>
+        </ul>
+      </nav>
+      <span>© {new Date().getFullYear()} Elizabeth McCready.</span>
+    </footer>
+  </body><style is:global>
+    :root {
+      --accent: 16, 69, 42;
+      --accent-light: 337, 74, 45;
+      --accent-dark: 49, 10, 101;
+      --bg-medium-dark: #052029;
+      --bg-dark-article: #04171d;
+      --accent-gradient: linear-gradient(
+        45deg,
+        rgb(var(--accent)),
+        rgb(var(--accent-light)) 30%,
+        white 60%
+      );
+    }
+    html {
+      font-family: system-ui, sans-serif;
+      background: var(--bg-medium-dark);
+      color: #f6f6f6;
+      background-size: 224px;
+    }
+    code {
+      font-family:
+        Menlo,
+        Monaco,
+        Lucida Console,
+        Liberation Mono,
+        DejaVu Sans Mono,
+        Bitstream Vera Sans Mono,
+        Courier New,
+        monospace;
+    }
+
+    /* h1 {
 		color: bg-gradient-to-right from-pink-700 to-orange-700;
 	} */
-</style>
+  </style>
+</html>
