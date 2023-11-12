@@ -1,5 +1,6 @@
 ---
 import Link from '../components/Link.astro';
+import LinkNav from '../components/LinkNav.astro';
 import { SEO, type Props as SEOProps } from 'astro-seo';
 import '../styles/index.css';
 
@@ -37,19 +38,31 @@ const { seo } = Astro.props;
 					to-pink-800'
 			>
 			<header>
-			  <a href='/' class='font-bold text-2xl hover:text-blue-900 ml-6'
+				<a href="#main" id="skipToMain" class="a11y--skip-to-main">Skip to main content</a>
+			  <a 
+			  	href='/' 
+				class='
+					font-bold text-2xl ml-6 
+					hover:bg-stone-200 h
+					over:rounded-lg 
+					hover:py-1 
+					hover:px-4 
+					hover:text-orange-600
+					hover:rounded-lg
+					'
 				>GingerKiwi 💖 Astro</a
 			  >
+			  
 			  <!-- <span class='text-tagline'>Exploring Web Development, Accessibility, and Design </span> -->
 			</header>
 			<nav>
-			  <ul class='flex gap-4 mr-6'>
-				<li><Link href='/'>Home</a></li>
-				<li><Link href='/about'>About</a></li>
-				<li><Link href='/blog/1'>Blog</a></li>
-				<li><Link href='/feed.xml'>RSS</a></li>
+			  <ul class='flex gap-4 mr-6' aria-label="Primary navigation">
+				<li><LinkNav href='/'>Home</a></li>
+				<li><LinkNav href='/about'>About</a></li>
+				<li><LinkNav href='/blog/1'>Blog</a></li>
+				<li><LinkNav href='/feed.xml'>RSS</a></li>
 				<li>
-				  <Link href='https://github.com/gingerkiwi' isExternal> GitHub</Link>
+				  <LinkNav href='https://github.com/gingerkiwi' isExternal> GitHub</LinkNav>
 				</li>
 			  </ul>
 			</nav>
@@ -57,16 +70,27 @@ const { seo } = Astro.props;
 		  <main class='flex-1'>
 			<slot />
 		  </main>
-		  <footer class='w-full mx-auto text-center py-4 bottom-0 bg-gradient-to-r
-		  from-orange-800 to-pink-800 mt-8'>
+		  <footer 
+		  	class='
+				w-full 
+				mx-auto 
+				text-center 
+				py-4 
+				bottom-0 
+				bg-gradient-to-r
+					from-orange-800 
+					to-pink-800 mt-8
+				aria-label="Secondary navigation"
+				'
+			>
 			<span>© {new Date().getFullYear()} Elizabeth McCready.</span>
-			<nav class="a11y-webring-club" aria-labelledby="a11y-webring-club">
-				<h2 id="a11y-webring-club">a11y-webring.club</h2>
-				<p>This site is a member of the <a rel="external" href="https://a11y-webring.club/">a11y-webring.club</a>.</p>
-				<ul>
-				  <li><a rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/prev">Previous website</a></li>
-				  <li><a rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/random">Random website</a></li>
-				  <li><a rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/next">Next website</a></li>
+			<nav class="a11y-webring-club mt-2" aria-labelledby="a11y-webring-club">
+				<h2 id="a11y-webring-club">A11y-Webring.club</h2>
+				<p>This site is a member of the <a class="underline my-2" rel="external" href="https://a11y-webring.club/">a11y-webring.club</a>.</p>
+				<ul class="my-2">
+				  <li><LinkNav class="underline my-2"rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/prev">Previous website</LinkNav></li>
+				  <li><LinkNav class="underline my-2"rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/random">Random website</LinkNav></li>
+				  <li><LinkNav class="underline my-2"rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/next">Next website</LinkNav></li>
 				</ul>
 			  </nav>
 		  </footer>
