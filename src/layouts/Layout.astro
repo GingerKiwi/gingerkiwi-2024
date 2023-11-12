@@ -27,15 +27,23 @@ const { seo } = Astro.props;
 		/>
 	</head>
 	<body>
-		<div class='flex justify-between items-center py-4 bg-orange-700'>
+		<div class='
+			flex 
+			justify-between 
+			items-center 
+			py-4 
+				bg-gradient-to-r
+				from-orange-700 
+					to-pink-800'
+			>
 			<header>
-			  <a href='/' class='font-bold text-2xl hover:text-blue-900'
-				>GingerKiwi ❤️ Astro</a
+			  <a href='/' class='font-bold text-2xl hover:text-blue-900 ml-6'
+				>GingerKiwi 💖 Astro</a
 			  >
 			  <!-- <span class='text-tagline'>Exploring Web Development, Accessibility, and Design </span> -->
 			</header>
 			<nav>
-			  <ul class='flex gap-4'>
+			  <ul class='flex gap-4 mr-6'>
 				<li><Link href='/'>Home</a></li>
 				<li><Link href='/about'>About</a></li>
 				<li><Link href='/blog/1'>Blog</a></li>
@@ -49,8 +57,18 @@ const { seo } = Astro.props;
 		  <main class='flex-1'>
 			<slot />
 		  </main>
-		  <footer class='w-full mx-auto text-center py-4'>
+		  <footer class='w-full mx-auto text-center py-4 bottom-0 bg-gradient-to-r
+		  from-orange-800 to-pink-800 mt-8'>
 			<span>© {new Date().getFullYear()} Elizabeth McCready.</span>
+			<nav class="a11y-webring-club" aria-labelledby="a11y-webring-club">
+				<h2 id="a11y-webring-club">a11y-webring.club</h2>
+				<p>This site is a member of the <a rel="external" href="https://a11y-webring.club/">a11y-webring.club</a>.</p>
+				<ul>
+				  <li><a rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/prev">Previous website</a></li>
+				  <li><a rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/random">Random website</a></li>
+				  <li><a rel="external" referrerpolicy="strict-origin" href="https://a11y-webring.club/next">Next website</a></li>
+				</ul>
+			  </nav>
 		  </footer>
 	</body>
 </html>
@@ -59,6 +77,8 @@ const { seo } = Astro.props;
 		--accent: 16, 69, 42; 
 		--accent-light: 337, 74, 45; 
 		--accent-dark: 49, 10, 101;
+		--bg-medium-dark: #052029;
+		--bg-dark-article: #04171d;
 		--accent-gradient: linear-gradient(
 			45deg,
 			rgb(var(--accent)),
@@ -68,7 +88,7 @@ const { seo } = Astro.props;
 	}
 	html {
 		font-family: system-ui, sans-serif;
-		background: #052029;
+		background: var(--bg-medium-dark);
 		color: #f6f6f6;
 		background-size: 224px;
 	}
@@ -83,4 +103,8 @@ const { seo } = Astro.props;
 			Courier New,
 			monospace;
 	}
+
+	/* h1 {
+		color: bg-gradient-to-right from-pink-700 to-orange-700;
+	} */
 </style>

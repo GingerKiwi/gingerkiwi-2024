@@ -9,7 +9,7 @@ import PostsList from '../../components/PostsList.astro';
 export const getStaticPaths: GetStaticPaths = async ({ paginate }) => {
 	const posts = await getCollection('blog');
 
-	return paginate(posts, {pageSize: 3})
+	return paginate(posts, {pageSize: 5})
 };
 
 type Props = {
@@ -21,7 +21,14 @@ const { page } = Astro.props;
 ---
 
 <Layout seo={{ title: 'Blog Posts' }}>
-	<h1 class="'text-heading-1 mt-8">Blog Posts</h1>
+	<h1 class="
+		text-heading-1 
+		mt-8 
+		bg-gradient-to-r
+			from-pink-600 to-orange-400 
+			inline-block 
+			text-transparent 
+			bg-clip-text">Blog Posts</h1>
 
 	<PostsList posts={page.data} start={page.start + 1}/>
 	<div class ="mt-8 flex justify-center  gap-4">

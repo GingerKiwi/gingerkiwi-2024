@@ -1,5 +1,7 @@
 ---
 import { getCollection, type CollectionEntry } from 'astro:content';
+
+import PostsLike from '../../components/PostLike.tsx';
 import Layout from '../../layouts/Layout.astro';
 
 export async function getStaticPaths(){
@@ -23,7 +25,8 @@ const { Content } = await post.render();
 ---
 
 <Layout seo={{ title: post.data.title }}>
-    <article class="prose dark:prose-invert">
+    <article class="prose dark:prose-invert mx-6 my-8 prose-a:text-pink-500 text-neutral-200 prose-h1:text-pink-500">
         <Content />
+        <PostsLike client:visible/>
     </article>
 </Layout>

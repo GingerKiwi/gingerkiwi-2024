@@ -13,13 +13,21 @@ const posts = await getCollection('blog');
 ---
 
 <Layout seo={{ title: "Welcome to GingerKiwi.dev"}}>
-	<div class='h-64 flex flex-col justify-center items-start'>
-		<h1 class="text-heading-1">Nice to Meet You! <br/>I'm Liz McCready</h1>
+	<div class='h-64 flex flex-col justify-center items-start mx-6'>
+		<h1 class="
+		text-heading-1 
+		mt-8 
+		bg-gradient-to-r
+			from-pink-600 to-orange-400 
+			inline-block 
+			text-transparent 
+			bg-clip-text">
+		Nice to Meet You! <br/>I'm Liz McCready</h1>
 			<p class='mt-2'>
 				Based in Toronto, Canada, I’m a software developer, technical content writer, and former adaptive tech specialist passionate about building beauitful accessible web apps and solving puzzles with others.
 			</p>
 	</div>
-	<div class='flex flex-col'>
+	<div class='flex flex-col mx-6'>
 		<h2 class='text-2xl font-semibold'>Recent blog posts:</h2>
 		<PostsList posts={posts.slice(0, 3)}/>
 	  </div>

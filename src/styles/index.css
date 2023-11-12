@@ -5,3 +5,7 @@
 .text-tagline {
     @apply text-xl font-bold;
 }  
+
+.text-heading-gradient {
+  @apply bg-gradient-to-r from-pink-700 to-orange-700;
+}
