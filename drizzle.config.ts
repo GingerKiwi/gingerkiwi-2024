@@ -1,4 +1,4 @@
-import type { Config } from 'drizzle-orm';
+import type { Config } from 'drizzle-kit';
 
 export default {
     schema: './src/db/index.ts',
