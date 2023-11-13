@@ -151,6 +151,9 @@ const { seo } = Astro.props;
     html {
       font-family: system-ui, sans-serif;
       background: var(--bg-medium-dark);
+	  /* background: linear-gradient(180deg, var(--bg-medium-dark), var(--bg-dark-article)); */
+	  /* Use line below for testing  */
+	  /* background: linear-gradient(0deg, blue, green 40%, red); */
       color: #f6f6f6;
       background-size: 224px;
     }
@@ -166,8 +169,8 @@ const { seo } = Astro.props;
         monospace;
     }
 
-    /* h1 {
+    h1 {
 		color: bg-gradient-to-right from-pink-700 to-orange-700;
-	} */
+	}
   </style>
 </html>
