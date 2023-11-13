@@ -5,8 +5,8 @@ tags: ["code", "design", "tools", "tips", "a11y"]
 description: Coding with accessibility in mind can be intimidating if you're not familiar with the needs of disabled, neurodiverse, Deaf/deaf, and hard of hearing users. Here are five tips to get you started in making your sites accessible for users and learning how to implement the basics of WCAG.
 # cover: '../assets/A11yCodingTips-Cover.png'
 # coverAlt: 'testing cover images A11y coding tips'
-cover: "./A11yCodingTips-Cover.png"
-coverAlt: "testing cover images A11y coding tips"
+# cover: "./A11yCodingTips-Cover.png"
+# coverAlt: "testing cover images A11y coding tips"
 # cover: "./firstpostcover.jpeg" # will resolve to "src/content/blog/firstblogcover.jpeg"
 # coverAlt: "A photograph of a sunset behind a mountain range."
 ---
