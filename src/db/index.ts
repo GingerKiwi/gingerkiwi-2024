@@ -5,9 +5,9 @@ import {
 } from 'drizzle-orm/better-sqlite3';
 import { migrate } from 'drizzle-orm/better-sqlite3/migrator';
 
-const sqlite = new Database(process.env.DATABASE_URL || ',/local.db');
+const sqlite = new Database(process.env.DATABASE_URL || './local.db');
 
 export const db:BetterSQLite3Database = drizzle(sqlite, { logger: true });
-migrate(db, { migrationsFolder: 'scr/db/migrations'});
+migrate(db, { migrationsFolder: 'src/db/migrations'});
 
 export { likes } from './schema';
