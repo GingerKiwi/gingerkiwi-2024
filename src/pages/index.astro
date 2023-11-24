@@ -1,7 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
 
 import Layout from '../layouts/Layout.astro';
+
+import avatar from '../assets/avatar.png';
 
 import Link from '../components/Link.astro';
 
@@ -36,6 +39,13 @@ const posts = await getCollection('blog');
 				Based in Toronto, Canada, I’m a software developer, technical content writer, and former adaptive tech specialist passionate about building beauitful accessible web apps and solving puzzles with others.
 			</p>
 	</div>
+	<Image></Image> 
+        src={ avatar } 
+        alt="graphic of a redhead woman with a ponytail behind a laptop computer" 
+        width={486}
+        quality='max'
+        class='h-auto max-w-xs rounded-lg'
+        />
 	<div class='flex flex-col mx-6'>
 		<h2 class='text-2xl font-semibold'>Recent Blog Posts</h2>
 		<PostsList posts={posts.slice(0, 3)}/>
