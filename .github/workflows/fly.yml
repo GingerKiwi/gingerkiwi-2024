@@ -2,7 +2,7 @@ name: Fly Deploy
 
 on:
   push:
-    branches: lesson-21 # put main to build production
+    branches: main
 
   workflow_dispatch:
 
