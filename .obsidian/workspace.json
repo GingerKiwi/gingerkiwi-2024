@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "707d7f2bf6050f88",
+    "type": "split",
+    "children": [
+      {
+        "id": "473364008dcbec10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b85baf1813676007",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "843cf55e02589217",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f4a3095b2ec31e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96cc66b16ad42c17",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5f055f9b1e44fad5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8ccb76872f476e25",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a3f9553f059cfbf3",
+    "type": "split",
+    "children": [
+      {
+        "id": "0fdc3b8c5940b464",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6386509a7d41bff9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cfeac1503367a76a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a79bbe285c5fc027",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "be4c4823ad41244b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b85baf1813676007",
+  "lastOpenFiles": [
+    "README.md"
+  ]
+}
