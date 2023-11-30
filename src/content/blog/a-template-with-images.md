@@ -6,7 +6,7 @@ tags:
   - design
   - tips
   - a11y
-image: '{  src: "/images/DesignTips_BackEndDevs_1200x630.png,  alt: "ADD ALT AFTER TESTING",}'
+image: '{  src: "/images/hello-world.jpg",  alt: "ADD ALT AFTER TESTING"}'
 description: a blog post file for testing
 draft: "false"
 category: design
