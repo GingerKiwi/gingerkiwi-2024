@@ -57,11 +57,11 @@ UI Store Design has over 650 free design files, with many of them being Figma fi
 Cost: Free
 
 Links:
-	Apps: [https://www.uistore.design/categories/apps](https://www.uistore.design/categories/apps)
+- Apps: [https://www.uistore.design/categories/apps](https://www.uistore.design/categories/apps)
 
-	Landing pages: [https://www.uistore.design/categories/landing-pages]( https://www.uistore.design/categories/landing-pages)
+- Landing pages: [https://www.uistore.design/categories/landing-pages]( https://www.uistore.design/categories/landing-pages)
 
-	Dashboards: [https://www.uistore.design/categories/dashboards]( https://www.uistore.design/categories/dashboards)
+- Dashboards: [https://www.uistore.design/categories/dashboards]( https://www.uistore.design/categories/dashboards)
 #### Frontend Mentor
 
 While Frontend Mentor has many free challenges, you must be a paid monthly or annual member to download the Figma files. However, a paid membership comes with support from their Discord community as well as project requirements. It's a great place to start building full-stack apps for your portfolio if you need ideas of what to build. Projects can be filtered by difficulty level, language/tools (html, css, javascript, api), and free/paid.

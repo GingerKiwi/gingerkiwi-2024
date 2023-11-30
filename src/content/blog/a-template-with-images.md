@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/BlogPostLayout.astro
-title: template
+title: A Template with Images
 date: 2023-11-30
 tags:
   - design

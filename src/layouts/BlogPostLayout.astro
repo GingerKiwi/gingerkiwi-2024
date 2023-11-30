@@ -1,14 +1,26 @@
 ---
+// import MainHeader from '../components/MainHeader.astro';
 import MainLayout from '../layouts/MainLayout.astro';
 
+import { slugify, formatDate } from '../js/utils.js';
+const { frontmatter } = Astro.props;
+const { title, description, date, category, image } = frontmatter;
+console.log(frontmatter);
+
 ---
-<MainLayout seo={{ title: "Welcome to GingerKiwi.dev"}}>
+<!-- <MainHeader /> -->
+<MainLayout seo={{ title: {title}}} {description}>
     <header>
         <div class="container">
-            <img src="" alt="">
+            <small>
+                <a href={`/category/${slugify(category)}/`} class="badge">{category}</a>
+              </small>
+              <h1 class="font--gradient">{title}</h1>
+            <p>{formatDate(date)}</p>
         </div>
+        <img src="" alt="">
     </header>
-    <div class="post-content">
+    <div class="post-content text-red-300">
         <div class="content">
             <slot />
         </div>

@@ -148,10 +148,13 @@
   },
   "active": "5307a553c91f2747",
   "lastOpenFiles": [
+    "src/js/utils.js",
+    "src/js",
+    "src/content/blog/design-tools-and-tips-for-backend-devs-01 1.md",
+    "src/content/blog/a-template-with-images.md",
     "src/components/MainHeader.astro",
     "src/components/Footer.astro",
     "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
-    "src/content/blog/a-template-with-images.md",
     "src/content/blog/template.md",
     "src/content/blog/Untitled.md",
     "src/layouts/MainLayout.astro"

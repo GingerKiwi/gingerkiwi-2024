@@ -11,3 +11,19 @@
 .text-heading-gradient {
   @apply bg-gradient-to-r from-pink-700 to-orange-700;
 }
+
+.badge {
+  /* text-transform: uppercase; */
+  font-weight: 500;
+  color: #a3e635;
+  border: 2px solid #bef264;
+  border-radius: 5px;
+  padding: 0.3rem 0.75rem;
+  margin: 1rem 0;
+}
+
+.font--gradient {
+  background: linear-gradient(to right, #ec4899, #ea580c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
