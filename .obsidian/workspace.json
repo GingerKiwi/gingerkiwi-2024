@@ -139,5 +139,7 @@
     }
   },
   "active": "5307a553c91f2747",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "src/layouts/MainLayout.astro"
+  ]
 }

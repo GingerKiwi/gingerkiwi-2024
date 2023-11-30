@@ -3,7 +3,7 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import type { GetStaticPaths, Page } from "astro";
 
 import Link from '../../components/Link.astro';
-import Layout from '../../layouts/Layout.astro';
+import MainLayout from '../../layouts/MainLayout.astro';
 import PostsList from '../../components/PostsList.astro';
 
 export const getStaticPaths: GetStaticPaths = async ({ paginate }) => {
@@ -20,7 +20,7 @@ const { page } = Astro.props;
 
 ---
 
-<Layout seo={{ title: 'Blog Posts' }}>
+<MainLayout seo={{ title: 'Blog Posts' }}>
 	<!-- <Image src={post.data.cover} alt={post.data.coverAlt} /> -->
 	<h1 class="
 		text-heading-1 
@@ -51,4 +51,4 @@ const { page } = Astro.props;
 			}
 		  </div>
 	</div>
-</Layout>
+</MainLayout>
