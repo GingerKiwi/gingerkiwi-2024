@@ -148,15 +148,26 @@
   },
   "active": "5307a553c91f2747",
   "lastOpenFiles": [
-    "src/js/utils.js",
-    "src/js",
+    "node_modules/astro/node_modules/sharp/build/Release/sharp-darwin-x64.node",
+    "node_modules/astro/node_modules/sharp/build/Release",
+    "node_modules/astro/node_modules/sharp/build",
+    "node_modules/astro/node_modules/sharp/vendor/8.14.5/darwin-x64/THIRD-PARTY-NOTICES.md",
+    "node_modules/astro/node_modules/sharp/vendor/8.14.5/darwin-x64/versions.json",
+    "node_modules/astro/node_modules/sharp/vendor/8.14.5/darwin-x64/platform.json",
+    "node_modules/astro/node_modules/sharp/vendor/8.14.5/darwin-x64/lib/libvips-cpp.42.dylib",
+    "node_modules/astro/node_modules/sharp/vendor/8.14.5/darwin-x64/lib/glib-2.0",
+    "node_modules/astro/node_modules/sharp/vendor/8.14.5/darwin-x64/lib",
+    "node_modules/astro/node_modules/sharp/vendor/8.14.5/darwin-x64",
+    "node_modules/astro/node_modules/sharp/vendor/8.14.5",
+    "node_modules/astro/node_modules/sharp/vendor",
+    "node_modules/@img/sharp-libvips-darwin-x64/README.md",
+    "node_modules/astro/node_modules/sharp/README.md",
+    "node_modules/@emnapi/runtime/README.md",
+    "node_modules/@img/sharp-darwin-x64/README.md",
     "src/content/blog/design-tools-and-tips-for-backend-devs-01 1.md",
     "src/content/blog/a-template-with-images.md",
-    "src/components/MainHeader.astro",
-    "src/components/Footer.astro",
     "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
     "src/content/blog/template.md",
-    "src/content/blog/Untitled.md",
-    "src/layouts/MainLayout.astro"
+    "src/content/blog/Untitled.md"
   ]
 }
