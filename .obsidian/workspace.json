@@ -11,8 +11,12 @@
             "id": "5307a553c91f2747",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/a-template-with-images.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "src/content/blog/a-template-with-images.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/content/blog/a-template-with-images.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/content/blog/a-template-with-images.md"
+              }
             }
           }
         ]
@@ -140,6 +148,11 @@
   },
   "active": "5307a553c91f2747",
   "lastOpenFiles": [
+    "src/components/Footer.astro",
+    "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
+    "src/content/blog/a-template-with-images.md",
+    "src/content/blog/template.md",
+    "src/content/blog/Untitled.md",
     "src/layouts/MainLayout.astro"
   ]
 }

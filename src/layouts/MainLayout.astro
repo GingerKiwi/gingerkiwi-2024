@@ -3,6 +3,7 @@
 import LinkNav from "../components/LinkNav.astro";
 import { SEO, type Props as SEOProps } from "astro-seo";
 import "../styles/index.css";
+import Footer from "../components/Footer.astro";
 
 interface Props {
   seo?: SEOProps;
@@ -76,7 +77,8 @@ const { seo } = Astro.props;
     <main class="flex-1">
       <slot />
     </main>
-    <footer
+    
+    <!-- <footer
       class="w-full
 				mx-auto
 				text-center
@@ -133,7 +135,7 @@ const { seo } = Astro.props;
         </ul>
       </nav>
       <span>© {new Date().getFullYear()} Elizabeth McCready.</span>
-    </footer>
+    </footer> -->
   </body><style is:global>
     :root {
       --accent: 16, 69, 42;
