@@ -1,9 +1,8 @@
 ---
 // import Link from '../components/Link.astro';
-import LinkNav from "../components/LinkNav.astro";
+// import LinkNav from "../components/LinkNav.astro";
 import { SEO, type Props as SEOProps } from "astro-seo";
 import "../styles/index.css";
-import Footer from "../components/Footer.astro";
 
 interface Props {
   seo?: SEOProps;
@@ -30,7 +29,8 @@ const { seo } = Astro.props;
     />
   </head>
   <body>
-    <div
+  
+    <!-- <div
       class="flex
 			justify-between
 			items-center
@@ -58,8 +58,8 @@ const { seo } = Astro.props;
           >GingerKiwi 💖 Astro</a
         >
 
-        <!-- <span class='text-tagline'>Exploring Web Development, Accessibility, and Design </span> -->
-      </header>
+        <span class='text-tagline'>Exploring Web Development, Accessibility, and Design </span> -->
+      <!-- </header>
       <nav>
         <ul class="flex gap-4 mr-6" aria-label="Primary navigation">
           <li><LinkNav href="/">Home</LinkNav></li>
@@ -73,7 +73,7 @@ const { seo } = Astro.props;
           </li>
         </ul>
       </nav>
-    </div>
+    </div> -->
     <main class="flex-1">
       <slot />
     </main>

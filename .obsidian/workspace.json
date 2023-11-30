@@ -148,6 +148,7 @@
   },
   "active": "5307a553c91f2747",
   "lastOpenFiles": [
+    "src/components/MainHeader.astro",
     "src/components/Footer.astro",
     "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
     "src/content/blog/a-template-with-images.md",

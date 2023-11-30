@@ -8,6 +8,8 @@ tags:
   - a11y
 image: '{  src: "/images/DesignTips_BackEndDevs_1200x630.png,  alt: "ADD ALT AFTER TESTING",}'
 description: a blog post file for testing
+draft: "false"
+category: design
 ---
 
 ## A Template With Images

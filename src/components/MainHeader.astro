@@ -1,0 +1,48 @@
+---
+import LinkNav from './LinkNav.astro'
+---
+
+<div
+      class="flex
+			justify-between
+			items-center
+			py-4
+				bg-gradient-to-r
+				from-orange-700
+					to-pink-800"
+    >
+      <header>
+        <a
+          href="#main"
+          id="skipToMain"
+          class="a11y--skip-to-main text-xs underline underline-offset-4 ml-2"
+          >Skip to main content</a
+        >
+        <a
+          href="/"
+          class="font-bold text-2xl ml-6
+					hover:bg-stone-200 h
+					over:rounded-lg
+					hover:py-1
+					hover:px-4
+					hover:text-orange-600
+					hover:rounded-lg"
+          >GingerKiwi &#x1F496; Astro</a
+        >
+
+        <!-- <span class='text-tagline'>Exploring Web Development, Accessibility, and Design </span> -->
+      </header>
+      <nav>
+        <ul class="flex gap-4 mr-6" aria-label="Primary navigation">
+          <li><LinkNav href="/">Home</LinkNav></li>
+          <li><LinkNav href="/about">About</LinkNav></li>
+          <li><LinkNav href="/blog/1">Blog</LinkNav></li>
+          <li><LinkNav href="/feed.xml">RSS</LinkNav></li>
+          <li>
+            <LinkNav href="https://github.com/gingerkiwi" isExternal>
+              GitHub
+            </LinkNav>
+          </li>
+        </ul>
+      </nav>
+    </div>
