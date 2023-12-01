@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "707d7f2bf6050f88",
+    "id": "8ad06f3305ee7196",
     "type": "split",
     "children": [
       {
-        "id": "473364008dcbec10",
+        "id": "3b37d546664aeef0",
         "type": "tabs",
         "children": [
           {
-            "id": "b85baf1813676007",
+            "id": "5307a553c91f2747",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "843cf55e02589217",
+    "id": "9c03de92ce35932c",
     "type": "split",
     "children": [
       {
-        "id": "6f4a3095b2ec31e3",
+        "id": "4578cbf7eafa638f",
         "type": "tabs",
         "children": [
           {
-            "id": "96cc66b16ad42c17",
+            "id": "ddae7b8bdb22676c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "5f055f9b1e44fad5",
+            "id": "90287b193186bbf7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "8ccb76872f476e25",
+            "id": "45cbbf71acf55fc5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "a3f9553f059cfbf3",
+    "id": "3ee877d72454a085",
     "type": "split",
     "children": [
       {
-        "id": "0fdc3b8c5940b464",
+        "id": "ead8d9aba56aa25f",
         "type": "tabs",
         "children": [
           {
-            "id": "6386509a7d41bff9",
+            "id": "fd3a3718720cf2f3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "cfeac1503367a76a",
+            "id": "4b0d032ace052795",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "a79bbe285c5fc027",
+            "id": "ac8f2f334104a799",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +120,12 @@
             }
           },
           {
-            "id": "be4c4823ad41244b",
+            "id": "52b753db8d560ae3",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md"
+                "file": "README.md"
               }
             }
           }
@@ -146,8 +146,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b85baf1813676007",
+  "active": "5307a553c91f2747",
   "lastOpenFiles": [
-    "README.md"
+    "public/images/FrenchForDevs_CoverImg.png",
+    "public/images/Duolingo-500-Days.PNG",
+    "public/images/Don_Merton_holding_kakapo_ Richard_Henry _WikiMedia-8529681628.jpg",
+    "public/images/DesignTips_BackEndDevs_1200x630.png",
+    "public/images/DesignTips_BackEndDevs.png",
+    "public/images/DCP_HomePage-mobile2.png",
+    "public/images/DCP_HomePage-mobile.png",
+    "public/images/Boo-helping-me-code.webp",
+    "public/images/Boo-helping-me-code.jpg",
+    "public/images/AliceProjectDev-screenshot_2023-06-30.jpg",
+    "public/images/Adobe_Experience_Design_logo.svg.png",
+    "images/screen-shot-simple-layout-start.png.md",
+    "images",
+    "src/layouts/Layout.astro",
+    "src/content/blog/template.md",
+    "src/content/blog/french-fridays-for-developers-week14.md",
+    "src/content/blog/french-fridays-for-developers-014.md",
+    "src/content/blog/how-to-choose-colours-and-fonts-for-your-app-design-for-backend-devs.md",
+    "src/content/blog/french-fridays-for-developers-015.md",
+    "src/content/blog/french-fridays-for-developers-016.md",
+    "src/content/blog/french-fridays-for-developers-017.md",
+    "src/content/blog/french-fridays-for-developers-018.md",
+    "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
+    "src/content/blog/quick-a11y-tips-for-devs-02-links-within-pages.md",
+    "src/content/blog/dsa-javascript-arrays-02.md",
+    "src/content/blog/dsa-javascript-arrays-01.md",
+    "src/content/blog/creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
+    "src/content/blog/building-in-public-group-debugging-party.md",
+    "src/content/blog/design-tools-and-tips-for-backend-devs-01 1.md",
+    "README.md",
+    "src/content/11tyblog/assets/blog",
+    "src/content/11tyblog/blog.json",
+    "src/content/11tyblog/assets",
+    "src/content/11tyblog/Drafts",
+    "src/content/11tyblog/2023-11-28-how-to-choose-colours-and-fonts-for-your-app-for-backend-devs.md",
+    "src/content/11tyblog/2023-11-27-new-astro-site-update.md",
+    "src/content/11tyblog/2023-11-25-building-in-public-group-debugging-party.md",
+    "src/content/11tyblog/2023-11-20-audiobooks-for-developers-the-country-of-the-blind-andrew-leland.md",
+    "src/content/11tyblog/2023-11-17-french-fridays-for-developers-017.md",
+    "src/content/11tyblog/2023-11-14-quick-a11y-tips-for-devs-02-links-within-pages.md",
+    "src/content/11tyblog/2023-11-11-french-fridays-for-developers-018.md",
+    "src/content/11tyblog/2023-11-07-a-handful-of-quick-a11y-tips-for-devs.md",
+    "src/content/11tyblog",
+    "src/content/blog copy/assets/blog",
+    "src/content/blog copy/blog.json",
+    "src/content/blog copy/assets"
   ]
 }
