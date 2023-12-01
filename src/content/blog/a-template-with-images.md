@@ -6,10 +6,11 @@ tags:
   - design
   - tips
   - a11y
-image: '{  src: "/images/hello-world.jpg",  alt: "ADD ALT AFTER TESTING"}'
+image: /images/DesignTips_BackEndDevs_1200x630.png
 description: a blog post file for testing
 draft: "false"
 category: design
+imageAlt: '"HELLO WORLD THIS IS ALT TEXT"'
 ---
 
 ## A Template With Images

@@ -9,9 +9,12 @@ tags:
   - javascript
   - technical
 description: It's time to go down the data structures and algorithms (dsa) rabbit hole. But let's make things more fun - no "foo" and "bar" here! This is a series of pet and Alice in Wonderland themed DSA articles. We're starting with the basics of arrays in Javascript.
+layout: ../../layouts/BlogPostLayout.astro
+category: javascript
+image: /images/hello-world.jpg
+imageAlt: '"HELLO WORLD THIS IS ALT TEXT"'
+draft: "false"
 ---
-# Data Structures and Algorithms: Javascript Arrays #02
-
 ## About This Article Series
 
 I've been preparing for technical interviews and DSA challenges lately. But it can be so dry! I mean I love a puzzle, but I've found that I prefer solving puzzles that result in an actual project people can use. To keep things interesting, I've been making my own notes with pet and Alice in Wonderland themes. So here's the first of (likely) many DSA articles in Javascript with no foo or bar. 

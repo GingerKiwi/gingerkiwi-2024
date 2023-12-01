@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/a-template-with-images.md",
+                "file": "src/content/blog/french-fridays-for-developers-week14.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/a-template-with-images.md",
+                "file": "src/content/blog/french-fridays-for-developers-week14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/a-template-with-images.md",
+                "file": "src/content/blog/french-fridays-for-developers-week14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/a-template-with-images.md"
+                "file": "src/content/blog/french-fridays-for-developers-week14.md"
               }
             }
           }
@@ -148,11 +148,31 @@
   },
   "active": "5307a553c91f2747",
   "lastOpenFiles": [
+    "src/content/blog/template.md",
+    "src/content/blog/french-fridays-for-developers-week14.md",
+    "src/content/blog/french-fridays-for-developers-018.md",
+    "src/content/blog/french-fridays-for-developers-017.md",
+    "src/content/blog/french-fridays-for-developers-016.md",
+    "src/content/blog/french-fridays-for-developers-015.md",
+    "src/content/blog/design-tools-and-tips-for-backend-devs-01 1.md",
+    "src/content/blog/dsa-javascript-arrays-01.md",
+    "src/content/blog/dsa-javascript-arrays-02.md",
+    "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
+    "src/content/blog/a-template-with-images.md",
+    "public/images/leo--UWtb-3v6jQ-unsplash.jpg",
+    "public/images/leo--UWtb-3v6jQ-unsplash.jpg.download/leo--UWtb-3v6jQ-unsplash.jpg",
+    "public/images/leo--UWtb-3v6jQ-unsplash.jpg.download",
+    "src/content/blog/hello-world copy.jpg",
+    "src/content/hello-world copy.jpg",
+    "src/images/hello-world copy.jpg",
+    "src/images/hello-world.jpg",
+    "public/hello-world copy.jpg",
+    "src/images",
+    "src/untitled folder",
+    "public/hello-world.jpg",
+    "public/images/hello-world copy.jpg",
     "public/images/hello-world.jpg",
-    "public/images/hello-world.jpg.download/hello-world.jpg",
     "public/images/hello-world.jpg.download",
-    "images/hello-world.jpg",
-    "images/hello-world.jpg.download/hello-world.jpg",
     "images/hello-world.jpg.download",
     "images",
     "node_modules/astro/node_modules/sharp/build/Release/sharp-darwin-x64.node",
@@ -160,17 +180,10 @@
     "node_modules/astro/node_modules/sharp/build",
     "node_modules/astro/node_modules/sharp/vendor/8.14.5/darwin-x64/THIRD-PARTY-NOTICES.md",
     "node_modules/astro/node_modules/sharp/vendor/8.14.5/darwin-x64/versions.json",
-    "node_modules/astro/node_modules/sharp/vendor/8.14.5/darwin-x64/platform.json",
-    "node_modules/astro/node_modules/sharp/vendor/8.14.5/darwin-x64/lib/libvips-cpp.42.dylib",
-    "node_modules/astro/node_modules/sharp/vendor/8.14.5/darwin-x64/lib/glib-2.0",
     "node_modules/@img/sharp-libvips-darwin-x64/README.md",
     "node_modules/astro/node_modules/sharp/README.md",
     "node_modules/@emnapi/runtime/README.md",
     "node_modules/@img/sharp-darwin-x64/README.md",
-    "src/content/blog/design-tools-and-tips-for-backend-devs-01 1.md",
-    "src/content/blog/a-template-with-images.md",
-    "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
-    "src/content/blog/template.md",
     "src/content/blog/Untitled.md"
   ]
 }

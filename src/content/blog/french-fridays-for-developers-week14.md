@@ -11,9 +11,12 @@ tags:
   - code
 description: |
   In March, 2023 I started French for Devs Fridays to celebrate getting to 400 days on Duolingo. Here you'll find weekly useful and/or amusing French phrases for developers.  « Programmeur - un organisme qui transforme le café en logiciel. » Read the full post for the translation.
+layout: ../../layouts/BlogPostLayout.astro
+image: /images/leo--UWtb-3v6jQ-unsplash.jpg
+imageAlt: '"HELLO WORLD THIS IS ALT TEXT"'
+category: french
+draft: "false"
 ---
-# French Fridays for Developers - Week 14
-
 In March, 2023  started French for Devs Fridays to celebrate getting to 400 days on Duolingo. Here you'll find weekly useful and/or amusing French phrases for developers. This one's for all my fellow devs who also like to learn by breaking our code first.
 
 Today is my:

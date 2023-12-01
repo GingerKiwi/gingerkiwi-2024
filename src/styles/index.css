@@ -25,5 +25,6 @@
 .font--gradient {
   background: linear-gradient(to right, #ec4899, #ea580c);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }

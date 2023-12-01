@@ -1,13 +1,12 @@
 ---
 // import MainHeader from '../components/MainHeader.astro';
 import MainLayout from '../layouts/MainLayout.astro';
-import { Image } from 'astro:assets';
 
 import { slugify, formatDate } from '../js/utils.js';
 const { frontmatter } = Astro.props;
-const { title, description, date, category, image } = frontmatter;
-console.log(frontmatter);
-console.log(image.src);
+const { title, description, date, category, image, imageAlt } = frontmatter;
+// console.log(frontmatter);
+console.log(image);
 
 ---
 <!-- <MainHeader /> -->
@@ -20,7 +19,21 @@ console.log(image.src);
               <h1 class="font--gradient">{title}</h1>
             <p>{formatDate(date)}</p>
         </div>
-        <img src={image.src} alt={image.alt} />
+        <img 
+            src={image} 
+            alt={imageAlt}
+            width{630}
+            sizes="
+                (max-width: 360px) 240px,
+                (max-width: 720px) 540px,
+                (max-width: 1600px) 720px,
+                1600px
+            "
+            width="1600"
+            height="900"
+            loading="lazy"
+            decoding="async"
+            />
     </header>
     <div class="post-content text-red-300">
         <div class="content">

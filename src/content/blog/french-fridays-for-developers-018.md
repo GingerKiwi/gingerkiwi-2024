@@ -10,6 +10,11 @@ tags:
   - welsh
   - code
 description: In March, 2023  started French for Devs Fridays to celebrate getting to 400 days on Duolingo. Here you'll find weekly useful and/or amusing French phrases for developers.  « Le débogage, c'est comme être un détective dans un film policier où vous êtes aussi le meurtrier » ~ Anonyme.  Read the full post for the translation.
+layout: ../../layouts/BlogPostLayout.astro
+image: /images/leo--UWtb-3v6jQ-unsplash.jpg
+imageAlt: '"HELLO WORLD THIS IS ALT TEXT"'
+category: french
+draft: "false"
 ---
 # French Fridays for Developers - 018
 
