@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/how-to-choose-colours-and-fonts-for-your-app-design-for-backend-devs.md",
+                "file": "src/content/blog/french-fridays-for-developers-014.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/how-to-choose-colours-and-fonts-for-your-app-design-for-backend-devs.md",
+                "file": "src/content/blog/french-fridays-for-developers-014.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/how-to-choose-colours-and-fonts-for-your-app-design-for-backend-devs.md",
+                "file": "src/content/blog/french-fridays-for-developers-014.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/how-to-choose-colours-and-fonts-for-your-app-design-for-backend-devs.md"
+                "file": "src/content/blog/french-fridays-for-developers-014.md"
               }
             }
           }
@@ -148,11 +148,14 @@
   },
   "active": "5307a553c91f2747",
   "lastOpenFiles": [
-    "src/content/blog/french-fridays-for-developers-week14.md",
-    "src/content/blog/french-fridays-for-developers-018.md",
-    "src/content/blog/french-fridays-for-developers-017.md",
-    "src/content/blog/french-fridays-for-developers-016.md",
     "src/content/blog/french-fridays-for-developers-015.md",
+    "src/content/blog/french-fridays-for-developers-016.md",
+    "src/content/blog/french-fridays-for-developers-017.md",
+    "src/content/blog/french-fridays-for-developers-018.md",
+    "src/content/blog/french-fridays-for-developers-014.md",
+    "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
+    "src/content/blog/quick-a11y-tips-for-devs-02-links-within-pages.md",
+    "src/content/blog/how-to-choose-colours-and-fonts-for-your-app-design-for-backend-devs.md",
     "src/content/blog/dsa-javascript-arrays-02.md",
     "src/content/blog/dsa-javascript-arrays-01.md",
     "src/content/blog/creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
@@ -162,9 +165,6 @@
     "src/content/blog/building-in-public-group-debugging-party.md",
     "public/images/covers/00_DuckDebugging_Cool_1200x630.png",
     "src/content/blog/design-tools-and-tips-for-backend-devs-01 1.md",
-    "src/content/blog/how-to-choose-colours-and-fonts-for-your-app-design-for-backend-devs.md",
-    "src/content/blog/quick-a11y-tips-for-devs-02-links-within-pages.md",
-    "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
     "README.md",
     "src/content/11tyblog/assets/blog",
     "src/content/11tyblog/blog.json",
