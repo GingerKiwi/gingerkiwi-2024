@@ -8,12 +8,10 @@ tags:
   - dsa
   - javascript
   - technical
+image: /assets/blog/JS-DSA-01.webp
+imageAlt: "'White text at top with black background says Javascript Data Structures and Algorithms. Below is a photo of an orange Pomeranian dog sitting at a wood table wearing large glasses looking at a dark grey iPad. The dog is wearing a dark red sweater. The entire graphic has a thick dark orange border that matches the heading colours of this blog. '"
+imageCaption: ADD CAPTION
 description: It's time to go down the data structures and algorithms (dsa) rabbit hole. But let's make things more fun - no "foo" and "bar" here! This is a series of pet and Alice in Wonderland themed DSA articles. We're starting with the basics of arrays in Javascript.
-layout: ../../layouts/BlogPostLayout.astro
-category: javascript
-image: /images/covers/00_DSA_1200x630.png
-imageAlt: '"HELLO WORLD THIS IS ALT TEXT"'
-draft: "false"
 ---
 ## About This Article Series
 

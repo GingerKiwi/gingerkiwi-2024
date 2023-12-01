@@ -9,15 +9,11 @@ tags:
   - humour
   - welsh
   - code
+image: /assets/blog/FrenchForDevs_CoverImg.webp
+imageAlt: "'White text on black background on top of a French Flag. Text says French for Devs! Funny and/or useful French quotes for developers. A New French for Devs Quote Every Friday! https://gingerkiwi.dev'"
+imageCaption: ADD CAPTION
 description: In March, 2023  started French for Devs Fridays to celebrate getting to 400 days on Duolingo. Here you'll find weekly useful and/or amusing French phrases for developers.  « Le débogage, c'est comme être un détective dans un film policier où vous êtes aussi le meurtrier » ~ Anonyme.  Read the full post for the translation.
-layout: ../../layouts/BlogPostLayout.astro
-image: /images/covers/05_FrenchForDevs_1200x630.png
-imageAlt: '"HELLO WORLD THIS IS ALT TEXT"'
-category: french
-draft: "false"
 ---
-# French Fridays for Developers - 018
-
 In March, 2023 I started French for Devs Fridays to celebrate getting to 400 days on Duolingo. Today marks 643 days! Here you'll find weekly useful and/or amusing French phrases for developers. 
 
 Today's quote is a day late. On Thursday [Toronto JavaScript](https://torontojs.com) had a tech talk at VM Ware Tazu Labs and a bunch of us went to the [Firkin on Yonge](https://www.firkinpubs.com/firkinonyonge/) at Queen Street afterwards. We had a great time! I got home after 3am. 
@@ -35,7 +31,7 @@ Today is my:
 
 Here's this week's French for Devs quote and translation. 
 
-Week 16, 29 septembre 2023
+Semaine, 11 octobre 2023
 
 >*«Le débogage, c'est comme être un détective dans un film policier où vous êtes aussi le meurtrier»* <br>
 >~ Anonyme

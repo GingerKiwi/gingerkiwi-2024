@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
+                "file": "src/content/blog/how-to-choose-colours-and-fonts-for-your-app-design-for-backend-devs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
+                "file": "src/content/blog/how-to-choose-colours-and-fonts-for-your-app-design-for-backend-devs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
+                "file": "src/content/blog/how-to-choose-colours-and-fonts-for-your-app-design-for-backend-devs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md"
+                "file": "src/content/blog/how-to-choose-colours-and-fonts-for-your-app-design-for-backend-devs.md"
               }
             }
           }
@@ -148,42 +148,51 @@
   },
   "active": "5307a553c91f2747",
   "lastOpenFiles": [
-    "src/content/blog/a-template-with-images.md",
-    "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
     "src/content/blog/french-fridays-for-developers-week14.md",
-    "src/layouts/PagesLayout.astro",
-    "src/components/PagesHeader.astro",
-    "public/images/favicon-gk.png",
-    "public/images/favicon-gk copy.png",
-    "public/favicon-gk copy.png",
     "src/content/blog/french-fridays-for-developers-018.md",
-    "src/content/blog/template.md",
     "src/content/blog/french-fridays-for-developers-017.md",
     "src/content/blog/french-fridays-for-developers-016.md",
     "src/content/blog/french-fridays-for-developers-015.md",
-    "src/content/blog/design-tools-and-tips-for-backend-devs-01 1.md",
-    "src/content/blog/dsa-javascript-arrays-01.md",
     "src/content/blog/dsa-javascript-arrays-02.md",
-    "public/images/leo--UWtb-3v6jQ-unsplash.jpg",
-    "public/images/leo--UWtb-3v6jQ-unsplash.jpg.download/leo--UWtb-3v6jQ-unsplash.jpg",
-    "public/images/leo--UWtb-3v6jQ-unsplash.jpg.download",
-    "src/content/blog/hello-world copy.jpg",
-    "src/content/hello-world copy.jpg",
-    "src/images/hello-world copy.jpg",
-    "src/images/hello-world.jpg",
-    "public/hello-world copy.jpg",
-    "src/images",
-    "src/untitled folder",
-    "public/images/hello-world.jpg.download",
-    "images/hello-world.jpg.download",
+    "src/content/blog/dsa-javascript-arrays-01.md",
+    "src/content/blog/creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
+    "images/screen-shot-simple-layout-start.png.md",
     "images",
-    "node_modules/astro/node_modules/sharp/build/Release/sharp-darwin-x64.node",
-    "node_modules/astro/node_modules/sharp/build/Release",
-    "node_modules/astro/node_modules/sharp/vendor/8.14.5/darwin-x64/THIRD-PARTY-NOTICES.md",
-    "node_modules/@img/sharp-libvips-darwin-x64/README.md",
-    "node_modules/astro/node_modules/sharp/README.md",
-    "node_modules/@emnapi/runtime/README.md",
-    "node_modules/@img/sharp-darwin-x64/README.md",
-    "src/content/blog/Untitled.md"
+    "public/images/covers/00_StopDropRoll_1200x630.png",
+    "src/content/blog/building-in-public-group-debugging-party.md",
+    "public/images/covers/00_DuckDebugging_Cool_1200x630.png",
+    "src/content/blog/design-tools-and-tips-for-backend-devs-01 1.md",
+    "src/content/blog/how-to-choose-colours-and-fonts-for-your-app-design-for-backend-devs.md",
+    "src/content/blog/quick-a11y-tips-for-devs-02-links-within-pages.md",
+    "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
+    "README.md",
+    "src/content/11tyblog/assets/blog",
+    "src/content/11tyblog/blog.json",
+    "src/content/11tyblog/assets",
+    "src/content/11tyblog/Drafts",
+    "src/content/11tyblog/2023-11-28-how-to-choose-colours-and-fonts-for-your-app-for-backend-devs.md",
+    "src/content/11tyblog/2023-11-27-new-astro-site-update.md",
+    "src/content/11tyblog/2023-11-25-building-in-public-group-debugging-party.md",
+    "src/content/11tyblog/2023-11-20-audiobooks-for-developers-the-country-of-the-blind-andrew-leland.md",
+    "src/content/11tyblog/2023-11-17-french-fridays-for-developers-017.md",
+    "src/content/11tyblog/2023-11-14-quick-a11y-tips-for-devs-02-links-within-pages.md",
+    "src/content/11tyblog/2023-11-11-french-fridays-for-developers-018.md",
+    "src/content/11tyblog/2023-11-07-a-handful-of-quick-a11y-tips-for-devs.md",
+    "src/content/11tyblog/2023-11-03-french-fridays-for-developers-017.md",
+    "src/content/11tyblog/2023-09-29-french-fridays-for-developers-016.md",
+    "src/content/11tyblog/2023-09-11-dsa-javascript-arrays-02.md",
+    "src/content/11tyblog",
+    "src/content/blog copy/assets/blog",
+    "src/content/blog copy/blog.json",
+    "src/content/blog copy/assets",
+    "src/content/blog copy/Drafts",
+    "public/images/covers/00_CoffeeChat.png",
+    "public/images/covers/00_TheCountryOfTheBlind_1200x630.png",
+    "public/images/covers/DuckDebugging_Cool_1200x630.png",
+    "public/images/covers/03_A11y_ResourcesForDevs_1200x630.png",
+    "public/images/covers/A03_11y_ResourcesForDevs_1200x630.png",
+    "public/images/covers/05_FrenchForDevs_1200x630.png",
+    "public/images/covers/04_ThrowbackThursdays_1200x630.png",
+    "public/images/covers/03_A11y_CodingTips_1200x630.png"
   ]
 }
