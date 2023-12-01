@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/french-fridays-for-developers-014.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/french-fridays-for-developers-014.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/french-fridays-for-developers-014.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/french-fridays-for-developers-014.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "5307a553c91f2747",
   "lastOpenFiles": [
-    "src/content/blog/how-to-choose-colours-and-fonts-for-your-app-design-for-backend-devs.md",
     "src/content/blog/french-fridays-for-developers-014.md",
+    "src/content/blog/how-to-choose-colours-and-fonts-for-your-app-design-for-backend-devs.md",
     "src/content/blog/french-fridays-for-developers-015.md",
     "src/content/blog/french-fridays-for-developers-016.md",
     "src/content/blog/french-fridays-for-developers-017.md",
