@@ -3,11 +3,11 @@ import { Image } from 'astro:assets';
 
 import avatar from '../assets/avatar.png';
 import MainHeader from '../components/MainHeader.astro';
-import MainLayout from '../layouts/MainLayout.astro';
+import PagesLayout from '../layouts/PagesLayout.astro';
 import Footer from '../components/Footer.astro';
 ---
 <MainHeader />
-<MainLayout seo={{ title: "About", description: "Liz McCready is a software developer, technical content writer, and accessibility specialist in Toronto, Canada"}}>
+<PagesLayout seo={{ title: "About", description: "Liz McCready is a software developer, technical content writer, and accessibility specialist in Toronto, Canada"}}>
     <div class="flex flex-col items-center gap-8 mx-auto mt-12">
         <h1 class="
             text-heading-1 
@@ -32,5 +32,5 @@ import Footer from '../components/Footer.astro';
 
         <p>Aside from my professional life, I've been knitting since I was six, have three rescue cats, and enjoy volunteering (it's a bit of an addiction - I have over 15,000 volunteer hours!). In early 2022, I started doing Duolingo French everyday - now I'm also doing Dutch, Welsh, German, and Norwegian.</p>
     </div>
-</MainLayout>
+</PagesLayout>
 <Footer />
