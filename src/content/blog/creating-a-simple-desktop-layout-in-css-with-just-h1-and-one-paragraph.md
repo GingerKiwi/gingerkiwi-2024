@@ -51,9 +51,8 @@ html, body {
 }
 ```
 
+The initial webpage looked like this:
 ![The page looked like this:](/images/screen-shot-simple-layout-start.png)
-
-![The inital webpage looked like this:](/assets/blog/screen-shot-simple-layout-start.png)
 
 The task was to use css and one image to create a two column grid layout for desktop while paying attention to the elements of UI Design:
 
