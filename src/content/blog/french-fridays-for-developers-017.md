@@ -10,9 +10,12 @@ tags:
   - welsh
   - code
 description: In March, 2023  started French for Devs Fridays to celebrate getting to 400 days on Duolingo. Here you'll find weekly useful and/or amusing French phrases for developers.  « Traitez votre mot de passe comme votre brosse à dents. Ne laissez personne d’autre l’utiliser et achetez-en un nouveau tous les six mois. » ~ Clifford Stoll.  Read the full post for the translation.
+layout: ../../layouts/BlogPostLayout.astro
+image: /images/covers/05_FrenchForDevs_1200x630.png
+imageAlt: '"HELLO WORLD THIS IS ALT TEXT"'
+category: french
+draft: "false"
 ---
-# French Fridays for Developers - 017
-
 In March, 2023 I started French for Devs Fridays to celebrate getting to 400 days on Duolingo. Today marks 643 days! Here you'll find weekly useful and/or amusing French phrases for developers. 
 
 Today's quote is cybersecurity related - because both the Toronto Public Library and the British Library have been victims of ransomware attacks. All us devs in Toronto and anyone else that were using O'Reilly eBooks through TPL for professional development and reference have been out of luck since last weekend.

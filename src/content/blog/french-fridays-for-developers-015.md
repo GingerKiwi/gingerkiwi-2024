@@ -11,9 +11,12 @@ tags:
   - code
 imageCaption: ADD CAPTION
 description: In March, 2023  started French for Devs Fridays to celebrate getting to 400 days on Duolingo. Here you'll find weekly useful and/or amusing French phrases for developers.  « La confusion fait partie de la programmation »> ~ Felienne Hermans.  Read the full post for the translation.
+layout: ../../layouts/BlogPostLayout.astro
+image: /images/covers/05_FrenchForDevs_1200x630.png
+imageAlt: '"HELLO WORLD THIS IS ALT TEXT"'
+category: french
+draft: "false"
 ---
-# French Fridays for Developers - 015
-
 In March, 2023  started French for Devs Fridays to celebrate getting to 400 days on Duolingo. Here you'll find weekly useful and/or amusing French phrases for developers. This one is for all my fellow devs who are also doing DSA/technical interview prep.
 
 Today is my:

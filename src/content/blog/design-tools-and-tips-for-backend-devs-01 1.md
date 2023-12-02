@@ -11,9 +11,12 @@ tags:
   - tools
   - tips
 description: This is the first in a series of articles on tips and tricks for web and app design - both for backend dev, and new developers. Every time I get in a discussion with backend or sometimes full-stack devs that prefer the backend, they say that one reason they prefer backend is that they're "not good at design". However, with a few simple tools and tips even those scared of design can become more comfortable in designing good looking apps. Today we're looking at where to find Figma design files and then how to quickly use them to get started coding.
+layout: ../../layouts/BlogPostLayout.astro
+category: design
+image: /images/covers/02_DesignTips_BackEndDevs_1200x630.png
+imageAlt: '"HELLO WORLD THIS IS ALT TEXT"'
+draft: "false"
 ---
-# Design Tools and Tips for Backend Developers - <br> Part 01: Finding Design Files and Figma to Code 101
-
 Every time I get in a discussion with backend or sometimes full-stack devs that prefer the backend, they say that one reason they prefer backend is that they're "not good at design". But just like anyone can learn the basics of coding, anyone can learn the basics of design. With a few simple tools and tips, even those scared of design can become more comfortable in designing good looking apps. 
 
 This is the first in a series of articles on tips and tricks for web and app design - both for backend dev, and new developers. Note that because this series is aimed at devs who are uncomfortable with design, a few of the methods, tools, and tips are ones that I wouldn't necessarily recommend to frontend developers or those with experience in other types of art and design  or non-Figma tools like Adobe Xd/Adobe CC or Sketch.
@@ -57,11 +60,11 @@ UI Store Design has over 650 free design files, with many of them being Figma fi
 Cost: Free
 
 Links:
-	Apps: [https://www.uistore.design/categories/apps](https://www.uistore.design/categories/apps)
+- Apps: [https://www.uistore.design/categories/apps](https://www.uistore.design/categories/apps)
 
-	Landing pages: [https://www.uistore.design/categories/landing-pages]( https://www.uistore.design/categories/landing-pages)
+- Landing pages: [https://www.uistore.design/categories/landing-pages]( https://www.uistore.design/categories/landing-pages)
 
-	Dashboards: [https://www.uistore.design/categories/dashboards]( https://www.uistore.design/categories/dashboards)
+- Dashboards: [https://www.uistore.design/categories/dashboards]( https://www.uistore.design/categories/dashboards)
 #### Frontend Mentor
 
 While Frontend Mentor has many free challenges, you must be a paid monthly or annual member to download the Figma files. However, a paid membership comes with support from their Discord community as well as project requirements. It's a great place to start building full-stack apps for your portfolio if you need ideas of what to build. Projects can be filtered by difficulty level, language/tools (html, css, javascript, api), and free/paid.

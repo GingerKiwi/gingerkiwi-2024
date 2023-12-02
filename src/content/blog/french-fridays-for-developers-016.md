@@ -10,9 +10,12 @@ tags:
   - welsh
   - code
 description: In March, 2023  started French for Devs Fridays to celebrate getting to 400 days on Duolingo. Here you'll find weekly useful and/or amusing French phrases for developers.  « La période d’adaptation de la programmation solo à la programmation collaborative a été comme manger un piment. La première fois que vous l’essayerez, vous ne l’aimerez peut-être pas parce que vous n’y êtes pas habitué. Mais plus vous en mangez, plus vous l’appréciez. » ~ Anonyme.  Read the full post for the translation.
+layout: ../../layouts/BlogPostLayout.astro
+image: /images/covers/05_FrenchForDevs_1200x630.png
+imageAlt: '"HELLO WORLD THIS IS ALT TEXT"'
+category: french
+draft: "false"
 ---
-# French Fridays for Developers - 016
-
 In March, 2023  started French for Devs Fridays to celebrate getting to 400 days on Duolingo. Last week I reached 600 days! Here you'll find weekly useful and/or amusing French phrases for developers. 
 
 Pair programming is on my mind after the wonderful Toronto JS tech talks evening at [VMWare Tanzu Labs](https://tanzu.vmware.com/)last night. Teams at Tanzu Labs do a lot of pair programming - and not just developers with developers, but devs with design, clients, ... . Looks like a very cool work culture!

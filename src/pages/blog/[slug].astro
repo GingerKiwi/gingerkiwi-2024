@@ -2,7 +2,8 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 
 import PostsLike from '../../components/PostLike.astro';
-import Layout from '../../layouts/Layout.astro';
+import MainHeader from '../../components/MainHeader.astro';
+import MainLayout from '../../layouts/MainLayout.astro';
 
 export async function getStaticPaths(){
     const posts = await getCollection('blog');
@@ -23,8 +24,8 @@ const post: CollectionEntry<'blog'> = Astro.props.post;
 const { Content } = await post.render();
 
 ---
-
-<Layout seo={{ title: post.data.title }}>
+<MainHeader />
+<MainLayout seo={{ title: post.data.title }}>
     <article 
         class="
             prose 
@@ -32,16 +33,10 @@ const { Content } = await post.render();
             mx-6 
             my-8 
             prose-a:text-pink-500 
-            text-neutral-200 
-            prose-h1:text-pink-500
-            <!-- prose:bg-gradient-to-r
-			from-pink-600 to-orange-400 
-			prose:inline-block 
-			prose:text-transparent 
-			prose:bg-clip-text -->
+            text-neutral-200
             "
         >
         <Content />
         <PostsLike slug="{post.slug}"/>
     </article>
-</Layout>
+</MainLayout>
