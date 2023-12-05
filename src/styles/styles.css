@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --clr--text-base: 255, 255, 255;
+    --clr--text-muted: 199, 210, 254;
+    --clr--text-inverted: 79, 70, 229;
+    --clr--fill: 67, 56, 202;
+    --clr--button-accent: 255, 255, 255;
+    --clr--button-accent-hover: 238, 242, 255;
+    --clr--button-muted: 99, 102, 241;
+  }
+  .theme-light {
+    --clr--text-base: 255, 255, 255;
+    --clr--text-muted: 254, 202, 202;
+    --clr--text-inverted: 220, 38, 38;
+    --clr--fill: 185, 28, 28;
+    --clr--button-accent: 255, 255, 255;
+    --clr--button-accent-hover: 254, 242, 242;
+    --clr--button-muted: 239, 68, 68;
+  }
+  .theme-muted {
+    --clr--text-base: 17, 24, 2;
+    --clr--text-muted: 47, 67, 6;
+    --clr--text-inverted: 235, 250, 204;
+    --clr--fill: 179, 255, 23;
+    --clr--button-accent: 36, 52, 3;
+    --clr--button-accent-hover: 55, 79, 5;
+    --clr--button-muted: 212, 255, 122;
+  }
+}

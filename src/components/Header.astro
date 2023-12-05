@@ -1,0 +1,145 @@
+---
+import LinkNav from './LinkNav.astro'
+import Link from './Link.astro'
+// import { Image } from 'astro:assets';
+// import menuIconDark from '../assets/menu-slate-900.svg'
+// import menuCloseDark from '../assets/close-slate-900.svg'
+---
+
+<header class=" relative px-4 py-4
+bg-gradient-to-r
+from-orange-700
+to-pink-800">
+	<a
+		href="#main"
+		id="skipToMain"
+		class="a11y--skip-to-main text-xs underline underline-offset-4 ml-2"
+		>Skip to main content
+	</a>
+        
+	<nav role="navigation">
+		
+		<!-- MOBILE MENU -->
+		<div class="lg:hidden ">
+			<button class="navbar-burger flex items-center text-slate-100 p-3">
+				<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+					<title>Mobile menu</title>
+					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+				</svg>
+			</button>
+		</div>
+	
+	<a
+          href="/"
+          class="font-bold text-2xl ml-4 lg:ml-6
+					hover:bg-stone-200 h
+					over:rounded-lg
+					hover:py-1
+					hover:px-4
+					hover:text-orange-600
+					hover:rounded-lg
+					"
+          >Ginger Kiwi 
+		  <!-- &#x1F496; Astro -->
+          </a>
+		  <p class="ml-4 lg:ml-6 italic">Exploring Software Development, Accessibility, and Design</p>
+		<ul class="
+				hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 
+				lg:flex lg:flex lg:gap-4 lg:mr-6"
+			aria-label="Primary navigation"
+			>
+			
+			<li><LinkNav  href="/">Home</LinkNav></li>
+			<li><LinkNav  href="/about">About Us</LinkNav></li>
+			<li><LinkNav  href="/blog/1">Blog</LinkNav></li>
+			<li><LinkNav  href="/feed.xml">RSS</LinkNav></li>
+			<li><LinkNav  href="https://github.com/gingerkiwi" rel="external"> GitHub</LinkNav></li>
+				
+		</ul>
+		
+	</nav>
+</header>
+	<!-- OTHER MENU?? -->
+	<div class="navbar-menu relative z-50 hidden border-4">
+		<div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+		<nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 py-6 px-6 bg-orange-800 border-r overflow-y-auto">
+			<div class="flex items-center mb-8">
+				
+				<!-- CLOSE NAVBAR BUTTON -->
+				<button class="navbar-close">
+					<svg class="h-8 w-8 text-slate-100 cursor-pointer hover:text-gray-500 hover:font-bold" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+					</svg>
+				</button>
+			</div>
+			<div>
+				<!-- NAV HERE FOR A11Y? -->
+				<ul aria-label="Primary mobile navigation">
+					<li class="mb-1">
+						<Link class="block p-4 " href="/">Home</Link>
+					</li>
+					<li class="mb-1">
+						<Link class="block p-4 " href="/about">About</Link>
+					</li>
+					<li class="mb-1">
+						<Link class="block p-4 " href="/blog/1">Blog</Link>
+					</li>
+					<li class="mb-1">
+						<Link class="block p-4 " href="/feed.xml">RSS</Link>
+					</li>
+					<li>
+						<Link href="https://github.com/gingerkiwi" isExternal>
+						  GitHub
+						</Link>
+					  </li>
+				</ul>
+			</div>
+			
+		</nav>
+		
+	</div>
+	<!-- <h2>Exploring Software Development, Accessibility, and Design</h2> -->
+</div>
+
+<script>
+// Burger menus
+document.addEventListener('DOMContentLoaded', function() {
+    // open
+    const burger = document.querySelectorAll('.navbar-burger');
+    const menu = document.querySelectorAll('.navbar-menu');
+
+    if (burger.length && menu.length) {
+        for (var i = 0; i < burger.length; i++) {
+            burger[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
+
+    // close
+    const close = document.querySelectorAll('.navbar-close');
+    const backdrop = document.querySelectorAll('.navbar-backdrop');
+
+    if (close.length) {
+        for (var i = 0; i < close.length; i++) {
+            close[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
+
+    if (backdrop.length) {
+        for (var i = 0; i < backdrop.length; i++) {
+            backdrop[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
+});
+</script>

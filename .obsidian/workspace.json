@@ -148,6 +148,7 @@
   },
   "active": "046f74a43659dcda",
   "lastOpenFiles": [
+    "src/styles/styles.css",
     "assets/blog/screen-shot-simple-layout-start.png.md",
     "src/content/blog/creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
     "assets/blog",
@@ -176,7 +177,6 @@
     "src/content/blog copy/dsa-javascript-arrays-02.md",
     "src/content/blog copy/dsa-javascript-arrays-01.md",
     "src/content/blog copy/design-tools-and-tips-for-backend-devs-01 1.md",
-    "src/content/blog copy/creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
     "src/content/blog copy",
     "public/images/FrenchForDevs_CoverImg.png",
     "public/images/Duolingo-500-Days.PNG",
