@@ -12,7 +12,7 @@ const { href, rel = '', isExternal, class: classList } = Astro.props;
 <a 
     href={href} 
     class:list=
-        {['mx-3 hover:bg-stone-200 hover:rounded-lg hover:py-1 hover:px-2 hover:mx-0 hover:text-pink-600 hover:underline focus:text-pink-600 hover:font-bold', classList]} 
+        {['mx-3 hover:py-1 hover:px-2 hover:mx-0 hover:underline hover:font-bold hover:underline-offset-8 focus:mx-0 focus:underline focus:font-bold focus:underline-offset-8', classList]} 
     rel="{`${rel}${isExternal ? ' nofollow noopener noreferrer external' : ''}`">
     <slot />
 </a>
