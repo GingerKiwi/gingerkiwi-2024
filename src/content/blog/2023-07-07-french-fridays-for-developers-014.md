@@ -12,7 +12,7 @@ description: |
   In March, 2023 I started French for Devs Fridays to celebrate getting to 400 days on Duolingo. Here you'll find weekly useful and/or amusing French phrases for developers.  « Programmeur - un organisme qui transforme le café en logiciel. » Read the full post for the translation.
 layout: ../../layouts/BlogPostLayout.astro
 image: /images/covers/05_FrenchForDevs_1200x630.png
-imageAlt: HELLO WORLD THIS IS ALT TEXT
+imageAlt: "Horizontal rectangular graphic. White text inside a black rectangle with rounded corners. The square is on top of a French flag. Text reads:  French for Devs! in a curly font. Below in a monospaced computer type italic font it says Humorous and useful French quotes for developers. Underneath there's a French flag emoji. at the bottom in black sans serif text on a white background: https://gingerkiwi.dev"
 category: french
 draft: "false"
 ---

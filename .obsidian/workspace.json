@@ -11,8 +11,12 @@
             "id": "046f74a43659dcda",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "src/content/blog/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/content/blog/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/content/blog/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md"
+              }
             }
           }
         ]
@@ -140,36 +148,24 @@
   },
   "active": "046f74a43659dcda",
   "lastOpenFiles": [
-    "src/content/blog/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
-    "src/content/blog/quick-a11y-tips-for-devs-02-links-within-pages.md",
-    "src/content/blog/french-fridays-for-developers-018.md",
-    "src/content/blog/french-fridays-for-developers-017.md",
-    "src/content/blog/french-fridays-for-developers-016.md",
-    "src/content/blog/french-fridays-for-developers-015.md",
-    "src/content/blog/french-fridays-for-developers-014.md",
-    "src/content/blog/dsa-javascript-arrays-02.md",
-    "src/content/blog/dsa-javascript-arrays-01.md",
-    "src/content/blog/design-tools-and-tips-for-backend-devs-01 1.md",
-    "src/content/blog/creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
-    "src/content/blog/building-in-public-group-debugging-party.md",
-    "src/content/blog/a-template-with-images.md",
-    "src/content/blog/a-handful-of-quick-a11y-tips-for-devs.md",
-    "src/components/LinkNavMobile.astro",
-    "src/content/blog/2023-11-11-french-fridays-for-developers-018.md",
-    "src/content/blog/2023-11-08-a-handful-of-quick-a11y-tips-for-devs.md",
-    "src/content/blog/2023-11-25-building-in-public-group-debugging-party.md",
-    "src/content/blog/2023-11-03-french-fridays-for-developers-017.md",
-    "src/content/blog/2023-09-29-french-fridays-for-developers-016.md",
-    "src/content/blog/2023-09-08-french-fridays-for-developers-015.md",
-    "src/content/blog/2023-09-01-dsa-javascript-arrays-02.md",
-    "src/content/blog/2023-09-10-dsa-javascript-arrays-01.md",
-    "src/content/blog/2023-08-08-design-tools-and-tips-for-backend-devs-01 1.md",
-    "src/content/blog/2023-06-13-creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
-    "src/content/blog/2023-07-07-french-fridays-for-developers-014.md",
     "src/styles/styles.css",
     "assets/blog/screen-shot-simple-layout-start.png.md",
     "assets/blog",
     "assets",
+    "README.md",
+    "src/content/blog copy02/quick-a11y-tips-for-devs-02-links-within-pages.md",
+    "src/content/blog copy02/french-fridays-for-developers-018.md",
+    "src/content/blog copy02/french-fridays-for-developers-017.md",
+    "src/content/blog copy02/french-fridays-for-developers-016.md",
+    "src/content/blog copy02/french-fridays-for-developers-015.md",
+    "src/content/blog copy02/french-fridays-for-developers-014.md",
+    "src/content/blog copy02/dsa-javascript-arrays-02.md",
+    "src/content/blog copy02/dsa-javascript-arrays-01.md",
+    "src/content/blog copy02/design-tools-and-tips-for-backend-devs-01 1.md",
+    "src/content/blog copy02/creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
+    "src/content/blog copy02/building-in-public-group-debugging-party.md",
+    "src/content/blog copy02/a-template-with-images.md",
+    "src/content/blog copy02/a-handful-of-quick-a11y-tips-for-devs.md",
     "src/content/blog copy02",
     "src/content/blog copy",
     "public/images/FrenchForDevs_CoverImg.png",
@@ -185,6 +181,8 @@
     "images",
     "src/layouts/Layout.astro",
     "src/content/11tyblog/assets/blog",
-    "src/content/11tyblog/blog.json"
+    "src/content/11tyblog/blog.json",
+    "src/content/11tyblog/assets",
+    "src/content/11tyblog/Drafts"
   ]
 }

@@ -1,6 +1,7 @@
 ---
 import LinkNav from './LinkNav.astro'
 import Link from './Link.astro'
+import LinkNavMobile from './LinkNavMobile.astro';
 // import { Image } from 'astro:assets';
 // import menuIconDark from '../assets/menu-slate-900.svg'
 // import menuCloseDark from '../assets/close-slate-900.svg'
@@ -13,7 +14,7 @@ to-pink-800">
 	<a
 		href="#main"
 		id="skipToMain"
-		class="a11y--skip-to-main text-xs underline underline-offset-4 ml-4"
+		class="a11y--skip-to-main text-xs underline underline-offset-4 m-4 pl-2"
 		>Skip to main content
 	</a>
         
@@ -31,26 +32,25 @@ to-pink-800">
 	
 	<a
           href="/"
-          class="font-bold text-2xl ml-4 lg:ml-6
-					hover:bg-stone-200 h
-					over:rounded-lg
-					hover:py-1
-					hover:px-4
-					hover:text-orange-600
-					hover:rounded-lg
-					"
+          class="
+		  	font-bold text-2xl ml-4 
+			lg:ml-6
+			hover:underline hover:py-1 hover:px-4 hover:underline-offset-4
+			focus:underline focus:py-1 focus:px-4 focus:underline-offset-4
+			"
           >Ginger Kiwi 
 		  <!-- &#x1F496; Astro -->
           </a>
 		  <p class="ml-4 lg:ml-6 italic">Exploring Software Development, Accessibility, and Design</p>
 		<ul class="
 				hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 
-				lg:flex lg:gap-4 lg:mr-6"
+				lg:flex lg:gap-4 lg:mr-6
+				"
 			aria-label="Primary navigation"
 			>
 			
 			<li><LinkNav  href="/">Home</LinkNav></li>
-			<li><LinkNav  href="/about">About Us</LinkNav></li>
+			<li><LinkNav  href="/about">About</LinkNav></li>
 			<li><LinkNav  href="/blog/1">Blog</LinkNav></li>
 			<li><LinkNav  href="/feed.xml">RSS</LinkNav></li>
 			<li><LinkNav  href="https://github.com/gingerkiwi" rel="external"> GitHub</LinkNav></li>
@@ -61,11 +61,11 @@ to-pink-800">
 </header>
 	<!-- OTHER MENU?? -->
 	<div class="navbar-menu relative z-50 hidden border-4">
-		<nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 py-6 px-6 bg-orange-800 border-r overflow-y-auto">
+		<nav class="fixed top-0 right-0 bottom-0 flex flex-col w-5/6 py-6 px-6 bg-slate-900 border-r overflow-y-auto">
 			<div class="flex items-center mb-8">
 				
 				<!-- CLOSE NAVBAR BUTTON -->
-				<button class="navbar-close">
+				<button class="navbar-close flex-end">
 					<svg class="h-8 w-8 text-slate-100 cursor-pointer hover:text-gray-500 hover:font-bold" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
 					</svg>
@@ -74,21 +74,21 @@ to-pink-800">
 			<div>
 				<!-- NAV HERE FOR A11Y? -->
 				<ul aria-label="Primary mobile navigation">
-					<li class="mb-1">
-						<Link class="block p-4 " href="/">Home</Link>
+					<li class="hover:underline mb-4 text-right">
+						<LinkNav class="hover:underline" href="/">Home</LinkNav>
 					</li>
-					<li class="mb-1">
-						<Link class="block p-4 " href="/about">About</Link>
+					<li class="mb-4 text-lg text-right">
+						<LinkNav class="" href="/about">About</LinkNav>
 					</li>
-					<li class="mb-1">
-						<Link class="block p-4 " href="/blog/1">Blog</Link>
+					<li class="mb-4 text-lg text-right">
+						<LinkNav class="" href="/blog/1">Blog</LinkNav>
 					</li>
-					<li class="mb-1">
-						<Link class="block p-4 " href="/feed.xml">RSS</Link>
+					<li class="mb-4 text-lg text-right">
+						<LinkNav class=" " href="/feed.xml">RSS</LinkNav>
 					</li>
-					<li>
-						<Link href="https://github.com/gingerkiwi" isExternal>GitHub
-						</Link>
+					<li class="mb-4 text-lg text-right">
+						<LinkNav href="https://github.com/gingerkiwi" isExternal>GitHub
+						</LinkNav>
 					</li>
 				</ul>
 			</div>

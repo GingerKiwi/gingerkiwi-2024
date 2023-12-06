@@ -10,7 +10,7 @@ tags:
   - a11y
 description: Coding with accessibility in mind can be intimidating if you're not familiar with the needs of disabled, neurodiverse, Deaf/deaf, and hard of hearing users. Here are five tips to get you started in making your sites accessible for users and learning how to implement the basics of WCAG.
 image: /images/covers/03_A11y_CodingTips_1200x630.png
-imageAlt: '"HELLO WORLD THIS IS ALT TEXT"'
+imageAlt: "Rectangular graphic with hot pink and orange text on a black background. The top text says A11y Coding Tips for Devs. Then there's a row of emojis with plus signs between them: happy cat face + cup of coffee + laptop _ active wheelchair user symbol. The bottom text says With Cat and Coffee themed code examples! in orange text. Underneath in a rectangle with with a thick white border and rounded corners is the text www.gingerkiwi.dev in an orange to pink gradient text"
 category: a11y
 draft: "false"
 ---

@@ -12,7 +12,7 @@ description: It's time to go down the data structures and algorithms (dsa) rabbi
 layout: ../../layouts/BlogPostLayout.astro
 category: javascript
 image: /images/covers/00_DSA_1200x630.png
-imageAlt: '"HELLO WORLD THIS IS ALT TEXT"'
+imageAlt: Rectangular graphic. Black rectangle with a white border on an orange to pink gradient background. White text at top with black background says Javascript Data Structures and Algorithms. Below is a photo of an orange Pomeranian dog sitting at a wood table wearing large glasses looking at a dark grey iPad. The dog is wearing a dark red sweater. The entire graphic has a thick dark orange border that matches the heading colours of this blog. At the bottom it says www.gingerkiwi.dev
 draft: "false"
 ---
 ## About This Article Series
