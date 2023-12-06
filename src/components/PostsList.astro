@@ -18,7 +18,7 @@ const { posts, start = 1 } = Astro.props;
             class="flex justify-between" 
             href={`/blog/${post.slug}`}>
             {post.data.title}
-            <span class='text-gray-400  hover:text-red-600'>
+            <span class='text-gray-300  hover:text-red-600'>
               {post.data.date.toUTCString().slice(0, -13)}
             </span>
           </Link>
