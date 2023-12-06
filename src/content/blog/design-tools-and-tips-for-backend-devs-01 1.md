@@ -14,7 +14,7 @@ description: This is the first in a series of articles on tips and tricks for we
 layout: ../../layouts/BlogPostLayout.astro
 category: design
 image: /images/covers/02_DesignTips_BackEndDevs_1200x630.png
-imageAlt: '"HELLO WORLD THIS IS ALT TEXT"'
+imageAlt: Horizontal rectangular graphic. Outside border is polygons of a colour wheel. Inside is a dark blue rectangle with rounded corners and a white border. Text says Design Tips for Backend Developers in a curly circa 1960s white font. Below in a sans serif font www.gingerkiwi.dev
 draft: "false"
 ---
 Every time I get in a discussion with backend or sometimes full-stack devs that prefer the backend, they say that one reason they prefer backend is that they're "not good at design". But just like anyone can learn the basics of coding, anyone can learn the basics of design. With a few simple tools and tips, even those scared of design can become more comfortable in designing good looking apps. 
