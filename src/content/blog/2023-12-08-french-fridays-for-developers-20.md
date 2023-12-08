@@ -23,7 +23,7 @@ In March, 2023 I started French for Devs Fridays to celebrate getting to 400 day
 Today's quote is from the last Toronto JS tech talk for the year.
 
 Today is my:
-- 🇫🇷 **678th day of French**, 651
+- 🇫🇷 **678th day of French**
 - 🇳🇱 337th day of Dutch, 
 - 🏴󠁧󠁢󠁷󠁬󠁳󠁿 176th day of Welsh, 
 - 🇩🇪 98th day of German,
