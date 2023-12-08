@@ -1,6 +1,6 @@
 ---
 title: A Quick List of Accessibility Resources
-date: 2023-06-13
+date: 2023-12-08
 tags:
   - post
   - featured
@@ -10,7 +10,7 @@ tags:
   - before-prismjs
 image: /images/covers/03_A11y_ResourcesForDevs_1200x630.png
 imageAlt: "Graphic on a black background.Pink text: Web Accessibility Wednesdayslaptop emoji + wheelchair emojiOrange text: A11y Resources for Devs!pink to orange gradient text: https://gingerkiwi.blog"
-description: Web Accessibility Wednesday - Bonus Friday Edition!Just now in James Q Quick's Learn Build Teach Discord, Arkar Myat said he'd like some Web Accessibility resources both general and image specific, so I thought I'd do a post to help others as well.It's not an exhaustive list! I also haven't given summaries like I usually do. It's more like my dumping my current A11y brain cache.
+description: Web Accessibility Wednesday - Bonus Friday Edition!Just now in James Q Quick Learn Build Teach Discord, Arkar Myat said he'd like some Web Accessibility resources both general and image specific, so I thought I'd do a post to help others as well.It's not an exhaustive list! I also haven't given summaries like I usually do. It's more like my dumping my current A11y brain cache.
 layout: ../../layouts/BlogPostLayout.astro
 category: design
 draft: "false"
