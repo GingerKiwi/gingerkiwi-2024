@@ -17,13 +17,12 @@ draft: "false"
 ---
 Web Accessibility Wednesday - Bonus Friday Edition!
 
-Just now in [James Q Quick](https://www.linkedin.com/feed/#)'s Learn Build Teach Discord, [Arkar Myat](https://www.linkedin.com/feed/#) said he'd like some Web Accessibility resources both general and image specific, so I thought I'd do a post to help others as well.
+Just now in [James Q Quick](https://www.linkedin.com/in/jamesqquick/)'s Learn Build Teach Discord, [Arkar Myat](https://www.linkedin.com/in/arkar-kaung-myat/) said he'd like some Web Accessibility resources both general and image specific, so I thought I'd do a post to help others as well.
 
 It's not an exhaustive list! I also haven't given summaries like I usually do. It's more like my dumping my current **#A11y** brain cache.
 
 Also check out the profiles and blogs of the people and organizations that I've @ Mentioned. They're also great resources.
 
-  
 
 Hopefully this helps Arkar with his **#Svelte** task and others with their accessibility learning.
 
@@ -80,9 +79,3 @@ https://www.weinberg.cuimc.columbia.edu/news/history-disability-pride-flag
 Mozilla Developer Network docs
 https://developer.mozilla.org/en-US/docs/Web/Accessibility/Seizure_disorders
 ___  
-It would be wonderful if others passionate about accessibility could share this post with their network! 🙏
-
-
-[Cathy Chi](https://www.linkedin.com/feed/#), [Oskar Westin](https://www.linkedin.com/feed/#), [David Dame ♿️](https://www.linkedin.com/feed/#), [Damian Milczarski](https://www.linkedin.com/feed/#), [Michele A. Williams, PhD](https://www.linkedin.com/feed/#), [Jennifer Strickland](https://www.linkedin.com/feed/#) [Jennifer Chadwick](https://www.linkedin.com/feed/#), [Africa Mincey](https://www.linkedin.com/feed/#), [Cynthia Zanoni](https://www.linkedin.com/feed/#),
-
-[#a11yTO - Accessibility Toronto](https://www.linkedin.com/feed/#)**#a11yTO** - Accessibility Toronto [Fable](https://www.linkedin.com/feed/#), [TorontoJS](https://www.linkedin.com/feed/#), [CNIB](https://www.linkedin.com/feed/#), [RNIB](https://www.linkedin.com/feed/#), [Women Who Code](https://www.linkedin.com/feed/#) [Microsoft](https://www.linkedin.com/feed/#), [The Ehlers-Danlos Society](https://www.linkedin.com/feed/#), [The Ehlers-Danlos Support UK](https://www.linkedin.com/feed/#) 
