@@ -34,11 +34,11 @@ Here's this week's French for Devs quote and translation.
 Number 19, 08 decembre 2023
 
 >*«La beauté du JavaScript Vanilla est que vous pouvez accéder au DOM avec une tronçonneuse»* <br>
->~ **Peter Gordon**
+>~ **Paul Gordon**
 >Toronto JavaScript Tech Talk, 06 decembre 2023
 
 English:  French for Devs #019, December 08 2023
 
 *"The beauty of vanilla JavaScript is that you get to go into the DOM with a chainsaw.*"<br>
-~ **Peter Gordon**
+~ **Paul Gordon**
 Toronto JavaScript Tech Talk, 06 decembre 2023
