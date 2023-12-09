@@ -14,13 +14,16 @@
 
 #### Site map
 
-[WCAG 2.2, 2.4.5 Multiple Ways](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways.html)
-[Astro Site Map. Astro docs](https://docs.astro.build/en/guides/integrations-guide/sitemap/)
+- [WCAG 2.2, 2.4.5 Multiple Ways](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways.html)
+- [Astro Site Map. Astro docs](https://docs.astro.build/en/guides/integrations-guide/sitemap/)
 
 If time / if I feel like it one or more of:
-4. [ ] Set up function for draft = true/false
-5. [ ] Tag pages
-6. [ ] Cards for blog posts
+
+4 [ ] Set up function for draft = true/false
+
+5 [ ] Tag pages
+
+6 [ ] Cards for blog posts
 
 ___
 
