@@ -10,6 +10,8 @@
 
 #### Sorting posts
 
+[folder where the blog pages and slug is generated](https://github.com/GingerKiwi/gingerkiwi-2024/tree/dev-2023-12-09/src/pages/blog)
+
 [content config.ts GitHub for today's branch](https://github.com/GingerKiwi/gingerkiwi-2024/blob/dev-2023-12-09/src/content/config.ts)
 
 #### Site map
