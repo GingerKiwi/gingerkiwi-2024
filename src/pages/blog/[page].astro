@@ -9,7 +9,7 @@ import Footer from '../../components/Footer.astro';
 import PostsList from '../../components/PostsList.astro';
 
 export const getStaticPaths: GetStaticPaths = async ({ paginate }) => {
-	const posts = await getCollection('blog');
+	const posts = (await getCollection('blog')).reverse();
 
 	return paginate(posts, {pageSize: 6})
 };

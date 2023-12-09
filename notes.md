@@ -34,3 +34,17 @@ ___
 - [x] figure out why LinkNav works for desktop but not tablet breakpoint
 - [x] figure out why Header centers on desktop (not desired) but not on tablet (desired)
 - [x] Fix extra menu showing in mobile - again!
+
+
+---
+import { getCollection } from "astro:content";
+import Layout from "../../components/Layout.astro";
+
+const posts = (await getCollection("project"))
+  .sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf())
+  .reverse();
+---
+
+<ul>
+    {posts.map(p => <li>{post.data.title}</li>)}
+</ul>

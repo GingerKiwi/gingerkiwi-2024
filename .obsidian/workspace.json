@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/2023-12-08-french-fridays-for-developers-20.md",
+                "file": "src/content/blog/2023-06-13-creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/2023-12-08-french-fridays-for-developers-20.md",
+                "file": "src/content/blog/2023-06-13-creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/2023-12-08-french-fridays-for-developers-20.md",
+                "file": "src/content/blog/2023-06-13-creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/2023-12-08-french-fridays-for-developers-20.md"
+                "file": "src/content/blog/2023-06-13-creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "046f74a43659dcda",
   "lastOpenFiles": [
-    "src/content/blog/2023-12-08-quick-list-of-a11y-resources.md",
     "src/content/blog/2023-12-08-french-fridays-for-developers-20.md",
+    "src/content/blog/2023-12-08-quick-list-of-a11y-resources.md",
     "src/content/blog/2023-11-11-french-fridays-for-developers-018.md",
     "src/content/blog/2023-07-07-french-fridays-for-developers-014.md",
     "src/content/blog/2023-06-13-creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",

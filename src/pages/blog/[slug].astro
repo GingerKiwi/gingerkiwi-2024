@@ -6,8 +6,8 @@ import Header from '../../components/Header.astro';
 import MainLayout from '../../layouts/MainLayout.astro';
 
 export async function getStaticPaths(){
-    const posts = await getCollection('blog');
-
+    const posts = (await getCollection('blog')).reverse();
+    console.log(posts);
     return posts.map((post) =>({
         params: {
             slug: post.slug,
