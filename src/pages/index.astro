@@ -13,7 +13,7 @@ import PostsList from '../components/PostsList.astro';
 
 import '../styles/index.css';
 
-const posts = await getCollection('blog');
+const posts = (await getCollection('blog')).reverse();
 ---
 <Header />
 <!-- <MainHeader /> -->

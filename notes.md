@@ -2,7 +2,7 @@
 
 ## 2023-12-09: Saturday, December 09, 2023
 
-1. [ ] Sort blog posts by reverse date - most recent first
+1. [x] Sort blog posts by reverse date - most recent first
 2. [ ] Add site map (WCAG2.2 - 2.4.5 - Multiple ways)
 3. [ ] Add skip to site map link in header
 
