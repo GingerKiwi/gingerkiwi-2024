@@ -19,11 +19,9 @@
 
 If time / if I feel like it one or more of:
 
-4 [ ] Set up function for draft = true/false
-
-5 [ ] Tag pages
-
-6 [ ] Cards for blog posts
+[ ] Set up function for draft = true/false
+[ ] Tag pages
+[ ] Cards for blog posts
 
 ___
 
