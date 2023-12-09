@@ -148,6 +148,7 @@
   },
   "active": "046f74a43659dcda",
   "lastOpenFiles": [
+    "node_modules/@esbuild-kit/core-utils/node_modules/@esbuild/freebsd-x64",
     "src/content/blog/2023-12-08-french-fridays-for-developers-20.md",
     "src/content/blog/2023-12-08-quick-list-of-a11y-resources.md",
     "src/content/blog/2023-11-11-french-fridays-for-developers-018.md",
@@ -174,7 +175,6 @@
     "src/content/blog/design-tools-and-tips-for-backend-devs-01 1.md",
     "src/content/blog/creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
     "src/content/blog/building-in-public-group-debugging-party.md",
-    "src/content/blog/a-template-with-images.md",
     "src/styles/styles.css",
     "assets/blog",
     "assets",
