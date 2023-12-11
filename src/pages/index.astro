@@ -5,12 +5,7 @@ import Header from '../components/Header.astro';
 import MainLayout from '../layouts/MainLayout.astro';
 import Footer from '../components/Footer.astro';
 
-// import avatar from '../assets/avatar.png';
-
-// import Link from '../components/Link.astro';
-
 import PostsList from '../components/PostsList.astro';
-
 import '../styles/index.css';
 
 const posts = (await getCollection('blog')).reverse();
@@ -41,8 +36,7 @@ const posts = (await getCollection('blog')).reverse();
 				</ul>
 
 			<p class="mt-6">Thanks to <a href="https://nikolovlazar.com" class="text-pink-800 hover:text-green-600 hover:text-lg underline">Lazar Nikolov</a> for his new <a href="https://egghead.io/courses/build-a-full-stack-blog-with-astro-7ffcf9ec" class="text-pink-700 hover:text-green-600 hover:text-lg underline">Astro Course </a> on Egghead.io which is the inspiration for my finally redeveloping my sites.</p>
-			
-			<!-- <p class="py-2">For a full list of my articles with images (including cat photos!) please visit <a href="http://gingerkiwi.blog" class="text-pink-800 hover:text-green-600 hover:text-lg underline">https://gingerkiwi.blog</a> </p> -->
+		
 	</div>
 	<div class='h-64 flex flex-col justify-center items-start mx-6'>
 		<h1 class="
@@ -58,14 +52,6 @@ const posts = (await getCollection('blog')).reverse();
 				Based in Toronto, Canada, I&#x0027;m a software developer, technical content writer, and former adaptive tech specialist passionate about building beauitful accessible web apps and solving puzzles with others.
 			</p>
 	</div>
-	<!-- <Image 
-        src={ avatar } 
-        alt="graphic of a redhead woman with a ponytail behind a laptop computer" 
-        width={486}
-        quality='max'
-        class='h-auto max-w-xs rounded-lg'
-        />
-	</Image> -->
 	<div class='flex flex-col mx-6 my-6'>
 		<h2 class='text-2xl font-semibold'>Recent Blog Posts</h2>
 		<PostsList posts={posts.slice(0, 4)}/>
