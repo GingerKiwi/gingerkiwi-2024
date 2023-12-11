@@ -4,11 +4,11 @@ import PagesLayout from '../layouts/PagesLayout.astro';
 import Footer from '../components/Footer.astro';
 ---
 <Header />
-<PagesLayout seo={{ title: "About", description: "Accessibilty Statement"}}>
-    <div class="flex flex-col items-center gap-8 mx-auto mt-12">
+<PagesLayout seo={{ title: "Accessibility", description: "Accessibilty Statement"}}>
         <h1 class="
             text-heading-1 
             mt-8 
+            mx-8
             bg-gradient-to-r
                 from-pink-600 to-orange-400 
                 inline-block 
@@ -17,9 +17,29 @@ import Footer from '../components/Footer.astro';
                 >
             Accessibility
         </h1>
-
-        <p class='mt-2 flex-1 leading-7'>A11y statement here </p>
-        <!-- https://racheleditullio.com/accessibility-statement/ -->
+        <section class="text-left mx-8 min-h-screen max-w-3xl">
+            <p class='my-4 flex-1 leading-7 text-left'>
+                I'm passionate about accessibilty in digital and physical environments. I am committed to ensuring digital accessibility for disabled, Deaf/deaf, and neurodivergent users. Developing this site is part of that committment as it greatly improves the accessibility over my older site https://gingerkiwi.blog.
+            </p>
+            <p class='my-4 flex-1 leading-7 text-left'>
+                This site strives to conform to level AA compliance for the Web Content Accessibility Guidelines (WCAG) 2.2. These are guidelines that explain how to make web content easier to use for disabled people. 
+            </p>
+            <p class='my-4 flex-1 leading-7 text-left'>
+                Although I cannot guarantee that all content linked to, or embedded on this site is fully accessible, I try to choose sites and services that embrace Inclusive Design principles. I make a consious effort to have descriptive alt text for all images that provide information to readers. For decorative images, I include a short description such as "decorative image of a cat".
+            </p>
+            <p class='my-4 flex-1 leading-7 text-left'>
+                A significant portion of the content in this site aims to educate other developers about accessibility and inclusive design. 
+            </p>
+            <p class='my-4 flex-1 leading-7 text-left'>
+                This site is under continuous development starting in October 2023. Every development stage aims to increase the accessibility and usability of the site.
+            </p>
+            <p class='my-4 flex-1 leading-7 text-left'>
+                <strong>Accessibility Testing:</strong> Basic accessibility testing is ongoing. A full audit using NVDA and/or JAWS will be completed by late spring 2024, once some additional functionality is added to the site.
+            </p>
+            <h2>Feedback</h2>
+            I welcome feedback via email at: liz AT gingerkiwi DOT dev.
+        </section>
+        
     </div>
 </PagesLayout>
 <Footer />

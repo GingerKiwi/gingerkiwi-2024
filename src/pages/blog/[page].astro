@@ -35,7 +35,7 @@ const { page } = Astro.props;
 			bg-clip-text">Blog Posts</h1>
 
 	<PostsList posts={page.data} start={page.start + 1}/>
-	<div class ="mt-8 flex justify-center  gap-4">
+	<div class ="mt-8 flex justify-center gap-4">
 		<div class="w-24 text-end">
 			{page.url.prev && (
 				<Link href={page.url.prev} rel="prev">
