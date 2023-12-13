@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/2023-09-01-dsa-javascript-arrays-02.md",
+                "file": "src/content/blog/2023-12-13-accessible-forms-resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabeticalReverse"
               }
             }
           },
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/2023-09-01-dsa-javascript-arrays-02.md",
+                "file": "src/content/blog/2023-12-13-accessible-forms-resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/2023-09-01-dsa-javascript-arrays-02.md",
+                "file": "src/content/blog/2023-12-13-accessible-forms-resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/2023-09-01-dsa-javascript-arrays-02.md"
+                "file": "src/content/blog/2023-12-13-accessible-forms-resources.md"
               }
             }
           }
@@ -148,6 +148,9 @@
   },
   "active": "046f74a43659dcda",
   "lastOpenFiles": [
+    "src/content/blog/2023-12-08-quick-list-of-a11y-resources.md",
+    "src/content/blog/2023-12-13-accessible-forms-resources.md",
+    "src/content/blog/2023-09-01-dsa-javascript-arrays-02.md",
     "README.md",
     "src/content/blog/2023-06-13-creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
     "node_modules/@esbuild/linux-ia32",
@@ -161,7 +164,6 @@
     "node_modules/@cloudflare/workerd-windows-64",
     "node_modules/@cloudflare/workerd-linux-arm64",
     "src/content/blog/2023-12-08-french-fridays-for-developers-20.md",
-    "src/content/blog/2023-12-08-quick-list-of-a11y-resources.md",
     "src/content/blog/2023-11-11-french-fridays-for-developers-018.md",
     "src/content/blog/2023-07-07-french-fridays-for-developers-014.md",
     "src/content/blog/2023-11-25-building-in-public-group-debugging-party.md",
@@ -171,7 +173,6 @@
     "src/content/blog/2023-09-29-french-fridays-for-developers-016.md",
     "src/content/blog/2023-09-10-dsa-javascript-arrays-01.md",
     "src/content/blog/2023-09-08-french-fridays-for-developers-015.md",
-    "src/content/blog/2023-09-01-dsa-javascript-arrays-02.md",
     "src/content/blog/2023-08-08-design-tools-and-tips-for-backend-devs-01 1.md",
     "src/content/blog/quick-a11y-tips-for-devs-02-links-within-pages.md",
     "src/content/blog/french-fridays-for-developers-018.md",
@@ -183,7 +184,6 @@
     "src/content/blog/dsa-javascript-arrays-01.md",
     "src/content/blog/design-tools-and-tips-for-backend-devs-01 1.md",
     "src/content/blog/creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
-    "src/content/blog/building-in-public-group-debugging-party.md",
     "public/images/FrenchForDevs_CoverImg.png",
     "public/images/Duolingo-500-Days.PNG",
     "public/images/Don_Merton_holding_kakapo_ Richard_Henry _WikiMedia-8529681628.jpg",
