@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
+                "file": "src/content/blog/2023-12-13-accessible-forms-resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3ee877d72454a085",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
+                "file": "src/content/blog/2023-12-13-accessible-forms-resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
+                "file": "src/content/blog/2023-12-13-accessible-forms-resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/2023-12-14-tech-history-oreily-animals.md"
+                "file": "src/content/blog/2023-12-13-accessible-forms-resources.md"
               }
             }
           }
@@ -149,8 +148,8 @@
   },
   "active": "046f74a43659dcda",
   "lastOpenFiles": [
-    "src/content/blog/2023-11-30-three-topics-in-video-games-history.md",
     "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
+    "src/content/blog/2023-11-30-three-topics-in-video-games-history.md",
     "src/content/blog/2023-12-13-accessible-forms-resources.md",
     "src/content/blog/2023-12-08-quick-list-of-a11y-resources.md",
     "src/content/blog/2023-09-01-dsa-javascript-arrays-02.md",
