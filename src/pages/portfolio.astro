@@ -1,0 +1,29 @@
+---
+import { Image } from 'astro:assets';
+
+import avatar from '../assets/avatar.png';
+import Header from '../components/Header.astro';
+import PagesLayout from '../layouts/PagesLayout.astro';
+import Footer from '../components/Footer.astro';
+---
+<Header />
+<PagesLayout seo={{ title: "Projects", description: "Liz McCready is a software developer, technical content writer, and accessibility specialist in Toronto, Canada"}}>
+    <div class="flex flex-col items-center gap-8 mx-8 my-12 ">
+        <h1 class="
+            text-heading-1 
+            mt-8 
+            bg-gradient-to-r
+                from-pink-600 to-orange-400 
+                inline-block 
+                text-transparent 
+                bg-clip-text"
+                >
+            Projects
+        </h1>
+        
+        <p class='m-4 flex-1 leading-7'>Coming soon. This is a new site.</p>
+
+    </div>
+</div>
+</PagesLayout>
+<Footer />
