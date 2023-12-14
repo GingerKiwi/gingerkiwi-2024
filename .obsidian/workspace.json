@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/2023-12-13-accessible-forms-resources.md",
+                "file": "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3ee877d72454a085",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/2023-12-13-accessible-forms-resources.md",
+                "file": "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/2023-12-13-accessible-forms-resources.md",
+                "file": "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/2023-12-13-accessible-forms-resources.md"
+                "file": "src/content/blog/2023-12-14-tech-history-oreily-animals.md"
               }
             }
           }
@@ -148,8 +149,10 @@
   },
   "active": "046f74a43659dcda",
   "lastOpenFiles": [
-    "src/content/blog/2023-12-08-quick-list-of-a11y-resources.md",
+    "src/content/blog/2023-11-30-three-topics-in-video-games-history.md",
+    "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
     "src/content/blog/2023-12-13-accessible-forms-resources.md",
+    "src/content/blog/2023-12-08-quick-list-of-a11y-resources.md",
     "src/content/blog/2023-09-01-dsa-javascript-arrays-02.md",
     "README.md",
     "src/content/blog/2023-06-13-creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
@@ -182,8 +185,6 @@
     "src/content/blog/french-fridays-for-developers-014.md",
     "src/content/blog/dsa-javascript-arrays-02.md",
     "src/content/blog/dsa-javascript-arrays-01.md",
-    "src/content/blog/design-tools-and-tips-for-backend-devs-01 1.md",
-    "src/content/blog/creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
     "public/images/FrenchForDevs_CoverImg.png",
     "public/images/Duolingo-500-Days.PNG",
     "public/images/Don_Merton_holding_kakapo_ Richard_Henry _WikiMedia-8529681628.jpg",
