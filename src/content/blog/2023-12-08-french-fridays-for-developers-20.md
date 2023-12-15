@@ -18,7 +18,7 @@ draft: "false"
 ---
 # French Fridays for Developers - 020
 
-In March, 2023 I started French for Devs Fridays to celebrate getting to 400 days on Duolingo. Today marks 643 days! Here you'll find weekly useful and/or amusing French phrases for developers. 
+In March, 2023 I started French for Devs Fridays to celebrate getting to 400 days on Duolingo. Today marks 678 days! Here you'll find weekly useful and/or amusing French phrases for developers. 
 
 Today's quote is from the last Toronto JS tech talk for the year.
 
@@ -31,13 +31,13 @@ Today is my:
 
 Here's this week's French for Devs quote and translation. 
 
-Number 19, 08 decembre 2023
+Number 20, 08 decembre 2023
 
 >*«La beauté du JavaScript Vanilla est que vous pouvez accéder au DOM avec une tronçonneuse»* <br>
 >~ **Paul Gordon**
 >Toronto JavaScript Tech Talk, 06 decembre 2023
 
-English:  French for Devs #019, December 08 2023
+English:  French for Devs #020, December 08 2023
 
 *"The beauty of vanilla JavaScript is that you get to go into the DOM with a chainsaw.*"<br>
 ~ **Paul Gordon**
