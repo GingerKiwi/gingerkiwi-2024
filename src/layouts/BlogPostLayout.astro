@@ -12,7 +12,7 @@ const { title, description, date, category, image, imageAlt } = frontmatter;
             <small>
                 <a href={`/category/${slugify(category)}/`} class="badge">{category}</a>
               </small>
-              <h1 class="font--gradient">{title}</h1>
+              <h1 class="font--gradient font-display-font">{title}</h1>
             <p>{formatDate(date)}</p>
         </div>
         <img 
