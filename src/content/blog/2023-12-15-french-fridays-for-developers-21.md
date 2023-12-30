@@ -33,7 +33,7 @@ Here's this week's French for Devs quote and translation.
 
 Number 21, 15 decembre 2023
 
->*«L’intelligence artificielle ne remplace pas l’intelligence humaine ; c'est un outil pour amplifier la créativité et l'ingéniosité humaines»* <br>
+>*«L’intelligence artificielle ne remplace pas l’intelligence humaine ; c'est un outil pour amplifier la créativité et l'ingéniosité humaines.»* <br>
 >~ **Dr. Fei-Fei Li**
 > Stanford 2023
 
