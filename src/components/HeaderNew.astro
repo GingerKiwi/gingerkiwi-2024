@@ -1,0 +1,150 @@
+---
+import LinkNav from './LinkNav.astro'
+import Link from './Link.astro'
+import LinkNavMobile from './LinkNavMobile.astro';
+// import { Image } from 'astro:assets';
+// import menuIconDark from '../assets/menu-slate-900.svg'
+// import menuCloseDark from '../assets/close-slate-900.svg'
+---
+
+<header class=" relative px-4 flex">
+
+  
+    
+	<nav role="navigation">
+		
+		<!-- MOBILE MENU -->
+		<div class="lg:hidden ">
+			<button class="navbar-burger flex items-center text-slate-100 p-3">
+				<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+					<title>Mobile menu</title>
+					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+				</svg>
+			</button>
+		</div>
+        
+          <ul class="
+				hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 
+				lg:flex lg:gap-4 lg:mr-6
+				"
+			aria-label="Primary navigation"
+			>
+			<li class="font-roboto-flex text-sm text-slate-950"><LinkNav  href="#main">Skip to Main Content</LinkNav></li>
+			<li class="font-roboto-flex lg:text-2xl"><LinkNav  href="/">Home</LinkNav></li>
+			<li class="font-roboto-flex lg:text-2xl"><LinkNav  href="/blog/1">Blog</LinkNav></li>
+			<li class="font-roboto-flex lg:text-2xl"><LinkNav  href="/about">About</LinkNav></li>
+			<li class="font-roboto-flex lg:text-2xl text-pink-400"><LinkNav  href="/portfolio">Portfolio</LinkNav></li>
+			<li class="font-roboto-flex lg:text-2xl"><LinkNav  href="/contact">Contact</LinkNav></li>
+			<li class="font-roboto-flex lg:text-2xl"><LinkNav  href="/feed.xml">RSS</LinkNav></li>
+			
+				
+		</ul>
+		
+	</nav>
+    <div class="ml-6 lg:ml-32 lg:mt-32">
+        <div>
+        <a
+             href="/"
+             class="
+                font-bold text-2xl ml-4 font-display-font
+                lg:text-7xl
+                mb-6
+                hover:underline hover:py-1 hover:px-2 hover:underline-offset-4
+                focus:underline focus:py-1 focus:px-2 focus:underline-offset-4
+                bg-gradient-to-r
+                    from-pink-600 to-orange-400 
+                    inline-block 
+                    text-transparent 
+                    bg-clip-text
+               "
+             >Ginger Kiwi 
+             </a>
+            </div>
+             <p class="text-orange-100 lg:text-2xl my:12 font-sans lg:w-5/6">Exploring Software Development, Accessibility, and Design</p>
+        </div>
+</div>
+</header>
+	<!-- OTHER MENU?? -->
+	<div class="navbar-menu relative z-50 hidden border-4">
+		<nav class="fixed top-0 right-0 bottom-0 flex flex-col w-5/6 py-6 px-6 bg-slate-900 border-r overflow-y-auto">
+			<div class="flex items-center mb-8">
+				
+				<!-- CLOSE NAVBAR BUTTON -->
+				<button class="navbar-close flex-end">
+					<svg class="h-8 w-8 text-slate-100 cursor-pointer hover:text-gray-500 hover:font-bold" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+					</svg>
+				</button>
+			</div>
+			<div>
+				<!-- NAV HERE FOR A11Y? -->
+				<ul aria-label="Primary mobile navigation">
+					<li class="hover:underline mb-4 text-right font-roboto-flex">
+						<LinkNav class="hover:underline" href="/">Home</LinkNav>
+					</li>
+					<li class="mb-4 text-lg text-right font-roboto-flex">
+						<LinkNav class="" href="/blog/1">Blog</LinkNav>
+					</li>
+					<li class="mb-4 text-lg text-right font-roboto-flex">
+						<LinkNav class="" href="/about">About</LinkNav>
+					</li>
+					<li class="mb-4 text-lg text-right font-roboto-flex">
+						<LinkNav class="" href="/portfolio">Portfolio</LinkNav>
+					</li>
+					<li class="mb-4 text-lg text-right font-roboto-flex text-lime-402">
+						<LinkNav class="" href="/contact">Contact</LinkNav>
+					</li>
+					<li class="mb-4 text-lg text-right font-roboto-flex">
+						<LinkNav class=" " href="/feed.xml">RSS</LinkNav>
+					</li>
+				</ul>
+			</div>
+			
+		</nav>
+		
+	</div>
+	<!-- <h2>Exploring Software Development, Accessibility, and Design</h2> -->
+<!-- </div> -->
+
+<script>
+// Burger menus
+document.addEventListener('DOMContentLoaded', function() {
+    // open
+    const burger = document.querySelectorAll('.navbar-burger');
+    const menu = document.querySelectorAll('.navbar-menu');
+
+    if (burger.length && menu.length) {
+        for (var i = 0; i < burger.length; i++) {
+            burger[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
+
+    // close
+    const close = document.querySelectorAll('.navbar-close');
+    const backdrop = document.querySelectorAll('.navbar-backdrop');
+
+    if (close.length) {
+        for (var i = 0; i < close.length; i++) {
+            close[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
+
+    if (backdrop.length) {
+        for (var i = 0; i < backdrop.length; i++) {
+            backdrop[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
+});
+</script>

@@ -7,6 +7,7 @@ export default {
 			fontFamily: {
 			  'roboto-flex': ['"Roboto Flex"', 'sans'],
 			  'display-font': ['"Trocchi"', 'serif'],
+			  'test-font': ['"Pacifico"', 'serif'],
 			},
 			// font-family: 'Roboto Flex', sans-serif;
 			// font-family: 'Trocchi', serif;
