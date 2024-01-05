@@ -2,17 +2,17 @@
 export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
-		// screens: {
-		// 	'tablet': '640px',
-		// 	// => @media (min-width: 640px) { ... }
-	  
-		// 	'laptop': '1024px',
-		// 	// => @media (min-width: 1024px) { ... }
-	  
-		// 	'desktop': '1280px',
-		// 	// => @media (min-width: 1280px) { ... }
-		//   },
-		extend: {},
+		
+		extend: {
+			fontFamily: {
+			  'roboto-flex': ['"Roboto Flex"', 'sans'],
+			  'display-font': ['"Trocchi"', 'serif'],
+			  'test-font': ['"Pacifico"', 'serif'],
+			},
+			// font-family: 'Roboto Flex', sans-serif;
+			// font-family: 'Trocchi', serif;
+			// font-roboto-flex
+		}
 	},
 	plugins: [
 		require('@tailwindcss/typography'),

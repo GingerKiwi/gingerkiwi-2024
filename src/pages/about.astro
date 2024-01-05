@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets';
-
+import Link from '../components/Link.astro';
 import avatar from '../assets/avatar.png';
 import Header from '../components/Header.astro';
 import PagesLayout from '../layouts/PagesLayout.astro';
@@ -11,7 +11,8 @@ import Footer from '../components/Footer.astro';
     <div class="flex flex-col items-center gap-8 mx-8 my-12 ">
         <h1 class="
             text-heading-1 
-            mt-8 
+            mt-8
+            font-display-font 
             bg-gradient-to-r
                 from-pink-600 to-orange-400 
                 inline-block 
@@ -23,14 +24,150 @@ import Footer from '../components/Footer.astro';
         <Image 
         src={ avatar } 
         alt="graphic of a redhead woman with a ponytail behind a laptop computer" 
-        width={486}
+        width={286}
         quality='max'
         class='rounded-full'
         />
         <div class="max-w-3xl">
+            <h2 class="
+            text-2xl 
+            mt-8
+            font-display-font 
+            bg-gradient-to-r
+                from-pink-600 to-orange-400 
+                inline-block 
+                text-transparent 
+                bg-clip-text">Software Developer</h2>
+        
+            <ul class="list-disc text-slate-200 mt-4">
+                <li>Software Developer in Toronto, Canada with a passion for accessibility and design.</li>
+                <li>I mainly develop in: Next.js, React, Astro, Tailwind, and Vanilla JavaScript and CSS.</li>
+                <li>I also develop in: C#.NET, Microsoft SQL, and Azure AI</li>
+                <li>Computer Science Graduate coursework 2020-2021 from Massey University, New Zealand</li>
+</ul>
+<h2 class="
+            text-2xl 
+            mt-8
+            font-display-font 
+            bg-gradient-to-r
+                from-pink-600 to-orange-400 
+                inline-block 
+                text-transparent 
+                bg-clip-text">Web Accessibility Specialist</h2>
+<ul class="list-disc text-slate-200">
+                <li class="pt-4"> <span class="underline text-pink-400"><Link  href="https://github.com/codingtherapist/webAccessibilityStudyGroup">Web Accessibility Certification Study Group</Link></span> mentor</li>
+                <li>Former adaptive technology specialist and special educator</li>
+                <li><span class="underline text-pink-400"><Link  href="https://a11yto.com">A11yTO</span> volunteer for events at Microsoft since January, 2023</li>
+                <li>
+                    Extensive professional and personal experience in digital accessibility (A11y), WCAG, ADA, AODA, and the disability community.
+                </li>
+                <li>First tech talk in Feburary 2024 on <span class="italic">"Quick Accessibility Tips for Devs" </span>for TorontoJS</li>
+                </ul>
+
+               
+                    <h2 class="
+                    text-2xl 
+                    mt-8
+                    font-display-font 
+                    bg-gradient-to-r
+                        from-pink-600 to-orange-400 
+                        inline-block 
+                        text-transparent 
+                        bg-clip-text">Studying for Two Certifications in 2024</h2>
+                        
+        <ul class="list-disc text-slate-200 mt-4">
+            <li> Microsoft Certified:
+                <span class="underline text-pink-400"><Link  href="https://learn.microsoft.com/en-ca/credentials/certifications/azure-ai-engineer/">Azure AI Engineer Associate.</Link></span>
+            </li>
+                <li> International Association of Accessibility Professionals (IAAP)
+                    <span class="underline text-pink-400">
+                        <Link  href="https://www.accessibilityassociation.org/s/certified-professional-web-accessibility">Certified Professional in Web Accessibility (CPWA)</Link>
+                    </span></li>
+               
+                <h2 class="
+                text-2xl 
+                mt-8
+                font-display-font 
+                bg-gradient-to-r
+                    from-pink-600 to-orange-400 
+                    inline-block 
+                    text-transparent 
+                    bg-clip-text">Volunteer and Active in Developer Community</h2>
+                
+<ul class="list-disc text-slate-200 mt-4">
+                    <li>Over 15,000 volunteer hours. Positions range from events to board of directors.</li>
+                    <li><span class="underline text-pink-400"><Link  href="https://torontojs.com"> TorontoJS </Link></span>events volunteer and moderator</li>
+                    <li>Co-Organizer and co-founder:<span class="underline text-pink-400"><Link  href="https://github.com/torontojs/code-buddy-club"> TorontoJS Code Buddy Club </Link></span></li>
+                    <li>Active in: TorontoJS Slack, Creatures.dev, Learn, Build Teach</li>
+                    <li>Attended <span class="underline text-pink-400"><Link  href="https://www.youtube.com/playlist?list=PLNoTOsTRYfvjiqZ8ttvNTxSH8KdfhCJAO"> RefactorDx 2023 </Link></span></li>
+                    <li>Hacktoberfest 2022, and 2023. 2022 Hacksquad "Newbies Slaying Pumpkins" was in top 33% globally</li>
+            </ul>
+            <h2 class="
+                    text-2xl 
+                    mt-8
+                    font-display-font 
+                    bg-gradient-to-r
+                        from-pink-600 to-orange-400 
+                        inline-block 
+                        text-transparent 
+                        bg-clip-text">SEO Technical Content Writer</h2>
+    
+     <ul class="list-disc text-slate-200 mt-4">
+                
+                <li>Technical reviewer for <span class="underline text-pink-400"><Link  href="https://csharppatterns.dev/">Real World Implementation of C# Design Patterns</Link></span> by <span class="underline text-pink-400"><Link  href="https://www.linkedin.com/in/brucevanhorn2/">Bruce M. Van Horne II</Link></span></li>
+                <li>10+ years freelance technical and SEO web content writing experince.</li>
+                </ul>
+                    <h2 class="
+                    text-2xl 
+                    mt-8
+                    font-display-font 
+                    bg-gradient-to-r
+                        from-pink-600 to-orange-400 
+                        inline-block 
+                        text-transparent 
+                        bg-clip-text">During and After my B.Sc. and B.A.</h2>
+                
+         <ul class="list-disc text-slate-200 mt-4">
+
+                <li class="pt-4">5+ years experience developing WordPress small business websites, blogs and eCommerce sites.</li>
+                <li>Part-time and summer jobs: Microsoft databased admin, Computer lab technician, Forest regeration survey technician, Microsoft courseware B2B outside sales rep.</li>
+                <li>After finishing university: Computer and academic instructor for adults with physical disabilities from workplace injuries.</li>
+                </p>
+                <h2 class="
+            text-2xl 
+            mt-8
+            font-display-font 
+            bg-gradient-to-r
+                from-pink-600 to-orange-400 
+                inline-block 
+                text-transparent 
+                bg-clip-text">Interesting Facts</h2>
+
+  <ul class="list-disc mt-4 text-slate-200">
+                    <li>Started knitting at six years old.</li>
+                    <li>Have three rescue cats: Kitten, Boo, and Maybel.</li>
+                    <li>Dual New Zealand/Canadian citizen.</li>
+                    <li>Lived in Wellington, New Zealand in elementary school.</li>
+                    <li>My elementary school was next to a sheep farm. The sheep used to get out onto our rugby field and we'd get out of class to chase sheep. 🐑</li>
+                </ul>
+                
+                
+                
+                
+        
+                
+
+                
+            
+           
+
+<!-- 💻 I have , and .
+
+♿ I’m also a 
+        </p>
         <p class='m-4 flex-1 leading-7'>Hi, I&apos;m Liz McCready. I live in Toronto, Canada. I'm a dual Canadian/ New Zealand citizen and lived in Wellinton, New Zealand in elementary school. As a software engineer, I enjoy building beautiful, accessible apps that solve real world problems. As a writer I enjoy distilling complex technical topics into simple, enjoyable to read articles. I'm very passionate about accessibility / A11y and have been an assistive technology specialist, special educator, and a "seeing guide daughter" for my mom since I was four. </p>
 
-        <p class='m-4 flex-1 leading-7'>Aside from my professional life, I've been knitting since I was six, have three rescue cats, and enjoy volunteering (it's a bit of an addiction - I have over 15,000 volunteer hours!). In early 2022, I started doing Duolingo French everyday - now I'm also doing Dutch, Welsh, German, and Norwegian.</p>
+        <p class='m-4 flex-1 leading-7'>Aside from my professional life, I've been knitting since I was six, have three rescue cats, and enjoy volunteering (it's a bit of an addiction - I have over 15,000 volunteer hours!). In early 2022, I started doing Duolingo French everyday - now I'm also doing Dutch, Welsh, German, and Norwegian.</p> -->
     </div>
 </div>
 </PagesLayout>

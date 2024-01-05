@@ -4,7 +4,7 @@ import { getCollection } from 'astro:content';
 import Header from '../components/Header.astro';
 import MainLayout from '../layouts/MainLayout.astro';
 import Footer from '../components/Footer.astro';
-
+import Link from '../components/Link.astro';
 import PostsList from '../components/PostsList.astro';
 import '../styles/index.css';
 
@@ -13,48 +13,84 @@ const posts = (await getCollection('blog')).reverse();
 <Header />
 <!-- <MainHeader /> -->
 <MainLayout seo={{ title: "Welcome to GingerKiwi.dev"}}>
-	<div class='flex flex-col mx-6 bg-slate-300 text-sky-900 font-bold max-w-xl rounded-md my-6 px-5 py-2 border-8 border-pink-800 '>
-		<h2 class="py-2 text-pink-800 text-xl">BUILDING IN PUBLIC &#x1F973;</h2>
-		<p>Things might look a little janky for a bit, but that&#x0027;s okay! </p>
-			<p class="py-2">I am in the process of completely rebuilding my blog with Astro and combining it with my dev portfolio at gingerkiwi.dev. <br>Less to maintain is awesome!</p>
-
-			
-				<h3 class="text-pink-800 mt-4">Next tasks</h3>
-				<ul class="list-disc">
-					<li>
-						Add content to the site map	
-					</li>
-					<li>
-						Tidy up the CSS	and add dark and light theme switcher
-					</li>
-					<li>
-						Continue migrating articles from gingerkiwi.blog
-				   </li>
-					<li>
-						Create tag pages for major article categories and series
-					</li>
-				</ul>
-
-			<p class="mt-6">Thanks to <a href="https://nikolovlazar.com" class="text-pink-800 hover:text-green-600 hover:text-lg underline">Lazar Nikolov</a> for his new <a href="https://egghead.io/courses/build-a-full-stack-blog-with-astro-7ffcf9ec" class="text-pink-700 hover:text-green-600 hover:text-lg underline">Astro Course </a> on Egghead.io which is the inspiration for my finally redeveloping my sites.</p>
-		
-	</div>
-	<div class='h-64 flex flex-col justify-center items-start mx-6'>
+	<div class='flex flex-col justify-center items-start mx-6 lg:mt-4'>
 		<h1 class="
 		text-heading-1 
-		mt-8 
+		mt-6
+		lg:mt-8 
+		leading-7
+		font-display-font
 		bg-gradient-to-r
 			from-pink-600 to-orange-400 
 			inline-block 
 			text-transparent 
 			bg-clip-text">
-		Nice to Meet You! <br/>I'm Liz McCready</h1>
-			<p class='my-6 max-w-2xl text-xl tracking-wider'>
-				Based in Toronto, Canada, I&#x0027;m a software developer, technical content writer, and former adaptive tech specialist passionate about building beauitful accessible web apps and solving puzzles with others.
+		Nice to Meet You! <br/><span> I'm Liz McCready</span></h1>
+			<p class='mb-6 mt-8 lg:max-w-3xl text-xl tracking-wider'>
+				Based in Toronto, Canada, I&#x0027;m a software developer, web accessibility specialist, designer, and technical content writer.<br> I&#x0027;m passionate about building beauitful accessible web apps <br>and solving puzzles with others. 
+				
+				<p class='my-2 max-w-2xl text-xl tracking-wider font-semibold'>I'm studying for 
+				<ul class='list-disc pb-4 max-w-2xl text-xl tracking-wider'>
+					<li class="ml-6">
+						<span class="underline text-pink-400"><Link  href="https://learn.microsoft.com/en-ca/credentials/certifications/azure-ai-engineer/">Microsoft Certified: Azure AI Engineer Associate.</Link></span> <br>focusing on Natural Language Processing.</li>
+						<li class="ml-6 mb">
+							<span class="underline text-pink-400">
+								<Link  href="https://www.accessibilityassociation.org/s/certified-professional-web-accessibility">Certified Professional in Web Accessibility (CPWA)</Link>
+							</span></li>
+				</ul> 
 			</p>
+			<p class='my-2 max-w-2xl text-xl tracking-wider font-semibold'>I have over 15,000 volunteer hours and am currently:
+				<ul class='list-disc pb-4 max-w-2xl text-xl tracking-wider'>
+					
+						
+						<li class="ml-6">Co-Organizer and co-founder:<span class="underline text-pink-400"><Link  href="https://github.com/torontojs/code-buddy-club"> TorontoJS Code Buddy Club </Link></span></li>
+						<li class="ml-6"><span class="underline text-pink-400"><Link  href="https://torontojs.com"> TorontoJS</Link></span> events volunteer and moderator</li>
+						<li class="ml-6">Mentor in <span class="underline text-pink-400"><Link  href="https://github.com/codingtherapist/webAccessibilityStudyGroup">The Web Accessibility Certification Study Group</Link></span></li>
+						<li class="ml-6"><span class="underline text-pink-400"><Link  href="https://a11yto.com">A11yTO</span> volunteer for events at Microsoft since January, 2023</li>
+					</ul>
+				
+				<p class='mt-4 mb-2 max-w-2xl text-xl tracking-wider font-semibold'>
+					I develop in: 
+					<ul class='list-disc pb-4 max-w-2xl text-xl tracking-wider'>
+						<li class="ml-6">Next.js, React, Astro, Tailwind CSS.</li>
+						<li class="ml-6">C#.NET, Microsoft SQL, and Azure AI</li>
+						<li class="ml-6">Vanilla JavaScript and CSS</li>
+					</ul>
+					
+				</p>
+				
+				
 	</div>
+	<div class='mx-6 my-10 bg-slate-300 text-sky-900 font-bold max-w-xl rounded-md px-5 py-2 border-8 border-pink-800 '>
+		<h2 class="py-2 text-pink-800 text-xl">BUILDING IN PUBLIC &#x1F973;</h2>
+		<p>Things might look a little janky for a bit, but that&#x0027;s okay! </p>
+			<p class="py-2">I am in the process of completely rebuilding my blog with Astro and combining it with my dev portfolio at gingerkiwi.dev.</p>
+			<p class="py-2">Less to maintain is awesome!</p>
+
+			
+				<h3 class="text-pink-800 mt-4">Recent Updates</h3>
+				<ul class="list-disc">
+					<li>Changed the background colour</li>
+					<li>Added new custom fonts</li>
+					<li>Created both a desktop and a mobile header image in Figma</li>
+					<li>Added the new header image to a <span class="font-roboto-flex underline"><Link  href="/hello-world">hello world page</Link></span></li>
+					<li>Take a look at the link above to see the design.</li>
+				</ul>
+				<h3 class="text-pink-800 mt-4">Next Steps</h3>
+				<ul class="list-disc">
+					<li>Get the layout of the header working with the new header image</li>
+					<li>Implement different header image for mobile and desktop</li>
+					<li>Fix the Open Graph image social previews</li>
+					<li>Add content to the portfolio page</li>
+				</ul>
+
+			<p class="mt-6">Thanks to <a href="https://nikolovlazar.com" class="text-pink-800 hover:text-green-600 hover:text-lg underline">Lazar Nikolov</a> for his new <a href="https://egghead.io/courses/build-a-full-stack-blog-with-astro-7ffcf9ec" class="text-pink-700 hover:text-green-600 hover:text-lg underline">Astro Course </a> on Egghead.io which is the inspiration for my finally redeveloping my sites.</p>
+		
+	</div>
+	
 	<div class='flex flex-col mx-6 my-6'>
 		<h2 class='text-2xl font-semibold'>Recent Blog Posts</h2>
-		<PostsList posts={posts.slice(0, 4)}/>
+		<PostsList posts={posts.slice(0, 6)}/>
 	  </div>
 	
 	
