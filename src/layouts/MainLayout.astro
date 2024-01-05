@@ -19,7 +19,10 @@ const { seo } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon-gk.png" />
     <meta name="generator" content={Astro.generator} />
     <link rel="sitemap" href="/sitemap-index.xml" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&family=Trocchi&display=swap" rel="stylesheet">
+    
     <SEO
       {...seo}
       title={seo?.title ?? "Ginger Kiwi - Liz McCready"}
@@ -47,7 +50,7 @@ const { seo } = Astro.props;
       );
     }
     html {
-      font-family: system-ui, sans-serif;
+      /* font-family: system-ui, sans-serif; */
       background: var(--bg-medium-dark);
 	  /* background: linear-gradient(180deg, var(--bg-medium-dark), var(--bg-dark-article)); */
 	  /* Use line below for testing  */
@@ -69,6 +72,10 @@ const { seo } = Astro.props;
 
     h1 {
 		color: bg-gradient-to-right from-pink-700 to-orange-700;
+    /* font-family: 'Roboto Flex', sans-serif; */
 	}
+  body {
+    font-family: 'Roboto Flex', sans-serif;
+  }
   </style>
 </html>

@@ -19,6 +19,10 @@ const { seo } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon-gk.png" />
     <meta name="generator" content={Astro.generator} />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&family=Trocchi&display=swap" rel="stylesheet">
+    
 
     <SEO
       {...seo}
@@ -37,7 +41,7 @@ const { seo } = Astro.props;
       --accent: 16, 69, 42;
       --accent-light: 337, 74, 45;
       --accent-dark: 49, 10, 101;
-      --bg-medium-dark: #030712;
+      --bg-medium-dark: #111827;
       --bg-dark-article: #04171d;
       --accent-gradient: linear-gradient(
         45deg,
@@ -48,7 +52,7 @@ const { seo } = Astro.props;
     }
     html {
       font-family: system-ui, sans-serif;
-      background: var(--bg-medium-dark);
+      background: #030712;
 	  /* background: linear-gradient(180deg, var(--bg-medium-dark), var(--bg-dark-article)); */
 	  /* Use line below for testing  */
 	  /* background: linear-gradient(0deg, blue, green 40%, red); */
@@ -70,5 +74,11 @@ const { seo } = Astro.props;
     h1 {
 		color: bg-gradient-to-right from-pink-700 to-orange-700;
 	}
+  body {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    /* font-family: 'Pacifico', sans-serif; */
+  }
   </style>
 </html>
