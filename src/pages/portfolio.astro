@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets';
-
+import Link from '../components/Link.astro';
 import avatar from '../assets/avatar.png';
 import Header from '../components/Header.astro';
 import PagesLayout from '../layouts/PagesLayout.astro';
@@ -8,10 +8,11 @@ import Footer from '../components/Footer.astro';
 ---
 <Header />
 <PagesLayout seo={{ title: "Projects", description: "Liz McCready is a software developer, technical content writer, and accessibility specialist in Toronto, Canada"}}>
-    <div class="flex flex-col items-center gap-8 mx-8 my-12 ">
+    <div class="class='flex flex-col justify-center items-start ml-10 mr-6 lg:mt-4'">
         <h1 class="
             text-heading-1 
             mt-8
+
             font-display-font 
             bg-gradient-to-r
                 from-pink-600 to-orange-400 
@@ -22,25 +23,65 @@ import Footer from '../components/Footer.astro';
             Portfolio
         </h1>
         
-        <p class='m-4 flex-1 leading-7'>Coming soon. This is a new site.</p>
+        <p class='m-4 flex-1 leading-7'>In development. This is a new site.</p>
+        
+        <h2 class="
+            text-2xl 
+            mt-8
+            mb-2
+            font-display-font 
+            bg-gradient-to-r
+                from-pink-600 to-orange-400 
+                inline-block 
+                text-transparent 
+                bg-clip-text">Talks</h2>
+                <p>TorontoJS: Quick Accessibility Tips for Devs. Feb 2024. <b5></b5>date tba</p>
         <h2 class="
            text-2xl
             mt-8
+            mb-2
             font-display-font 
             bg-gradient-to-r
                 from-pink-600 to-orange-400 
                 inline-block 
                 text-transparent 
                 bg-clip-text">Software Development</h2>
+                <h3 class='my-4 text-xl font-semibold'>Yarn Help! 5.0</h3>
+                <p class="lg:max-w-3xl">A multi-app project with each app hosted on a subdomain and connected to the central site at the apex domain.</p>
+                <p>Currently in the design and inital development stage. <br>Read more about Yarn Help! 
+                <Link class="underline" href=" https://www.linkedin.com/posts/elizabethmccready_yarn-help-ver-50-design-files-activity-7147957205797863424-KEvD?utm_source=share&utm_medium=member_desktop"> in this LinkedIn post</Link></p>
         <h2 class="
             text-2xl 
             mt-8
+            mb-2
             font-display-font 
             bg-gradient-to-r
                 from-pink-600 to-orange-400 
                 inline-block 
                 text-transparent 
                 bg-clip-text">Design</h2>
+                
+                <h3 class='my-4 text-xl font-semibold'>Yarn Help! 5.0</h3>
+                
+                <Link class="underline" href=" https://www.figma.com/file/ae6fCCMghd99T9otjQRf5G/YarnHelp2024?type=design&node-id=10%3A1524&mode=design&t=U8kAzYQvJixOXIAm-1"> Master Yarn Help! 5.0 Project File</Link>
+                
+                
+                
+                <h3 class='text-xl my-4 font-semibold'>Social Images</h3>
+                <p><Link class="underline" href=" https://www.figma.com/file/3bD82HdEGIhSMOBJp6bBnj/GingerKiwi-All?type=design&node-id=292%3A167&mode=design&t=9a0NQdokZatGK3vT-1"> Blog Article Cover Images</Link></p>
+                <p><Link class="underline" href=" https://www.figma.com/file/3bD82HdEGIhSMOBJp6bBnj/GingerKiwi-All?type=design&node-id=292%3A288&mode=design&t=9a0NQdokZatGK3vT-1"> LinkedIn Cover Images</Link></p>
+        
+
+                <h2 class="
+            text-2xl 
+            mt-8
+            mb-20
+            font-display-font 
+            bg-gradient-to-r
+                from-pink-600 to-orange-400 
+                inline-block 
+                text-transparent 
+                bg-clip-text">Content Creation</h2>
     </div>
 </div>
 </PagesLayout>
