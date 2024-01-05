@@ -1,0 +1,44 @@
+import { Image } from 'astro:assets';
+import heroDesktop from '../assets/HERO_DESKTOP_1280x325.png';
+import heroTablet from '../assets/HERO_TABLET_788x325.png';
+import heroMobile from '../assets/HERO_MOBILE_320x195.png';
+
+import HeaderNew from '../components/HeaderNew.astro';
+---
+
+<div class="relative mt-0">
+    <!-- <Image 
+    src={ heroMobile }
+    alt="PUT ALT HERE!!!" 
+    width={320}
+    quality='max'
+    class='object-cover hidden sm:block w-full'
+
+    /> -->
+
+    <!-- <Image 
+    src={ heroTablet }
+    alt="PUT ALT HERE!!!" 
+    width={788}
+    quality='max'
+    class='hidden md:block object-cover w-full h-full'
+
+    /> -->
+
+    <Image 
+    src={ heroDesktop }
+    alt="PUT ALT HERE!!!" 
+    width={1280}
+    quality='max'
+    class='hidden md:block sm:block object-cover w-full h-full'
+
+    />
+    <div class="absolute top-0 left-0 w-full h-full flex">
+        <HeaderNew/>
+        
+      </div>
+</div>
+
+
+<!-- <img class="w-16 md:w-32 lg:w-48" src="small-image.jpg" alt="Small Image">
+<img class="hidden md:block w-16 md:w-32 lg:w-48" src="large-image.jpg" alt="Large Image"> -->
