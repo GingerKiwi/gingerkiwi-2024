@@ -1,3 +1,4 @@
+```html
 ---
 import LinkNav from './LinkNav.astro'
 import Link from './Link.astro'
@@ -7,23 +8,10 @@ import LinkNavMobile from './LinkNavMobile.astro';
 // import menuCloseDark from '../assets/close-slate-900.svg'
 ---
 
-<header class=" relative px-4 py-4
-bg-gradient-to-r
-from-orange-700
-to-pink-800">
-	<a
-		href="#main"
-		id="skipToMain"
-		class="text-slate-200 a11y--skip-to-main text-xs underline underline-offset-4 m-4 pl-2 lg:mb-10"
-		>Skip to main content
-	</a>
-	<a
-		href="/sitemap-0.xml"
-		id="skipToSitemap"
-		class="a11y--skip-to-sitemap text-xs underline underline-offset-4 m-4 pl-2 lg:mb-10"
-		>Sitemap (xml)
-	</a>
-        
+<header class=" relative px-4 flex">
+
+  
+    
 	<nav role="navigation">
 		
 		<!-- MOBILE MENU -->
@@ -35,40 +23,47 @@ to-pink-800">
 				</svg>
 			</button>
 		</div>
-	
-	<a
-          href="/"
-          class="
-		  	font-bold text-2xl ml-4  font-display-font
-			lg:ml-6
-			lg:text-4xl
-			lg:mt-10
-			hover:underline hover:py-1 hover:px-2 hover:underline-offset-4
-			focus:underline focus:py-1 focus:px-2 focus:underline-offset-4
-			"
-          >Ginger Kiwi 
-		  <!-- &#x1F496; Astro -->
-          </a>
-		  <p class="ml-4 lg:mt-4 lg:ml-6 text-slate-100 lg:text-lg font-roboto-flex">Exploring Software Development, Accessibility,
-			AI Engineering, and Design</p>
-		<ul class="
+        
+          <ul class="
 				hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 
-				lg:flex lg:gap-4 lg:mr-6 lg:ml-10 lg:text-xl
+				lg:flex lg:gap-4 lg:mr-6
 				"
 			aria-label="Primary navigation"
 			>
-			
-			<li class="font-roboto-flex"><LinkNav  href="/">Home</LinkNav></li>
-			<li class="font-roboto-flex"><LinkNav  href="/blog/1">Blog</LinkNav></li>
-			<li class="font-roboto-flex"><LinkNav  href="/about">About</LinkNav></li>
-			<li class="font-roboto-flex"><LinkNav  href="/portfolio">Portfolio</LinkNav></li>
-			<li class="font-roboto-flex"><LinkNav  href="/contact">Contact</LinkNav></li>
-			<li class="font-roboto-flex"><LinkNav  href="/feed.xml">RSS</LinkNav></li>
+			<li class="font-roboto-flex text-sm text-slate-950"><LinkNav  href="#main">Skip to Main Content</LinkNav></li>
+			<li class="font-roboto-flex lg:text-2xl"><LinkNav  href="/">Home</LinkNav></li>
+			<li class="font-roboto-flex lg:text-2xl"><LinkNav  href="/blog/1">Blog</LinkNav></li>
+			<li class="font-roboto-flex lg:text-2xl"><LinkNav  href="/about">About</LinkNav></li>
+			<li class="font-roboto-flex lg:text-2xl text-pink-400"><LinkNav  href="/portfolio">Portfolio</LinkNav></li>
+			<li class="font-roboto-flex lg:text-2xl"><LinkNav  href="/contact">Contact</LinkNav></li>
+			<li class="font-roboto-flex lg:text-2xl"><LinkNav  href="/feed.xml">RSS</LinkNav></li>
 			
 				
 		</ul>
 		
 	</nav>
+    <div class="ml-6 lg:ml-32 lg:mt-32">
+        <div>
+        <a
+             href="/"
+             class="
+                font-bold text-2xl ml-4 font-display-font
+                lg:text-7xl
+                mb-6
+                hover:underline hover:py-1 hover:px-2 hover:underline-offset-4
+                focus:underline focus:py-1 focus:px-2 focus:underline-offset-4
+                bg-gradient-to-r
+                    from-pink-600 to-orange-400 
+                    inline-block 
+                    text-transparent 
+                    bg-clip-text
+               "
+             >Ginger Kiwi 
+             </a>
+            </div>
+             <p class="text-orange-100 lg:text-2xl my:12 font-sans ">Exploring Software Development, Accessibility,<br/> AI Engineering, and Design</p>
+        </div>
+</div>
 </header>
 	<!-- OTHER MENU?? -->
 	<div class="navbar-menu relative z-50 hidden border-4">
@@ -97,7 +92,7 @@ to-pink-800">
 					<li class="mb-4 text-lg text-right font-roboto-flex">
 						<LinkNav class="" href="/portfolio">Portfolio</LinkNav>
 					</li>
-					<li class="mb-4 text-lg text-right font-roboto-flex">
+					<li class="mb-4 text-lg text-right font-roboto-flex text-lime-402">
 						<LinkNav class="" href="/contact">Contact</LinkNav>
 					</li>
 					<li class="mb-4 text-lg text-right font-roboto-flex">
