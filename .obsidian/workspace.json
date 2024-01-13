@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/2023-12-15-french-fridays-for-developers-21.md",
+                "file": "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/2023-12-15-french-fridays-for-developers-21.md",
+                "file": "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/2023-12-15-french-fridays-for-developers-21.md",
+                "file": "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/2023-12-15-french-fridays-for-developers-21.md"
+                "file": "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md"
               }
             }
           }
@@ -161,8 +161,8 @@
   },
   "active": "046f74a43659dcda",
   "lastOpenFiles": [
-    "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
     "src/content/blog/2023-12-15-french-fridays-for-developers-21.md",
+    "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
     "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
     "public/images/covers/02_GIS-Spatial-Location-Data-For-Devs_Cover_1200x630.png",
     "public/images/GIS_AvenzaSystemsInc-logo_800x300.png",
