@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3ee877d72454a085",
@@ -163,7 +162,6 @@
   "lastOpenFiles": [
     "src/content/blog/2023-12-15-french-fridays-for-developers-21.md",
     "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
-    "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
     "public/images/covers/02_GIS-Spatial-Location-Data-For-Devs_Cover_1200x630.png",
     "public/images/GIS_AvenzaSystemsInc-logo_800x300.png",
     "public/images/2024-01-13_avenza-logo.webp",
@@ -171,6 +169,7 @@
     "public/images/2024-01-13_QGIS_Logo-transparent.webp",
     "public/images/2024-01-13_GIS-land-to-layers.jpeg",
     "public/images/2024-01-13_ESRI-ArcGIS-banner.gif",
+    "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
     "public/images/2024-01-13_avenza-logo.webp.crdownload",
     "public/images/2024-01-13_QGIS_Logo-transparent.webp.crdownload",
     "public/images/covers/GIS-Spatial-Location-Data-For-Devs_Cover_1200x630.png",
