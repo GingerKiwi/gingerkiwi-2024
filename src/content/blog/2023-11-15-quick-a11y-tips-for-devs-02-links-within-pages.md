@@ -31,8 +31,7 @@ Coding with accessibility in mind can be intimidating if you're not familiar wit
 
 The **Quick Accessibility Tips for Devs** series has a fun cats and coffee example with the Crazy Cats Coffee website and repo. The first article used a codepen.
 
-<img class="img-smaller"
-     src="/assets/blog/site-screenshot-article-02.png"
+<img src="public/images/site-screenshot-article-02.png"
      alt="screenshot of Crazy Cats Coffee website. Colour theme is beige and brown. Top navigation is dark black-brown with beige text. It says Skip to main content. Underneath that there's the round red-brown logo of a beige cat sitting in a coffee cup. underneath there's links to HOME MENU and THE CATS. Below in red-brown calligraphy text is Welcome to Crazy Cats Coffee! The next line says in bold italic black text Your Purr-fect Downtown Coffee Shop! underneath in regular weight and styled black text is Percentage of profits goes to support local rescue cat organizations. There's a picture of a dark brown long haired cat at coffee shop on a dark wood table by two iced coffees in plastic cups. Finally below the photo, in smaller red-brown calligraphy text than the welcome message is About Crazy Cats Coffee">
 
 - [GitHub repo for the series](https://github.com/GingerKiwi/a11y-crazy-cats-coffee)
