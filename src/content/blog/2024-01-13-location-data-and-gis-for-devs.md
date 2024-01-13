@@ -1,21 +1,21 @@
 ---
-title: Location (Spatial) Data and Geographical InformationSystems (GIS)for Devs
+title: Location Data and Geographical Information Systems GIS for Devs
 date: 2024-01-13
 tags:
   - post
   - featured
   - history
   - throwback-thursdays
-image: /images/covers/02_GIS-Spatial-Location-Data-For-Devs_Cover_1200x630/png
+image: /images/covers/02_GIS-Spatial-Location-Data-For-Devs_Cover_1200x630.png
 imageAlt: Text says Location (Spatial) Data and Geographical InformationSystems (GIS)for Devs. Rectangular graphic with blue background with white text. There's a graphic of a map with 3 location icons. The largest is red. The one in the front is orange. The location icon in the back is green. There's a thick white border around the graphic.
 description: Here's some information and links for developers to learn more about spatial (location) data, spatial data analysis, and geographical information systems (GIS). I have a background in GIS and geomatics (the collection, analysis, and interpretation of data relating to the earth's surface). There's a lot of similarities between how large geographic data sets are analyzed and large Artificial Intelligence databases like LlamaIndex work.
 layout: ../../layouts/BlogPostLayout.astro
-category: tech-history
+category: ai
 draft: "false"
 ---
 **Draft: Almost Finished**
 
-A recent [LinkedIn repost](https://www.linkedin.com/posts/elizabethmccready_save-the-date-march-1-2024-arcmap-is-activity-7151286657097388032-JU2h?utm_source=share&utm_medium=member_desktop) of mine has gone a wee bit viral with over 4,000 views in a day. The original post by [Juliana McMillan-Wilhoit](https://www.linkedin.com/in/julianamapper/overlay/about-this-profile/)was a comment on the end of ArcMap - a Geographical Information Systems (GIS) software by ESRI that has been around since 1999. My take on it was to share the similarities between artificial intelligence databases and what know from years of geomatics, GIS, and spatial data analysis - and to write alt text for the really awesome graphic. 
+A recent [LinkedIn repost](https://www.linkedin.com/posts/elizabethmccready_save-the-date-march-1-2024-arcmap-is-activity-7151286657097388032-JU2h?utm_source=share&utm_medium=member_desktop) of mine has gone a wee bit viral with over 4,000 views in a day. The original post by [Juliana McMillan-Wilhoit](https://www.linkedin.com/in/julianamapper/overlay/about-this-profile/) was a comment on the end of ArcMap - a Geographical Information Systems (GIS) software by ESRI that has been around since 1999. My take on it was to share the similarities between artificial intelligence databases and what know from years of geomatics, GIS, and spatial data analysis - and to write alt text for the really awesome graphic. 
 
 I've also seen several threads on TorontoJS Slack asking for help finding location data sets and dealing with spatial data analysis for Javascript applications. While I share some quick links, a Slack thread isn't detailed enough to give all the information and resources I'm sharing here.
 
@@ -25,7 +25,7 @@ There's many references from ESRI (Earth Science Research Institute) because ESR
 
 ## Contents
 
-1. <a href="#definitions"> Definitions</a>
+1. <a href="#definitions">Definitions</a>
 2. <a href="#ai-vector-db">Similarities between AI vector Databases and GIS</a>
 	1. What are AI vector databases?
 	2. How learning GIS and spatial data analysis fundamentals can help you learn AI
@@ -44,13 +44,14 @@ Some of the definitions below are quoted directly from industry sources. Others 
 - Geographical Information Systems (GIS)
 	- Computer software that stores, analyzes and displays spatial (location) data. 
 		- Data types can include:
-			- Point data: eg location of a utility pole
-			- Vector (line) data: eg a road or hiking trail
-			- Raster / shape file (area / pixel) data: eg a land parcel, footprint of a building
-			- non-spatial data: eg 
-				  1. who owns the utility pole, 
-				  2. how many people used the hiking trail last year, 
-				  3. number of people infected with covid in a postal code
+			- Point data: eg location of a utility pole, bird nesting site, feral cat colony,
+			- Vector (line) data: eg a road, hiking trail, bird migration route
+			- Raster / shape file (area / pixel) data: eg a land parcel, footprint of a building, national park area
+			- Non-spatial data: eg 
+				  1. Who owns the utility pole, 
+				  2. What species of bird, and how many eggs it laid
+				  3. How many people used the hiking trail last year, 
+				  4. Number of people infected with covid in a postal code
 		- Note that this is a  _very_ simple overview of data types and examples.
 - Geomatics:
 	- The science of the collection, storage, and analysis of spatial data, data relating to the earth's surface. This also includes space, especially in relation to satellites and space craft in earth orbit. 
@@ -75,15 +76,20 @@ I'm working on my web accessibility certification. There's a lot of potential fo
 
 This past Tuesday I watched a [Microsoft Reactor live stream](https://www.youtube.com/live/_iltJI1nnaA?si=6cNW8RLOMZFL-jiW) with LlamaIndex on _"Building AI-powered Retrieval-Augumented Generation apps with LlamaIndex and Azure Cosmos DB"_. Laurie Voss, developer relations at LlamaIndex covered how Large Language Models (LLMs) work. LLMs convert data into numbers, specifically numbers that exist in vector space.
 
-![graphic Title: Vector embeddings. Turning words into numbers. Shows 3 phrases of words on the left side of the graphic "The cat sat on the mat" in red text, "The dog sat on the frog" in blue, and "The centipede sat wherever it wanted" in pink. Each phrase has an arrow pointing to a rectangle labeled LLM. There's a single arrow linking the LLM to a grid on the right. The grid is labeled vector space. There are three points on the grid in colours matching the text. Red dot is in upper right. Pink is on the left above centre, and the blue is at the bottom almost in line with the red dot.](/images/2024-01-13_Screenshot_VectorAI.png)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_iltJI1nnaA?si=A5n5UF0f0k1qnli-&amp;start=1132" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen alt="play video from Microsoft Reactor about LLamaIndex AI and Cosmos DB"></iframe>
+
+Link to the section of the video that [talks about vector db and LLMs](https://www.youtube.com/live/_iltJI1nnaA?si=cz_WRGuAMyl50PtG&t=1132)
 
 ### Similarities Between AI Vector Databases and GIS?
 
-The graphic showing how AI vector databases looked identical to a graphic of a GIS layer. Laurie Voss's explanation of how AI's answer questions using vector databases had so many similarities with spatial data analysis. 
+![graphic Title: Vector embeddings. Turning words into numbers. Shows 3 phrases of words on the left side of the graphic "The cat sat on the mat" in red text, "The dog sat on the frog" in blue, and "The centipede sat wherever it wanted" in pink. Each phrase has an arrow pointing to a rectangle labeled LLM. There's a single arrow linking the LLM to a grid on the right. The grid is labeled vector space. There are three points on the grid in colours matching the text. Red dot is in upper right. Pink is on the left above centre, and the blue is at the bottom almost in line with the red dot.](/images/2024-01-13_Screenshot_VectorAI.png)
+![graphic: cartoon like globe on the left showing a city, farms, fields, and bodies of water. There are arrows pointing from the globe to one of the layers on the right. The right side has a set of six squares one on top of the other with space in between. The top has dots and is labeled customers. Second one is a street map and is labeled streets. Third is an outline of land areas. It's labeled parcels. Fourth layer is a grid with squares different colours. It looks like a river is running diagonally across it. Fifth layer is similar to the fourth, but has different colours. It's labeled land usage. The bottom layer shows different land heights, There's a river running though the middle with a city on one side and trees and rocks on the other. ](/images/2024-01-13_GIS-land-to-layers.jpeg)
+
+The two graphics above shows how AI vector databases looked identical to a graphic of a GIS layer. Laurie Voss's explanation of how AI's answer questions using vector databases had so many similarities with spatial data analysis. 
 1. Which answer is more likely depends on how spatially close the question or phrase is to the piece of data the AI uses to answer the user's question or complete a sentence. 
 2. Even though Voss didn't explain the mathematics of vector space, it should be the same or almost the same as that used in spatial data analysis. 
 
-![graphic ALT TEXT DON'T FORGET!.](/images/2024-01-13_GIS-land-to-layers.jpeg)
+
 
 
 
@@ -189,7 +195,7 @@ There's so many GIS and spatial data analysis training options. Here's a few to 
 1. [QGIS Training manual (html)](https://docs.qgis.org/3.28/en/docs/training_manual/index.html)
 2. [PyGIS Cookbook](https://docs.qgis.org/3.28/en/docs/pyqgis_developer_cookbook/index.html) PyGIS is part of QGIS
 3. [Developers Guide for QGIS](https://docs.qgis.org/3.28/en/docs/developers_guide/index.html)
-4. [A Gentle Introduction to GIS](https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/index.html)Part of the QGIS docs.
+4. [A Gentle Introduction to GIS](https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/index.html) Part of the QGIS docs.
 
 ### Avenza Systems Free Training
 1. [Avenza Systems Webinars list](https://www.avenza.com/resources/webinars-videos/)
@@ -200,7 +206,7 @@ There's so many GIS and spatial data analysis training options. Here's a few to 
 1. [McMaster Library GIS Services](https://library.mcmaster.ca/services/gis)
 	- A list of free webinars and other training available to the public. 
 	- Also resources, software, and workstations, available to McMaster staff and students
-2. [GISGeography](https://gisgeography.com/learn-gis/)Learn GIS
+2. [GISGeography](https://gisgeography.com/learn-gis/) Learn GIS
 	- A list of well illustrated articles and written tutorials.
 	- [Cartography: Data Classification](https://gisgeography.com/choropleth-maps-data-classification/)Is worth a good look. At first glance devs might not find it relevant because it's about traditional maps and not specifically GIS. But it's important to know about your data before you use it!
 
@@ -209,28 +215,29 @@ One of the best places to find open data is the master list kept by GoGeomatics 
 
 1. [GoGeomatics: Open Data sources list](https://gogeomatics.ca/resources/open-data/)
 2. [Open Street Map](https://www.openstreetmap.org/export#map=5/51.500/-0.100)
-3. United States Geological Survey[USGS EarthExplorer](https://earthexplorer.usgs.gov)
+3. United States Geological Survey [USGS EarthExplorer](https://earthexplorer.usgs.gov)
 	1. Note: for teachers and parents the [USGS Educational Resources](https://www.usgs.gov/educational-resources) also has great geography, earth sciences materials for kids and teens.
-4. [Open Data Inception](https://opendatainception.io)Global listing of open spatial data sources. 
+4. [Open Data Inception](https://opendatainception.io) Global listing of open spatial data sources. 
 	1. The listing is a map with a search field at the top right of the site.
-5. [Transit land](https://www.transit.land)Community edited data source of transit data
-6. [Transit feeds](https://transitfeeds.com)Archived public transit data. 
+5. [Transit land](https://www.transit.land) Community edited data source of transit data
+6. [Transit feeds](https://transitfeeds.com) Archived public transit data. 
 	1. It has an API and you can login with GitHub.
 7. [Open Mobility.org Twitter account](https://twitter.com/OpenMobilityOrg)
-8. [Canadian Open Data](https://canadiangis.com/data.php)and Free Geospatial data resources
-9. [World Atlas](https://gisgeography.com/world-atlas/)by GISGeography.
+8. [Canadian Open Data](https://canadiangis.com/data.php) and Free Geospatial data resources
+9. [World Atlas](https://gisgeography.com/world-atlas/) by GISGeography.
 	1. *"Get a blueprint of all countries of the world with 200+ maps. Explore the world atlas with political, satellite, and topographic maps."*
 10. Totiū Te Whenua / Land Information New Zealand [LINZ Data Service](https://data.linz.govt.nz/data/)
-11. UK [Open Geography Portal](https://geoportal.statistics.gov.uk/)Office for National Statistics
-12. [10 Free GIS Data Sources: ](https://gisgeography.com/best-free-gis-data-sources-raster-vector/)Best Global Raster and Vector Datasets - GIS Geography
+11. UK [Open Geography Portal](https://geoportal.statistics.gov.uk/) Office for National Statistics
+12. [10 Free GIS Data Sources: ](https://gisgeography.com/best-free-gis-data-sources-raster-vector/) Best Global Raster and Vector Datasets - GIS Geography
 13. Maps for Europe [EuoGeographics](https://eurogeographics.org/maps-for-europe/)
-14. Free GIS Data [Free GIS Data](https://freegisdata.rtwilson.com/)Categorised List of over 500 different data sources 
+14. Free GIS Data [Free GIS Data](https://freegisdata.rtwilson.com/) Categorised List of over 500 different data sources 
 	1. All listed sources are ready to go into a GIS database.
 	2. (rtwilson.com)
 15. [Geospatial Data collection](https://mdl.library.utoronto.ca/collections/geospatial-data) Map and Data Library University of Toronto
 
 
 <h2 id="references-and-resources">References and Resources</h2>
+
 ### References
 
 1. <span id="ref-esri-layers"><a href="https://support.esri.com/en-us/gis-dictionary/spatial-analysis#:~:text=%20The%20process%20of%20examining%20the%20locations%2C%20attributes%2C,to%20address%20a%20question%20or%20gain%20useful%20knowledge.">ESRI: spatial analysis | GIS Dictionary </a></span>
@@ -258,12 +265,20 @@ One of the best places to find open data is the master list kept by GoGeomatics 
 
 These are a few I've been referring to as I work on my AI Engineer cert. There's a ton of really good information out there. My focus is on the intersection of AI and accessibility. 
 
+AI and Accessibility: [Be My Eyes and AI](https://youtu.be/dIImXx1C7_g?si=JXjF3gORQnVoL4tZ)The video is embedded below.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dIImXx1C7_g?si=JXjF3gORQnVoL4tZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen alt="watch video about Be My Eyes AI"></iframe>
+
 1. [LlamaIndex: Typescript Docs](https://ts.llamaindex.ai)
 2. [LlamaIndex: Python Docs](https://docs.llamaindex.ai/en/stable/)
 3. Building AI-powered Retrieval-Augumented Generation apps with LlamaIndex and Azure Cosmos DB [LlamaIndex on Microsoft Reactor](https://www.youtube.com/live/_iltJI1nnaA?si=qmp3Fjo9unEkA1i9)YouTube
 4. My [AI Engineer Collection](https://learn.microsoft.com/en-us/collections/48zjtj6kk2mewn) of courses on Microsoft Learn
-5. Develop natural language processing solutions with Azure AI Services [Microsoft Learn, Learning Path]([Develop natural language processing solutions with Azure AI Services - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/develop-language-solutions-azure-ai/))7 hours 9 minutes 
-6. Free Microsoft credential. Build a natural language processing solution with Azure AI Language  [AI Applied Skills credential](https://learn.microsoft.com/en-us/credentials/applied-skills/build-natural-language-solution-azure-ai/?ns-enrollment-type=Collection&ns-enrollment-id=48zjtj6kk2mewn)Microsoft Learn. 
+5. Develop natural language processing solutions with Azure AI Services [Microsoft Learn, Learning Path](https://learn.microsoft.com/en-us/training/paths/develop-language-solutions-azure-ai/) 7 hours 9 minutes 
+6. Free Microsoft credential. Build a natural language processing solution with Azure AI Language  [AI Applied Skills credential](https://learn.microsoft.com/en-us/credentials/applied-skills/build-natural-language-solution-azure-ai/?ns-enrollment-type=Collection&ns-enrollment-id=48zjtj6kk2mewn) Microsoft Learn. 
 	- This is an at home assessment completed after the list of courses at the bottom of the page.
 	- [Disability accommodations](https://learn.microsoft.com/en-ca/credentials/support/appliedskills-assessment-lab-accommodations) including use of NVDA and extra time are available.
-7. LinkedIn post commenting about AI and accessibility: [Assistive technology is AI's next billion-person market](https://www.linkedin.com/feed/update/urn:li:activity:7151728939554496512?utm_source=share&utm_medium=member_desktop)Includes a link to the article.
+7. LinkedIn post commenting about AI and accessibility: [Assistive technology is AI's next billion-person market](https://www.linkedin.com/feed/update/urn:li:activity:7151728939554496512?utm_source=share&utm_medium=member_desktop) Includes a link to the article.
+
+
+I hope you find this a valuable resource. It's always awesome when different tech fields come together to develop something new and interesting.
