@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/2023-12-20-what-are-refreshable-braille-displays.md",
+                "file": "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/2023-12-20-what-are-refreshable-braille-displays.md",
+                "file": "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/2023-12-20-what-are-refreshable-braille-displays.md",
+                "file": "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/2023-12-20-what-are-refreshable-braille-displays.md"
+                "file": "src/content/blog/2023-12-14-tech-history-oreily-animals.md"
               }
             }
           }
@@ -149,9 +149,20 @@
   },
   "active": "046f74a43659dcda",
   "lastOpenFiles": [
+    "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
+    "public/images/2024-01-13_GIS-land-to-layers.jpeg",
+    "public/images/GIS_AvenzaSystemsInc-logo_800x300.png",
+    "public/images/2024-01-13_avenza-logo.webp",
+    "public/images/2024-01-13_avenza-logo.webp.crdownload",
+    "public/images/2024-01-13_ESRI-ArcGIS-banner.gif",
+    "public/images/2024-01-13_QGIS_Logo-transparent.webp",
+    "public/images/2024-01-13_QGIS_Logo-transparent.webp.crdownload",
+    "public/images/2024-01-13_Screenshot_VectorAI.png",
+    "public/images/covers/02_GIS-Spatial-Location-Data-For-Devs_Cover_1200x630.png",
+    "public/images/covers/GIS-Spatial-Location-Data-For-Devs_Cover_1200x630.png",
+    "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
     "public/images/covers/04_TYPOGRAPHY_1200 x630.png",
     "public/images/covers/02_AIEng_1200x630.png",
-    "public/images/braille-alphabet-perkins-school.png",
     "src/content/blog/2023-12-08-quick-list-of-a11y-resources.md",
     "src/content/blog/2023-12-20-what-are-refreshable-braille-displays.md",
     "src/content/blog/2023-12-15-french-fridays-for-developers-21.md",
@@ -159,7 +170,6 @@
     "src/content/blog/2023-12-13-accessible-forms-resources.md",
     "src/content/blog/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
     "src/content/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
-    "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
     "src/content/blog/2023-11-30-three-topics-in-video-games-history.md",
     "src/content/blog/2023-09-01-dsa-javascript-arrays-02.md",
     "README.md",
@@ -172,8 +182,6 @@
     "node_modules/@esbuild/darwin-arm64",
     "node_modules/@esbuild/android-x64",
     "node_modules/@esbuild/android-arm64",
-    "node_modules/@cloudflare/workerd-windows-64",
-    "node_modules/@cloudflare/workerd-linux-arm64",
     "src/content/blog/2023-11-11-french-fridays-for-developers-018.md",
     "src/content/blog/2023-07-07-french-fridays-for-developers-014.md",
     "src/content/blog/2023-11-25-building-in-public-group-debugging-party.md",
@@ -185,15 +193,6 @@
     "src/content/blog/2023-08-08-design-tools-and-tips-for-backend-devs-01 1.md",
     "src/content/blog/quick-a11y-tips-for-devs-02-links-within-pages.md",
     "src/content/blog/french-fridays-for-developers-018.md",
-    "src/content/blog/french-fridays-for-developers-017.md",
-    "src/content/blog/french-fridays-for-developers-016.md",
-    "public/images/FrenchForDevs_CoverImg.png",
-    "public/images/Duolingo-500-Days.PNG",
-    "public/images/Don_Merton_holding_kakapo_ Richard_Henry _WikiMedia-8529681628.jpg",
-    "public/images/DesignTips_BackEndDevs_1200x630.png",
-    "public/images/DesignTips_BackEndDevs.png",
-    "public/images/DCP_HomePage-mobile2.png",
-    "public/images/DCP_HomePage-mobile.png",
-    "public/images/Boo-helping-me-code.webp"
+    "src/content/blog/french-fridays-for-developers-017.md"
   ]
 }
