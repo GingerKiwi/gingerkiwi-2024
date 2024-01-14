@@ -13,11 +13,12 @@ const posts = (await getCollection('blog')).reverse();
 <Header />
 <!-- <MainHeader /> -->
 <MainLayout seo={{ title: "Welcome to GingerKiwi.dev"}}>
-	<div class='flex flex-col justify-center items-start mx-6 lg:mt-4'>
-		<div class='mx-6 my-10 bg-slate-300 text-sky-900 font-bold max-w-xl rounded-md px-5 py-2 border-8 border-pink-800 '>
-			<h2 class="py-2 text-pink-800 text-xl">BUILDING IN PUBLIC &#x1F973;</h2>
+	<div class='flex flex-col justify-center items-start mx- lg:mt-4'>
+		<div class='mx-2 my-4 bg-slate-950 text-sky-100 font-bold max-w-xl rounded-md px-5 py-2 border-8 border-pink-800 '>
+			<h2 class="py-2 text-pink-400 text-xl">Building in Public</h2>
 			<p>Things might look a little janky for a bit, but that&#x0027;s okay! </p>
-				<p class="py-2">I am in the process of completely rebuilding my blog with Astro and combining it with my dev portfolio.</p>	
+				<p class="py-2">I am in the process of completely rebuilding my blog with Astro and combining it with my dev portfolio. Read <a href="/blog/2024-01-14-site-updates/" class="underline hover:text-pink-800 hove:font-bold hover:underline-offset-8 focus:text-pink-800 focus:font-bold focus:underline-offset-8">this post</a> to learn more.</p>	
+			</div>	
 		</div>
 		
 		<h1 class="
@@ -33,9 +34,19 @@ const posts = (await getCollection('blog')).reverse();
 			bg-clip-text">
 		Nice to Meet You! <br/><span> I'm Liz McCready</span></h1>
 			<p class='mb-6 mt-8 lg:max-w-3xl text-xl tracking-wider'>
-				Based in Toronto, Canada, I&#x0027;m a software developer, web accessibility specialist, designer, and technical content writer.<br> I&#x0027;m passionate about building beauitful accessible web apps <br>and solving puzzles with others. 
-				
-				<p class='my-2 max-w-2xl text-xl tracking-wider font-semibold'>I'm studying for 
+				Based in Toronto, Canada, I&#x0027;m a software developer, <br />web accessibility specialist, designer, and technical content writer.<br /> 
+				<p class="mt-1 mb-8 lg:max-w-3xl text-xl tracking-wider">I&#x0027;m passionate about building beauitful accessible web apps <br>and solving puzzles with others. </p>
+				<p class='my-2 max-w-2xl text-xl tracking-wider font-semibold'>I have over 15,000 volunteer hours and am currently:
+					<ul class='list-disc pb-4 max-w-2xl text-xl tracking-wider'>
+						
+							
+							<li class="ml-6">Co-Organizer and co-founder:<span class="underline text-pink-400"><Link  href="https://github.com/torontojs/code-buddy-club"> TorontoJS Code Buddy Club </Link></span></li>
+							<li class="ml-6"><span class="underline text-pink-400"><Link  href="https://torontojs.com"> TorontoJS</Link></span> events volunteer and moderator</li>
+							<li class="ml-6">Mentor in <span class="underline text-pink-400"><Link  href="https://github.com/codingtherapist/webAccessibilityStudyGroup">The Web Accessibility Certification Study Group</Link></span></li>
+							<li class="ml-6"><span class="underline text-pink-400"><Link  href="https://a11yto.com">A11yTO</span> volunteer for events at Microsoft since January, 2023</li>
+						</ul>
+					</p>
+				<p class='my-2 max-w-2xl text-xl tracking-wider font-semibold'>In 2024 I'm studying for:
 				<ul class='list-disc pb-4 max-w-2xl text-xl tracking-wider'>
 					<li class="ml-6">
 						<span class="underline text-pink-400"><Link  href="https://learn.microsoft.com/en-ca/credentials/certifications/azure-ai-engineer/">Microsoft Certified: Azure AI Engineer Associate.</Link></span> <br>focusing on Natural Language Processing.</li>
@@ -45,16 +56,7 @@ const posts = (await getCollection('blog')).reverse();
 							</span></li>
 				</ul> 
 			</p>
-			<p class='my-2 max-w-2xl text-xl tracking-wider font-semibold'>I have over 15,000 volunteer hours and am currently:
-				<ul class='list-disc pb-4 max-w-2xl text-xl tracking-wider'>
-					
-						
-						<li class="ml-6">Co-Organizer and co-founder:<span class="underline text-pink-400"><Link  href="https://github.com/torontojs/code-buddy-club"> TorontoJS Code Buddy Club </Link></span></li>
-						<li class="ml-6"><span class="underline text-pink-400"><Link  href="https://torontojs.com"> TorontoJS</Link></span> events volunteer and moderator</li>
-						<li class="ml-6">Mentor in <span class="underline text-pink-400"><Link  href="https://github.com/codingtherapist/webAccessibilityStudyGroup">The Web Accessibility Certification Study Group</Link></span></li>
-						<li class="ml-6"><span class="underline text-pink-400"><Link  href="https://a11yto.com">A11yTO</span> volunteer for events at Microsoft since January, 2023</li>
-					</ul>
-				
+			
 				<p class='mt-4 mb-2 max-w-2xl text-xl tracking-wider font-semibold'>
 					I develop in: 
 					<ul class='list-disc pb-4 max-w-2xl text-xl tracking-wider'>
@@ -64,13 +66,17 @@ const posts = (await getCollection('blog')).reverse();
 					</ul>
 					
 				</p>
-				
-				
 	</div>
 	
-	
+	<hr class="mt-4"/>
 	<div class='flex flex-col mx-6 my-6'>
-		<h2 class='text-2xl font-semibold'>Recent Blog Posts</h2>
+		<h2 class="text-2xl font-semibold
+		bfont-display-font
+		bg-gradient-to-r
+			from-pink-600 to-orange-400 
+			inline-block 
+			text-transparent 
+			bg-clip-text">Recent Blog Posts</h2>
 		<PostsList posts={posts.slice(0, 6)}/>
 	  </div>
 	
