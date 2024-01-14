@@ -13,8 +13,6 @@ layout: ../../layouts/BlogPostLayout.astro
 category: ai
 draft: "false"
 ---
-**Draft: Almost Finished**
-
 A recent [LinkedIn repost](https://www.linkedin.com/posts/elizabethmccready_save-the-date-march-1-2024-arcmap-is-activity-7151286657097388032-JU2h?utm_source=share&utm_medium=member_desktop) of mine has gone a wee bit viral with over 4,000 views in a day. The original post by [Juliana McMillan-Wilhoit](https://www.linkedin.com/in/julianamapper/overlay/about-this-profile/) was a comment on the end of ArcMap - a Geographical Information Systems (GIS) software by ESRI that has been around since 1999. My take on it was to share the similarities between artificial intelligence databases and what know from years of geomatics, GIS, and spatial data analysis - and to write alt text for the really awesome graphic. 
 
 I've also seen several threads on TorontoJS Slack asking for help finding location data sets and dealing with spatial data analysis for Javascript applications. While I share some quick links, a Slack thread isn't detailed enough to give all the information and resources I'm sharing here.
