@@ -25,6 +25,8 @@ I've also seen several threads on TorontoJS Slack asking for help finding locati
 
 Here's some information and links for developers to learn more about spatial (location) data, spatial data analysis, and geographical information systems (GIS). I've also included some resource on AI, especially Large Language Models (LLMs) and vector databases.
 
+**Note:** _**This article is mainly meant to be my master list of GIS and Geospatial resources to share with other developers. So there's only a small amount of commentary, and many links.** _
+
 There's many references from ESRI (Earth Science Research Institute) because ESRI is like the Microsoft of GIS. It's Canadian headquartered in the Don Mills area of Toronto!
 
 ## Contents
@@ -66,7 +68,7 @@ Some of the definitions below are quoted directly from industry sources. Others 
 	- **Point data:** eg location of a utility pole, bird nesting site, feral cat colony,
 	- **Vector (line) data:** eg a road, hiking trail, bird migration route
 	- **Raster / shape file (area / pixel) data: **eg a land parcel, footprint of a building, national park area
-	- **Non-spatial data: **eg 
+	- **Non-spatial data.** For example
 		  1. Who owns the utility pole, 
 		  2. What species of bird, and how many eggs it laid
 		  3. How many people used the hiking trail last year, 
