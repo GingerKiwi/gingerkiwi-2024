@@ -37,6 +37,8 @@ There's many references from ESRI (Earth Science Research Institute) because ESR
 	2. GIS Resources
 	3. Artificial Intelligence Resources - Focus on Large Language Models (LLMs) and accessibility.
 
+---
+
 <h2 id="definitions">Definitions</h2>
 
 Some of the definitions below are quoted directly from industry sources. Others are my own definitions from years of post-secondary geography and geomatics education, and from doing environmental surveying. Industry sources are referenced with accessible in-page links to the reference section. 
@@ -64,6 +66,8 @@ Some of the definitions below are quoted directly from industry sources. Others 
 - **Images / Imagery:**
 	- Refers to non-map data such as aerial photographs (taken from planes or drones) and photographs taken from satellites.
 
+---
+
 <h2 id="ai-vector-db">Artificial Intelligence Vector Databases and GIS</h2>
 
 Sometimes it takes a non-typical professional background to make connections between seemly separate fields. I have a background in GIS and geomatics, did environmental surveying for the Ontario Ministry of Natural Resources, and had student jobs in spatial analysis in university. In 2019, I changed careers from education as an assistive technology specialist to going back to school for a postgrad program in Urban and Environmental Planning. 
@@ -82,9 +86,10 @@ Link to the section of the video that [talks about vector db and LLMs](https://w
 
 ### Similarities Between AI Vector Databases and GIS?
 
-<img src="/images/2024-01-13_Screenshot_VectorAI.png" />
+<img src="/images/2024-01-13_Screenshot_VectorAI.png"  alt="graphic: cartoon like globe on the left showing a city, farms, fields, and bodies of water. There are arrows pointing from the globe to one of the layers on the right. The right side has a set of six squares one on top of the other with space in between. The top has dots and is labeled customers. Second one is a street map and is labeled streets. Third is an outline of land areas. It's labeled parcels. Fourth layer is a grid with squares different colours. It looks like a river is running diagonally across it. Fifth layer is similar to the fourth, but has different colours. It's labeled land usage. The bottom layer shows different land heights, There's a river running though the middle with a city on one side and trees and rocks on the other. "/>
 
-<img src="/images/2024-01-13_GIS-land-to-layers.jpeg"/>
+<img src="/images/2024-01-13_GIS-land-to-layers.jpeg" alt="graphic Title: Vector embeddings. Turning words into numbers. Shows 3 phrases of words on the left side of the graphic The cat sat on the mat in red text, The dog sat on the frog in blue, and The centipede sat wherever it wanted in pink. Each phrase has an arrow pointing to a rectangle labeled LLM. There's a single arrow linking the LLM to a grid on the right. The grid is labeled vector space. There are three points on the grid in colours matching the text. Red dot is in upper right. Pink is on the left above centre, and the blue is at the bottom almost in line with the red dot."/>
+
 The two graphics above shows how AI vector databases looked identical to a graphic of a GIS layer. Laurie Voss's explanation of how AI's answer questions using vector databases had so many similarities with spatial data analysis. 
 1. Which answer is more likely depends on how spatially close the question or phrase is to the piece of data the AI uses to answer the user's question or complete a sentence. 
 2. Even though Voss didn't explain the mathematics of vector space, it should be the same or almost the same as that used in spatial data analysis. 
@@ -100,6 +105,8 @@ The two graphics above shows how AI vector databases looked identical to a graph
 
 With all the similarities between LLM data storage and analysis in vector data bases and GIS, learning one can help you learn the other. There's other benefits too. Using programming languages that are popular in both AI and Geomatics (e.g. Python) in different contexts helps level up your coding skills.  Also, there's overlap with smart devices and the internet of things (IoT), and autonomous vehicles.
 
+---
+
 <h2 id="industry-standard-and-opensource -gis">Industry Standard and Open Source GIS</h2>
 
 A Canadian company, ESRI, dominates the global GIS market. GIS started in Canada in 1963 with Roger Tomlinson's work for the Canadian government. Canada has continued to be world leaders in GIS and geomatics ever since. Which makes some sense considering the size of our country!  <a href="#ref-esri-history-of-gis" aria-label="link to reference"><sup>3</sup></a>There are open source GIS. There's a Toronto company with three interesting products - one that makes GIS available in Adobe Creative Cloud products.
@@ -108,9 +115,7 @@ Note that links to training are in the "where to get <a href="#free-gis-spatial-
 
 ### 1. Industry Standard: ESRI 
 
-Logo: ArcGIS ESRI. There's a stylized line drawing of a blue and green globe on the left. /images/2024-01-13_ESRI-ArcGIS-banner.gif
-
-<img src="/images/2024-01-13_ESRI-ArcGIS-banner.gif" />
+<img src="/images/2024-01-13_ESRI-ArcGIS-banner.gif" alt="Logo: ArcGIS ESRI. There's a stylized line drawing of a blue and green globe on the left. " />
 
 ESRI was founded in 1969. It went though many versions, different software architecture, and platforms. Like Apple uses "i" before many of it's products (iPhone, iPad, ...) ESRI uses "Arc". In my first university degrees I used ArcMap on workstations, ArcINFO on UNIX, and ArcView on Windows workstations. The current version is ArcGIS.
 
@@ -132,10 +137,7 @@ ESRI was founded in 1969. It went though many versions, different software archi
 
 ### 2. Open Source GIS
 
-Logo: QGIS. Very simple green all capital letters. The Q has a bit of orange and yellow stripes on the inner part of the line. 
-/images/2024-01-13_QGIS_Logo-transparent.webp
-
-<img src="/images/2024-01-13_QGIS_Logo-transparent.webp" />
+<img src="/images/2024-01-13_QGIS_Logo-transparent.webp" alt="Logo: QGIS. Very simple green all capital letters. The Q has a bit of orange and yellow stripes on the inner part of the line. " />
 
 While there are many open source GISs, QGIS is the major open source GIS. It's the one with good documentation and with the largest community. QGIS  runs on Windows, macOS, Linux, BSD and mobile devices, making it really flexible. That's where I suggest other devs start with open source GIS. I've included a list of other open-source GISs for the curious.
 
@@ -148,10 +150,7 @@ While there are many open source GISs, QGIS is the major open source GIS. It's t
 
 ### 3. Avenza Systems: Innovative Toronto GIS Company 
 
-Logo: Avenza Systems Inc. There's a stylized line drawing of a globe with a letter A on it at the top.
-/images/GIS_AvenzaSystemsInc-logo_800x300.png
-
-<img src="/images/GIS_AvenzaSystemsInc-logo_800x300.png" />
+<img src="/images/GIS_AvenzaSystemsInc-logo_800x300.png" "Logo: Avenza Systems Inc. There's a stylized line drawing of a globe with a letter A on it at the top." />
 
 Avenza is [located close to Davisville station](https://maps.app.goo.gl/SQKK4oK5LLa6LpTN9) in Toronto. The staff and work culture is really awesome. I got to get to know some of them in 2020 when I was volunteering for GoGeomatics Canada and writing GeoIgnite conference materials. They've invented GIS products that work inside Adobe Illustrator and Photoshop - which might interest some UX designers. They also have a mobile solution that works offline.
 
@@ -177,7 +176,7 @@ Avenza is [located close to Davisville station](https://maps.app.goo.gl/SQKK4oK5
 	1. GeoIgnite 2020 Video: Cartographic Journeys with the Avenza Platform ~ Nick Burchell – Director- Avenza
 	2. [Conference talk summary and recording](https://gogeomatics.ca/geoignite-2020-cartographic-journeys-with-the-avenza-platform-nick-burchell-director-avenza/)
 
-
+---
 <h2 id="references-and-resources">Free Training</h2>
 There's so many GIS and spatial data analysis training options. Here's a few to get you started. The ESRI ones require a software licence. Use the free 21 day trials listed above to get started. I've listed both top level sites that have multiple courses and a few individual courses that might interest other developers.
 
@@ -213,6 +212,7 @@ There's so many GIS and spatial data analysis training options. Here's a few to 
 2. [GISGeography](https://gisgeography.com/learn-gis/) Learn GIS
 	- A list of well illustrated articles and written tutorials.
 	- [Cartography: Data Classification](https://gisgeography.com/choropleth-maps-data-classification/)Is worth a good look. At first glance devs might not find it relevant because it's about traditional maps and not specifically GIS. But it's important to know about your data before you use it!
+---
 
 <h2 id="free-spatial-datasets">Free Spatial Datasets</h2>
 One of the best places to find open data is the master list kept by GoGeomatics Canada. Most of the other references below are on that list.
@@ -239,7 +239,7 @@ One of the best places to find open data is the master list kept by GoGeomatics 
 	2. (rtwilson.com)
 15. [Geospatial Data collection](https://mdl.library.utoronto.ca/collections/geospatial-data) Map and Data Library University of Toronto
 
-
+---
 <h2 id="references-and-resources">References and Resources</h2>
 
 ### References
@@ -297,10 +297,3 @@ AI and Accessibility: [Be My Eyes and AI](https://youtu.be/dIImXx1C7_g?si=JXjF3g
 I hope you find this a valuable resource. It's always awesome when different tech fields come together to develop something new and interesting.
 
 ---
-
-Alt: 
-graphic: cartoon like globe on the left showing a city, farms, fields, and bodies of water. There are arrows pointing from the globe to one of the layers on the right. The right side has a set of six squares one on top of the other with space in between. The top has dots and is labeled customers. Second one is a street map and is labeled streets. Third is an outline of land areas. It's labeled parcels. Fourth layer is a grid with squares different colours. It looks like a river is running diagonally across it. Fifth layer is similar to the fourth, but has different colours. It's labeled land usage. The bottom layer shows different land heights, There's a river running though the middle with a city on one side and trees and rocks on the other. 
-
-Alt
-
-graphic Title: Vector embeddings. Turning words into numbers. Shows 3 phrases of words on the left side of the graphic "The cat sat on the mat" in red text, "The dog sat on the frog" in blue, and "The centipede sat wherever it wanted" in pink. Each phrase has an arrow pointing to a rectangle labeled LLM. There's a single arrow linking the LLM to a grid on the right. The grid is labeled vector space. There are three points on the grid in colours matching the text. Red dot is in upper right. Pink is on the left above centre, and the blue is at the bottom almost in line with the red dot.
