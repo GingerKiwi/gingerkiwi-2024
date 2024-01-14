@@ -78,10 +78,10 @@ Some of the definitions below are quoted directly from industry sources. Others 
 		- footprint of a building, 
 		- national park area
 	- **Non-spatial data.** For example
-		  - Who owns the utility pole, 
-		  - What species of bird, and how many eggs it laid
-		  - How many people used the hiking trail last year, 
-		  - Number of people infected with covid in a postal code
+		- Who owns the utility pole, 
+		- What species of bird, and how many eggs it laid
+		- How many people used the hiking trail last year, 
+		- Number of people infected with covid in a postal code
 	- Note: _This is a very simple overview of data types and examples._
 - **Geomatics:**
 	- The science of the collection, storage, and analysis of spatial data, data relating to the earth's surface. This also includes space, especially in relation to satellites and space craft in earth orbit. 
@@ -428,7 +428,7 @@ These are a few I've been referring to as I work on my AI Engineer cert. There's
 
 1. [LlamaIndex: Typescript Docs](https://ts.llamaindex.ai)
 2. [LlamaIndex: Python Docs](https://docs.llamaindex.ai/en/stable/)
-3. Building AI-powered Retrieval-Augumented Generation apps with LlamaIndex and Azure Cosmos DB [LlamaIndex on Microsoft Reactor](https://www.youtube.com/live/_iltJI1nnaA?si=qmp3Fjo9unEkA1i9)YouTube
+3. Building AI-powered Retrieval-Augumented Generation apps with LlamaIndex and Azure Cosmos DB [LlamaIndex on Microsoft Reactor](https://www.youtube.com/live/_iltJI1nnaA?si=qmp3Fjo9unEkA1i9) YouTube
 4. My [AI Engineer Collection](https://learn.microsoft.com/en-us/collections/48zjtj6kk2mewn) of courses on Microsoft Learn
 5. Develop natural language processing solutions with Azure AI Services [Microsoft Learn, Learning Path](https://learn.microsoft.com/en-us/training/paths/develop-language-solutions-azure-ai/) 7 hours 9 minutes 
 6. Free Microsoft credential. Build a natural language processing solution with Azure AI Language  [AI Applied Skills credential](https://learn.microsoft.com/en-us/credentials/applied-skills/build-natural-language-solution-azure-ai/?ns-enrollment-type=Collection&ns-enrollment-id=48zjtj6kk2mewn) Microsoft Learn. 
