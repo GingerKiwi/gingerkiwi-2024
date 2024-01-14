@@ -243,6 +243,7 @@ Some of the training resources are listed in multiple categories so readers don'
 5. [Open Source Options YouTube channel](https://www.youtube.com/@opensourceoptions)
 
 <h3 id="avenza-training">4c. Avenza Systems Free Training</h3>
+
 1. [Avenza Systems Webinars list](https://www.avenza.com/resources/webinars-videos/)
 2. [Avenza Systems YouTube](https://www.youtube.com/@AvenzaSystems) 
 
