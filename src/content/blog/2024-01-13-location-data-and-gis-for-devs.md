@@ -49,7 +49,7 @@ There's many references from ESRI (Earth Science Research Institute) because ESR
 	7. <a href="#Statistics and Maths Refreshers">Statistics and Maths Review Materials</a>
 	8. <a href="#other-free-training">Other Free Training Resources</a>
 5. <a href="#free-spatial-datasets">Free Spatial Datasets</a>
-6. <a href="#references-and-resources">References and more resources </a>- including my favourite statistics book
+6. <a href="#references-and-resources">References and more resources </a>
 	1. <a href="references">References</a>
 	2. <a href="#stats-book">Awesome Statistics Book</a>
 	3. <a href="#gis-resources">GIS Resources</a>
