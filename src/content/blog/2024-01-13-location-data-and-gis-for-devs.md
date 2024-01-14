@@ -216,6 +216,20 @@ There's so many GIS and spatial data analysis training options. Here's a few to 
 
 Some of the training resources are listed in multiple categories so readers don't miss something useful if they're scanning for a specific topic.
 
+### Free Training Section Contents
+
+This section has so many links that it needs it's own contents list!
+
+- <a href="esri-training">4a. Free Training by ESRI </a>
+	- This includes general GIS training, not just for ESRI products
+- <a href="qgis-training">4b. QGIS Free Training</a>
+- <a href="#avenza-training">4c. Avenza Free Training</a>
+- <a href="#javascript-gis-training">4d. JavaScript Specific Free GIS Training</a>
+- <a href="#postgis-training">4e. Postgres (PostGIS)</a>
+- <a href="#python-gis-training">4f. Python and GIS Free Training</a>
+- <a href="#Statistics and Maths Refreshers">4g. Statistics and Maths Review Materials</a>
+- <a href="#other-free-training">4h. Other Free Training Resources</a>
+
 <h3 id="esri-training">4a. Free GIS Training by ESRI</h3>
 
 **These free training resources from ESRI includes general GIS and spatial data analysis training.** They're worth a good look even if you're going the open source GIS route.
