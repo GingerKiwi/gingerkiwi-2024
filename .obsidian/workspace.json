@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "08bd108d5601020b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/2024-01-14-site-updates.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
+                "file": "src/content/blog/2024-01-14-site-updates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
+                "file": "src/content/blog/2024-01-14-site-updates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md"
+                "file": "src/content/blog/2024-01-14-site-updates.md"
               }
             }
           }
@@ -147,10 +160,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "535a979cb3f192a9",
+  "active": "08bd108d5601020b",
   "lastOpenFiles": [
-    "src/content/blog/2024-01-14-site-updates.md",
     "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
+    "src/content/blog/2024-01-14-site-updates.md",
     "public/images/covers/00_BuildingInPublic-Updates_1200x630.png",
     "Untitled.md",
     "src/content/blog/2023-12-15-french-fridays-for-developers-21.md",
