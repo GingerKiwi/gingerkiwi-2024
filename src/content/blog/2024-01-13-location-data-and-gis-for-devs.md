@@ -120,7 +120,8 @@ There's a lot of similarities between AI vector databases and GIS. The following
 
 <img src="/images/2024-01-13_GIS-land-to-layers.jpeg" alt="graphic Title: Vector embeddings. Turning words into numbers. Shows 3 phrases of words on the left side of the graphic The cat sat on the mat in red text, The dog sat on the frog in blue, and The centipede sat wherever it wanted in pink. Each phrase has an arrow pointing to a rectangle labeled LLM. There's a single arrow linking the LLM to a grid on the right. The grid is labeled vector space. There are three points on the grid in colours matching the text. Red dot is in upper right. Pink is on the left above centre, and the blue is at the bottom almost in line with the red dot."/>
 
-The two graphics above shows how AI vector databases looked identical to a graphic of a GIS layer. Laurie Voss's explanation of how AI's answer questions using vector databases had so many similarities with spatial data analysis. 
+The two graphics above shows how AI vector databases looked very similar to a graphic of GIS layers. Laurie Voss's explanation of how AI's answer questions using vector databases had so many similarities with spatial data analysis. 
+
 1. Which answer is more likely depends on how spatially close the question or phrase is to the piece of data the AI uses to answer the user's question or complete a sentence. 
 2. Even though Voss didn't explain the mathematics of vector space, it should be the same or almost the same as that used in spatial data analysis. 
 
@@ -128,7 +129,7 @@ The two graphics above shows how AI vector databases looked identical to a graph
 
 1. Locations of data points in AI vector data bases are human constructs, and not locations people could visit. 
 2. Artificial Intelligence vector DBs are a flat surface. 
-	- Therefor there's no need to deal with data on a sphere, and what happens when you reach the geographic edge of your dataset but the actual data (that's not in your dataset) continues on over the surface of a sphere past the edges of your map. 
+	- Therefor there's no need to deal with data on an imperfect sphere, and what happens when you reach the geographic edge of your dataset but the actual data (that's not in your dataset) continues on over the surface of a sphere past the edges of your map. 
 	- (If you're curious ask me about the _**"PacMan" spatial data sampling method**_.)
 
 <h3 id="#learn-gis-to-learn-ai">2c. How learning GIS and Spatial Data Analysis Fundamentals Can Help You Learn AI</h3>
