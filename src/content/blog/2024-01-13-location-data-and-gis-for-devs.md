@@ -65,15 +65,24 @@ Some of the definitions below are quoted directly from industry sources. Others 
 - **Geographical Information Systems (GIS)**
 	- Computer software that stores, analyzes and displays spatial (location) data. 
 - Spatial data types can include:
-	- **Point data:** eg location of a utility pole, bird nesting site, feral cat colony,
-	- **Vector (line) data:** eg a road, hiking trail, bird migration route
-	- **Raster / shape file (area / pixel) data: **eg a land parcel, footprint of a building, national park area
+	- **Point data:** eg 
+		- location of a utility pole, 
+		- bird nesting site, 
+		- feral cat colony,
+	- **Vector (line) data:** 
+		- a road,
+		- hiking trail, 
+		- bird migration route
+	- **Raster / shape file (area / pixel) data:** 
+		- a land parcel, 
+		- footprint of a building, 
+		- national park area
 	- **Non-spatial data.** For example
-		  1. Who owns the utility pole, 
-		  2. What species of bird, and how many eggs it laid
-		  3. How many people used the hiking trail last year, 
-		  4. Number of people infected with covid in a postal code
-	- Note that this is a  _very_ simple overview of data types and examples.
+		  - Who owns the utility pole, 
+		  - What species of bird, and how many eggs it laid
+		  - How many people used the hiking trail last year, 
+		  - Number of people infected with covid in a postal code
+	- Note: _This is a very simple overview of data types and examples._
 - **Geomatics:**
 	- The science of the collection, storage, and analysis of spatial data, data relating to the earth's surface. This also includes space, especially in relation to satellites and space craft in earth orbit. 
 - **Spatial data:** 
