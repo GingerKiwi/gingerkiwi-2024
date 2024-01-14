@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
+                "file": "src/content/blog/2024-01-14-site-updates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
+                "file": "src/content/blog/2024-01-14-site-updates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md"
+                "file": "src/content/blog/2024-01-14-site-updates.md"
               }
             }
           }
@@ -184,13 +184,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "535a979cb3f192a9",
+  "active": "23b8354cd019ca9c",
   "lastOpenFiles": [
+    "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
     "src/content/blog/2024-01-14-site-updates.md",
     "public/images/covers/00_BuildingInPublic-Updates_1200x630.png",
     "Untitled.md",
     "src/content/blog/2023-12-15-french-fridays-for-developers-21.md",
-    "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
     "src/content/blog/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
     "public/images/covers/02_GIS-Spatial-Location-Data-For-Devs_Cover_1200x630.png",
     "public/images/GIS_AvenzaSystemsInc-logo_800x300.png",

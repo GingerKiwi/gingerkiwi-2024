@@ -31,7 +31,7 @@ draft: "false"
 
 <li>Added the new header image to a <span class="font-roboto-flex underline"><Link href="/hello-world">hello world page</Link></span></li>
 
-<li>Take a look at the link above to see the design.</li>
+<li>Take a look at the <a href="/hello-world">hello world page</a> to see the design.</li>
 
 </ul>
 
@@ -45,7 +45,10 @@ draft: "false"
 
 <li>Fix the Open Graph image social previews</li>
 
-<li>Add content to the portfolio page</li>
+<li>Add more content to the portfolio page</li>
+
+<li>Add the card layout for blog posts. You can <a href="https://www.figma.com/file/3bD82HdEGIhSMOBJp6bBnj/GingerKiwi-All?type=design&node-id=371%3A2&mode=design&t=AsJ3U9SwR5xzg7zs-1">view the Figma designs here.</a></li>
+
 
 </ul>
 
