@@ -17,6 +17,13 @@ A recent [LinkedIn repost](https://www.linkedin.com/posts/elizabethmccready_save
 
 I've also seen several threads on TorontoJS Slack asking for help finding location data sets and dealing with spatial data analysis for Javascript applications. While I share some quick links, a Slack thread isn't detailed enough to give all the information and resources I'm sharing here.
 
+**Tip:** JavaScript developers look for "location datasets" or sometimes "map dataset" when looking for free data for web dev projects. But there's really no such thing as a "location dataset" in the field that has that information. Those datasets are called either spatial datasets or geospatial datasets. Location is a characteristic of individual data points in spatial datasets.
+
+```javascript
+'location dataset' || 'map dataset' !=== 'spatial dataset' || 'geospatial dataset'
+
+```
+
 Here's some information and links for developers to learn more about spatial (location) data, spatial data analysis, and geographical information systems (GIS). I've also included some resource on AI, especially Large Language Models (LLMs) and vector databases.
 
 There's many references from ESRI (Earth Science Research Institute) because ESRI is like the Microsoft of GIS. It's Canadian headquartered in the Don Mills area of Toronto!
@@ -27,8 +34,8 @@ There's many references from ESRI (Earth Science Research Institute) because ESR
 2. <a href="#ai-vector-db">Similarities between AI vector Databases and GIS</a>
 	1. What are AI vector databases?
 	2. How learning GIS and spatial data analysis fundamentals can help you learn AI
-3. <a href="#industry-standard-and-opensource -gis">Industry Standard and Open Source GIS</a>
-4. Where to get <a href="#free-gis-spatial-data-analysis-training">free GIS and spatial data analysis training</a>
+3. <a href="#industry-standard-and-opensource-gis">Industry Standard and Open Source GIS</a>
+4.  <a href="#free-gis-spatial-data-analysis-training">Free GIS and spatial data analysis training</a>
 5. <a href="#free-spatial-datasets">Where to find free spatial datasets</a>
 6. <a href="#references-and-resources">References and more resources </a>- including my favourite statistics book
 	1. References
@@ -37,22 +44,22 @@ There's many references from ESRI (Earth Science Research Institute) because ESR
 
 ---
 
-<h2 id="definitions">Definitions</h2>
+<h2 id="definitions">1. Definitions</h2>
 
 Some of the definitions below are quoted directly from industry sources. Others are my own definitions from years of post-secondary geography and geomatics education, and from doing environmental surveying. Industry sources are referenced with accessible in-page links to the reference section. 
 
 - **Geographical Information Systems (GIS)**
 	- Computer software that stores, analyzes and displays spatial (location) data. 
-		- Data types can include:
-			- **Point data:** eg location of a utility pole, bird nesting site, feral cat colony,
-			- **Vector (line) data:** eg a road, hiking trail, bird migration route
-			- **Raster / shape file (area / pixel) data: **eg a land parcel, footprint of a building, national park area
-			- **Non-spatial data: **eg 
-				  1. Who owns the utility pole, 
-				  2. What species of bird, and how many eggs it laid
-				  3. How many people used the hiking trail last year, 
-				  4. Number of people infected with covid in a postal code
-		- Note that this is a  _very_ simple overview of data types and examples.
+- Spatial data types can include:
+	- **Point data:** eg location of a utility pole, bird nesting site, feral cat colony,
+	- **Vector (line) data:** eg a road, hiking trail, bird migration route
+	- **Raster / shape file (area / pixel) data: **eg a land parcel, footprint of a building, national park area
+	- **Non-spatial data: **eg 
+		  1. Who owns the utility pole, 
+		  2. What species of bird, and how many eggs it laid
+		  3. How many people used the hiking trail last year, 
+		  4. Number of people infected with covid in a postal code
+	- Note that this is a  _very_ simple overview of data types and examples.
 - **Geomatics:**
 	- The science of the collection, storage, and analysis of spatial data, data relating to the earth's surface. This also includes space, especially in relation to satellites and space craft in earth orbit. 
 - **Spatial data:** 
@@ -66,7 +73,7 @@ Some of the definitions below are quoted directly from industry sources. Others 
 
 ---
 
-<h2 id="ai-vector-db">Artificial Intelligence Vector Databases and GIS</h2>
+<h2 id="ai-vector-db">2. Artificial Intelligence Vector Databases and GIS</h2>
 
 Sometimes it takes a non-typical professional background to make connections between seemly separate fields. I have a background in GIS and geomatics, did environmental surveying for the Ontario Ministry of Natural Resources, and had student jobs in spatial analysis in university. In 2019, I changed careers from education as an assistive technology specialist to going back to school for a postgrad program in Urban and Environmental Planning. 
 
@@ -105,13 +112,13 @@ With all the similarities between LLM data storage and analysis in vector data b
 
 ---
 
-<h2 id="industry-standard-and-opensource -gis">Industry Standard and Open Source GIS</h2>
+<h2 id="industry-standard-and-opensource -gis">3. Industry Standard and Open Source GIS</h2>
 
-A Canadian company, ESRI, dominates the global GIS market. GIS started in Canada in 1963 with Roger Tomlinson's work for the Canadian government. Canada has continued to be world leaders in GIS and geomatics ever since. Which makes some sense considering the size of our country!  <a href="#ref-esri-history-of-gis" aria-label="link to reference"><sup>3</sup></a>There are open source GIS. There's a Toronto company with three interesting products - one that makes GIS available in Adobe Creative Cloud products.
+A Canadian company, ESRI, dominates the global GIS market. GIS started in Canada in 1963 with Roger Tomlinson's work for the Canadian government. Canada has continued to be world leaders in GIS and geomatics ever since. Which makes some sense considering the size of our country! <a href="#ref-esri-history-of-gis" aria-label="link to reference"><sup>3</sup></a> There are open source GIS. There's a Toronto company with three interesting products - one that makes GIS available in Adobe Creative Cloud products.
 
 Note that links to training are in the "where to get <a href="#free-gis-spatial-data-analysis-training">free GIS and spatial data analysis training</a>" section after this one.
 
-### 1. Industry Standard: ESRI 
+### 3a. Industry Standard: ESRI 
 
 <img src="/images/2024-01-13_ESRI-ArcGIS-banner.gif" alt="Logo: ArcGIS ESRI. There's a stylized line drawing of a blue and green globe on the left. " />
 
@@ -133,7 +140,7 @@ ESRI was founded in 1969. It went though many versions, different software archi
 1. [ESRI Canada home page](https://www.esri.ca/en-ca/home)
 2. [Canadian pricing for individuals](https://www.esri.ca/en-ca/store/products/buy/arcgis-online#for-individuals)
 
-### 2. Open Source GIS
+### 3b. Open Source GIS
 
 <img src="/images/2024-01-13_QGIS_Logo-transparent.webp" alt="Logo: QGIS. Very simple green all capital letters. The Q has a bit of orange and yellow stripes on the inner part of the line. " />
 
@@ -146,9 +153,9 @@ While there are many open source GISs, QGIS is the major open source GIS. It's t
 3. [QGIS Community](https://qgis.org/en/site/getinvolved/index.html)Contribute to open source GIS
 4. [13 Free GIS Software Options](https://gisgeography.com/free-gis-software/): Map the World in Open Source. by [GIS Geography](https://gisgeography.com). Last Updated:October 1, 2023
 
-### 3. Avenza Systems: Innovative Toronto GIS Company 
+### 3c. Avenza Systems: Innovative Toronto GIS Company 
 
-<img src="/images/GIS_AvenzaSystemsInc-logo_800x300.png" "Logo: Avenza Systems Inc. There's a stylized line drawing of a globe with a letter A on it at the top." />
+<img src="/images/GIS_AvenzaSystemsInc-logo_800x300.png" alt="Logo: Avenza Systems Inc. There's a stylized line drawing of a globe with a letter A on it at the top." />
 
 Avenza is [located close to Davisville station](https://maps.app.goo.gl/SQKK4oK5LLa6LpTN9) in Toronto. The staff and work culture is really awesome. I got to get to know some of them in 2020 when I was volunteering for GoGeomatics Canada and writing GeoIgnite conference materials. They've invented GIS products that work inside Adobe Illustrator and Photoshop - which might interest some UX designers. They also have a mobile solution that works offline.
 
@@ -175,7 +182,7 @@ Avenza is [located close to Davisville station](https://maps.app.goo.gl/SQKK4oK5
 	2. [Conference talk summary and recording](https://gogeomatics.ca/geoignite-2020-cartographic-journeys-with-the-avenza-platform-nick-burchell-director-avenza/)
 
 ---
-<h2 id="references-and-resources">Free Training</h2>
+<h2 id="free-gis-spatial-data-analysis-training">Free Training</h2>
 There's so many GIS and spatial data analysis training options. Here's a few to get you started. The ESRI ones require a software licence. Use the free 21 day trials listed above to get started. I've listed both top level sites that have multiple courses and a few individual courses that might interest other developers.
 
 ### Free GIS Training by ESRI
@@ -185,7 +192,7 @@ There's so many GIS and spatial data analysis training options. Here's a few to 
 1. [ESRI Self-paced training for individuals](https://www.esri.com/training/unlimited-esri-training/)
 2. [ESRI Free Web Courses](https://www.esri.com/training/catalog/5e8f3919e5fd2c111c84cfac/esri-free-web-courses-/)18 free courses
 3. [ESRI: Basics of JavaScript Web Apps](https://www.esri.com/training/catalog/580fc1dea4a46d172b116049/basics-of-javascript-web-apps/) 1 hour, 15 minutes. Includes intro to ArcGIS API for JavaScript
-4. [ESRI: Python for Everyone](https://www.esri.com/training/catalog/57630436851d31e02a43f13c/python-for-everyone/)4 hours, 15 minutes
+4. [ESRI: Python for Everyone](https://www.esri.com/training/catalog/57630436851d31e02a43f13c/python-for-everyone/) 4 hours, 15 minutes
 5. [Map Projections tutorials by ESRI](https://learn.arcgis.com/en/paths/map-projections/)
 	- **This is *_essential_* if you're going to be using spatial data!**
 		- The Earth being a sphere affects data truth. 
@@ -202,6 +209,42 @@ There's so many GIS and spatial data analysis training options. Here's a few to 
 1. [Avenza Systems Webinars list](https://www.avenza.com/resources/webinars-videos/)
 2. [Avenza Systems YouTube](https://www.youtube.com/@AvenzaSystems)
 
+### JavaScript Specific Training and Resources
+
+Some of these courses are listed in other subsections of this section. 
+But being a TorontoJS member it's nice to have a specific section to refer people to!
+JavaScipt is one of the most under utilized programming languages in GIS and geospatial analysis.
+
+1. [5 Best Web Mapping Platforms](https://gisgeography.com/web-mapping/) – The Battle of Web GIS
+	1. This is more an overview of Web GIS, but given that most JS devs aren't familiar with GIS it's also an intro to how we can use GIS in web apps.
+	2. By: [GISGeography](https://gisgeography.com/author/gisgeo/)
+	3. Last Updated:January 6, 2024
+2. [PD-32 - JavaScript for GIS](https://gistbok.ucgis.org/bok-topics/javascript-gis)
+3. [ESRI: Basics of JavaScript Web Apps](https://www.esri.com/training/catalog/580fc1dea4a46d172b116049/basics-of-javascript-web-apps/) 
+	1. 1 hour, 15 minutes. 
+	2. Includes intro to ArcGIS API for JavaScript
+4. [Open Layers: Geospatial JavaScript Library](https://www.geographyrealm.com/openlayers-geospatial-javascript-library/)
+	1. By [Geography Realm](https://www.geographyrealm.com/)
+5. [JavaScript for Geospatial applications](https://geoawesomeness.com/javascript-for-geospatial-applications-an-overview/)
+6. [How can you integrate JavaScript with GIS?](https://www.linkedin.com/advice/0/how-can-you-integrate-javascript-gis-5ldde)
+	1. LinkedIn article
+7. [Open Source WebGIS Online Tutorial](http://webgis.pub/)
+8. [U Penn: GEOG 585: Open Web Mapping](https://www.e-education.psu.edu/geog585/)
+	1. Free university course
+	2. U Penn College of Earth and Mineral Sciences has a lot of free open courses.
+
+
+### Postgres GIS (PostGIS) Free Training
+
+1. [Introduction to PostGIS](https://postgis.net/workshops/postgis-intro/)
+2. [PostGIS Docs](https://postgis.net/documentation/manual/)
+3. [PostGIS Videos](https://postgis.net/community/video/)
+4. [Spatial Data Analysis Using Postgis  ](https://www.linkedin.com/learning/advanced-postgresql/spatial-data-analysis-using-postgis) LinkedIn Learning:
+	1. Note: Free with LinkedIn premium or Toronto Public Library card. 
+	2. (TPL had a ransomware  in October, 2023 and full digital services are still not available)
+5. [Geographical Data Management with PostGIS](https://github.com/dkakkar/Geospatial-data-management-with-PostGIS)
+	1. Github repo
+
 ### Other Free Training Resources
 
 1. [McMaster Library GIS Services](https://library.mcmaster.ca/services/gis)
@@ -209,7 +252,15 @@ There's so many GIS and spatial data analysis training options. Here's a few to 
 	- Also resources, software, and workstations, available to McMaster staff and students
 2. [GISGeography](https://gisgeography.com/learn-gis/) Learn GIS
 	- A list of well illustrated articles and written tutorials.
-	- [Cartography: Data Classification](https://gisgeography.com/choropleth-maps-data-classification/)Is worth a good look. At first glance devs might not find it relevant because it's about traditional maps and not specifically GIS. But it's important to know about your data before you use it!
+	- [Cartography: Data Classification](https://gisgeography.com/choropleth-maps-data-classification/) 
+		- Is worth a good look. At first glance devs might not find it relevant because it's about traditional maps and not specifically GIS. But it's important to know about your data before you use it!
+1. [Harvard Centre for Geographic Analysis](https://gis.harvard.edu/page-type/teaching) 
+	1. List of several free courses on a wide range of topics
+2. [U of Buffalo: Free Online GIS Training](https://research.lib.buffalo.edu/gis-courses/gis-training)
+	1. List of free online GIS Training
+	2. Maintained by the University of Buffalo Libraries
+	3. Last updated Jan 08, 2024
+
 ---
 
 <h2 id="free-spatial-datasets">Free Spatial Datasets</h2>
@@ -242,19 +293,19 @@ One of the best places to find open data is the master list kept by GoGeomatics 
 
 ### References
 
-1. <span id="ref-esri-layers"><a href="https://support.esri.com/en-us/gis-dictionary/spatial-analysis#:~:text=%20The%20process%20of%20examining%20the%20locations%2C%20attributes%2C,to%20address%20a%20question%20or%20gain%20useful%20knowledge.">ESRI: spatial analysis | GIS Dictionary </a></span>
+1. <span id="ref-esri-spatial-data-analysis"><a href="https://support.esri.com/en-us/gis-dictionary/spatial-analysis#:~:text=%20The%20process%20of%20examining%20the%20locations%2C%20attributes%2C,to%20address%20a%20question%20or%20gain%20useful%20knowledge.">ESRI: spatial analysis | GIS Dictionary </a></span>
 2. <span id="ref-esri-layers"><a href="https://desktop.arcgis.com/en/arcmap/latest/map/working-with-layers/what-is-a-layer-.htm">ESRI: What is a layer?—ArcMap | Documentation (arcgis.com)</a></span>
 3. <span id="ref-esri-history-of-gis"><a href="https://www.esri.com/en-us/what-is-gis/history-of-gis">ESRI: History of GIS | What is GIS (esri.com)</a></span>
 
 ### Statistics Book
 
-1. [Cartoon Guide to Statistics](https://www.larrygonick.com/titles/science/the-cartoon-guide-to-statistics/)by  Larry Gonick and Woollcott Smith
+1. [Cartoon Guide to Statistics](https://www.larrygonick.com/titles/science/the-cartoon-guide-to-statistics/) by  Larry Gonick and Woollcott Smith
 	1. This is an amazing statistics book both if you've never done statistics, if you need a refresher, or would just like a good reference book.
 	2. Yes, there's "free" pdfs floating around, but it's well done.
 ### GIS Resources
 
-1. **Mapscaping Podcast**[JavaScript and GIS](https://mapscaping.com/javascript-for-gis/)
-	1. Highly recommend Mapscaping podcast! The host Daniel is a Kiwi! (From New Zealand)
+1. **Mapscaping Podcast** [JavaScript and GIS](https://mapscaping.com/javascript-for-gis/)
+	1. Highly recommend the Mapscaping podcast! The host Daniel is a Kiwi! (From New Zealand)
 	2. [Mapscaping blog](https://mapscaping.com/blog/)
 	3. [Mapscaping podcast](https://mapscaping.com/podcasts/)
 2. [What is GIS?](https://www.esri.com/en-us/what-is-gis/overview) Geographic Information System Mapping Technology (esri.com)
@@ -270,6 +321,9 @@ One of the best places to find open data is the master list kept by GoGeomatics 
 	- These are "going back to school" type programs at universities and colleges, so they're not listed in the training section above.
 10. [GIS Stack Exchange](https://gis.stackexchange.com/)
 	1. This would be a good place to ask where you could find a particular type of data set.
+11. [Open Source GIS Foundation](https://www.osgeo.org/)
+	1. Get involved in open source projects
+	2. Find training and more!
 
 
 ### Artificial Intelligence Resources
