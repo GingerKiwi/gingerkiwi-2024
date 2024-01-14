@@ -114,7 +114,7 @@ Link to the section of the video that [talks about vector db and LLMs](https://w
 
 ### 2b. Similarities Between AI Vector Databases and GIS?
 
-There's a lot of similarities between AI vector databases and GIS. The following section barely grazes the surface, as the main point of this article is to share GIS and geospatial resources with other developers. If you're interested in learning AI, learning geospatial data analysis could help with understanding the concepts.
+There's a lot of similarities between AI vector databases and GIS. The following section barely grazes the surface, as the main point of this article is to share GIS and geospatial resources with other developers. However, if you're interested in learning AI, I hope this article will peak your interested in learning geospatial data analysis as well.
 
 <img src="/images/2024-01-13_Screenshot_VectorAI.png"  alt="graphic: cartoon like globe on the left showing a city, farms, fields, and bodies of water. There are arrows pointing from the globe to one of the layers on the right. The right side has a set of six squares one on top of the other with space in between. The top has dots and is labeled customers. Second one is a street map and is labeled streets. Third is an outline of land areas. It's labeled parcels. Fourth layer is a grid with squares different colours. It looks like a river is running diagonally across it. Fifth layer is similar to the fourth, but has different colours. It's labeled land usage. The bottom layer shows different land heights, There's a river running though the middle with a city on one side and trees and rocks on the other. "/>
 
