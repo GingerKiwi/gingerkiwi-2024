@@ -105,6 +105,8 @@ Link to the section of the video that [talks about vector db and LLMs](https://w
 
 ### 2b. Similarities Between AI Vector Databases and GIS?
 
+There's a lot of similarities between AI vector databases and GIS. The following section barely grazes the surface, as the main point of this article is to share GIS and geospatial resources with other developers. If you're interested in learning AI, learning geospatial data analysis could help with understanding the concepts.
+
 <img src="/images/2024-01-13_Screenshot_VectorAI.png"  alt="graphic: cartoon like globe on the left showing a city, farms, fields, and bodies of water. There are arrows pointing from the globe to one of the layers on the right. The right side has a set of six squares one on top of the other with space in between. The top has dots and is labeled customers. Second one is a street map and is labeled streets. Third is an outline of land areas. It's labeled parcels. Fourth layer is a grid with squares different colours. It looks like a river is running diagonally across it. Fifth layer is similar to the fourth, but has different colours. It's labeled land usage. The bottom layer shows different land heights, There's a river running though the middle with a city on one side and trees and rocks on the other. "/>
 
 <img src="/images/2024-01-13_GIS-land-to-layers.jpeg" alt="graphic Title: Vector embeddings. Turning words into numbers. Shows 3 phrases of words on the left side of the graphic The cat sat on the mat in red text, The dog sat on the frog in blue, and The centipede sat wherever it wanted in pink. Each phrase has an arrow pointing to a rectangle labeled LLM. There's a single arrow linking the LLM to a grid on the right. The grid is labeled vector space. There are three points on the grid in colours matching the text. Red dot is in upper right. Pink is on the left above centre, and the blue is at the bottom almost in line with the red dot."/>
@@ -118,7 +120,7 @@ The two graphics above shows how AI vector databases looked identical to a graph
 1. Locations of data points in AI vector data bases are human constructs, and not locations people could visit. 
 2. Artificial Intelligence vector DBs are a flat surface. 
 	- Therefor there's no need to deal with data on a sphere, and what happens when you reach the geographic edge of your dataset but the actual data (that's not in your dataset) continues on over the surface of a sphere past the edges of your map. 
-	- (If you're curious ask me about the _**"PacMan" spatial data sampling method**_ .)
+	- (If you're curious ask me about the _**"PacMan" spatial data sampling method**_.)
 
 <h3 id="#learn-gis-to-learn-ai">2c. How learning GIS and Spatial Data Analysis Fundamentals Can Help You Learn AI</h3>
 
@@ -200,16 +202,22 @@ Avenza is [located close to Davisville station](https://maps.app.goo.gl/SQKK4oK5
 
 ---
 <h2 id="free-gis-spatial-data-analysis-training">4. Free Training</h2>
-There's so many GIS and spatial data analysis training options. Here's a few to get you started. The ESRI ones require a software licence. Use the free 21 day trials listed above to get started. I've listed both top level sites that have multiple courses and a few individual courses that might interest other developers.
+There's so many GIS and spatial data analysis training options. Here's a few to get you started. The majority of courses by ESRI require a software licence. Use the free 21 day trials listed above to get started. I've listed both top level sites that have multiple courses and a few individual courses that might interest other developers. 
+
+Some of the training resources are listed in multiple categories so readers don't miss something useful if they're scanning for a specific topic.
 
 <h3 id="esri-training">4a. Free GIS Training by ESRI</h3>
 
 **These free training resources from ESRI includes general GIS and spatial data analysis training.** They're worth a good look even if you're going the open source GIS route.
 
 1. [ESRI Self-paced training for individuals](https://www.esri.com/training/unlimited-esri-training/)
-2. [ESRI Free Web Courses](https://www.esri.com/training/catalog/5e8f3919e5fd2c111c84cfac/esri-free-web-courses-/)18 free courses
-3. [ESRI: Basics of JavaScript Web Apps](https://www.esri.com/training/catalog/580fc1dea4a46d172b116049/basics-of-javascript-web-apps/) 1 hour, 15 minutes. Includes intro to ArcGIS API for JavaScript
-4. [ESRI: Python for Everyone](https://www.esri.com/training/catalog/57630436851d31e02a43f13c/python-for-everyone/) 4 hours, 15 minutes
+2. [ESRI Free Web Courses](https://www.esri.com/training/catalog/5e8f3919e5fd2c111c84cfac/esri-free-web-courses-/)
+	1. 18 free courses
+3. [ESRI: Basics of JavaScript Web Apps](https://www.esri.com/training/catalog/580fc1dea4a46d172b116049/basics-of-javascript-web-apps/) 
+	1. 1 hour, 15 minutes. 
+	2. Includes intro to ArcGIS API for JavaScript
+4. [ESRI: Python for Everyone](https://www.esri.com/training/catalog/57630436851d31e02a43f13c/python-for-everyone/) 
+	1. 4 hours, 15 minutes
 5. [Map Projections tutorials by ESRI](https://learn.arcgis.com/en/paths/map-projections/)
 	- **This is *_essential_* if you're going to be using spatial data!**
 		- The Earth being a sphere affects data truth. 
@@ -226,7 +234,8 @@ There's so many GIS and spatial data analysis training options. Here's a few to 
 
 <h3 id="avenza-training">4c. Avenza Systems Free Training</h3>
 1. [Avenza Systems Webinars list](https://www.avenza.com/resources/webinars-videos/)
-2. [Avenza Systems YouTube](https://www.youtube.com/@AvenzaSystems)
+2. [Avenza Systems YouTube](https://www.youtube.com/@AvenzaSystems) 
+
 
 <h3 id="javascript-gis-training">4d. JavaScript Specific GIS Training , Docs and Resources</h3>
 
@@ -234,10 +243,10 @@ Some of these courses are listed in other subsections of this section.
 But being a TorontoJS member it's nice to have a specific section to refer people to!
 JavaScipt is one of the most under utilized programming languages in GIS and geospatial analysis.
 
-1. [5 Best Web Mapping Platforms](https://gisgeography.com/web-mapping/) – The Battle of Web GIS
+1. [5 Best Web Mapping Platforms – The Battle of Web GIS](https://gisgeography.com/web-mapping/) 
 	1. This is more an overview of Web GIS, but given that most JS devs aren't familiar with GIS it's also an intro to how we can use GIS in web apps.
 	2. By: [GISGeography](https://gisgeography.com/author/gisgeo/)
-	3. Last Updated:January 6, 2024
+	3. Last Updated: January 6, 2024
 2. [PD-32 - JavaScript for GIS](https://gistbok.ucgis.org/bok-topics/javascript-gis)
 3. [ESRI: Basics of JavaScript Web Apps](https://www.esri.com/training/catalog/580fc1dea4a46d172b116049/basics-of-javascript-web-apps/) 
 	1. 1 hour, 15 minutes. 
@@ -247,8 +256,8 @@ JavaScipt is one of the most under utilized programming languages in GIS and geo
 	2. Updated October 2023
 5. [Awesome Frontend GIS](https://joewdavies.github.io/awesome-frontend-gis/)
 	1. _"A compilation of geospatial-related web frameworks, tools, demos, applications, data sources and more."_
-	2. **HUGE** list of resources** by category
-		1. JS Libraries: Mapping, data processing, LiDAR, Remote Sensing
+	2. **HUGE** list of resources by category
+		1. JavaScript Libraries: Mapping, data processing, LiDAR, Remote Sensing
 		2. Data sources: Downloads, web APIs, Collections
 		3. Notebooks: Beginner, intermediate, advanced
 		4. Web maps
