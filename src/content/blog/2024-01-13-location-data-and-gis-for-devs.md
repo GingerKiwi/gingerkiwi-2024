@@ -41,27 +41,27 @@ There's many references from ESRI (Earth Science Research Institute) because ESR
 
 Some of the definitions below are quoted directly from industry sources. Others are my own definitions from years of post-secondary geography and geomatics education, and from doing environmental surveying. Industry sources are referenced with accessible in-page links to the reference section. 
 
-- Geographical Information Systems (GIS)
+- **Geographical Information Systems (GIS)**
 	- Computer software that stores, analyzes and displays spatial (location) data. 
 		- Data types can include:
-			- Point data: eg location of a utility pole, bird nesting site, feral cat colony,
-			- Vector (line) data: eg a road, hiking trail, bird migration route
-			- Raster / shape file (area / pixel) data: eg a land parcel, footprint of a building, national park area
-			- Non-spatial data: eg 
+			- **Point data:** eg location of a utility pole, bird nesting site, feral cat colony,
+			- **Vector (line) data:** eg a road, hiking trail, bird migration route
+			- **Raster / shape file (area / pixel) data: **eg a land parcel, footprint of a building, national park area
+			- **Non-spatial data: **eg 
 				  1. Who owns the utility pole, 
 				  2. What species of bird, and how many eggs it laid
 				  3. How many people used the hiking trail last year, 
 				  4. Number of people infected with covid in a postal code
 		- Note that this is a  _very_ simple overview of data types and examples.
-- Geomatics:
+- **Geomatics:**
 	- The science of the collection, storage, and analysis of spatial data, data relating to the earth's surface. This also includes space, especially in relation to satellites and space craft in earth orbit. 
-- Spatial data: 
+- **Spatial data:** 
 	- Any data with a location attached.
-- Spatial data analysis
+- **Spatial data analysis:**
 	- "The process of examining the locations, attributes, patterns, and relationships of features in spatial data in order to address a question or gain useful knowledge." ~ ESRI  <a href="#ref-esri-spatial-data-analysis" aria-label="link to reference"><sup>1</sup></a>
-- Layer:
+- **Layer:**
 	- "Layers are the mechanism used to display geographic datasets in ArcMap, ArcGlobe, and ArcScene. Each layer references a dataset and specifies how that dataset is portrayed using symbols and text labels. When you add a layer to a map, you specify its dataset and set its map symbols and labeling properties." ~ ESRI  <a href="#ref-esri-layers" aria-label="link to reference"><sup>2</sup></a>
-- Images / Imagery
+- **Images / Imagery:**
 	- Refers to non-map data such as aerial photographs (taken from planes or drones) and photographs taken from satellites.
 
 <h2 id="ai-vector-db">Artificial Intelligence Vector Databases and GIS</h2>
@@ -248,22 +248,31 @@ One of the best places to find open data is the master list kept by GoGeomatics 
 2. <span id="ref-esri-layers"><a href="https://desktop.arcgis.com/en/arcmap/latest/map/working-with-layers/what-is-a-layer-.htm">ESRI: What is a layer?—ArcMap | Documentation (arcgis.com)</a></span>
 3. <span id="ref-esri-history-of-gis"><a href="https://www.esri.com/en-us/what-is-gis/history-of-gis">ESRI: History of GIS | What is GIS (esri.com)</a></span>
 
+### Statistics Book
+
+1. [Cartoon Guide to Statistics](https://www.larrygonick.com/titles/science/the-cartoon-guide-to-statistics/)by  Larry Gonick and Woollcott Smith
+	1. This is an amazing statistics book both if you've never done statistics, if you need a refresher, or would just like a good reference book.
+	2. Yes, there's "free" pdfs floating around, but it's well done.
 ### GIS Resources
 
-1. [What is GIS?](https://www.esri.com/en-us/what-is-gis/overview)| Geographic Information System Mapping Technology (esri.com)
-2. [GIS Dictionary (esri.com)](https://support.esri.com/en-us/gis-dictionary)
-3. [Geoanalytics 101:](https://gisgeography.com/geoanalytics/#:~:text=With%20the%20rise%20of%20real-time%20sensors%20and%20the,machine%20learning%20methods%20to%20the%20analysis%20of%20information.) Exploring Spatial Data Science - GIS Geography
-4. [Spatial Analysis Articles](https://gogeomatics.ca/subjects/spatial-analysis/) – GoGeomatics Canada
-5. [Artificial intelligence article list ](https://gogeomatics.ca/?s=artificial+intelligence) – GoGeomatics Canada
-6. [GoGeomatics Meetups ](https://gogeomatics.ca/gogeomatics-meetups/) – GoGeomatics Canada
-7. Volunteer to write a technical article on "software dev/ JavaScript / C#, Git, GitHub or other introductory dev topis for GIS professionals" 
+1. **Mapscaping Podcast**[JavaScript and GIS](https://mapscaping.com/javascript-for-gis/)
+	1. Highly recommend Mapscaping podcast! The host Daniel is a Kiwi! (From New Zealand)
+	2. [Mapscaping blog](https://mapscaping.com/blog/)
+	3. [Mapscaping podcast](https://mapscaping.com/podcasts/)
+2. [What is GIS?](https://www.esri.com/en-us/what-is-gis/overview) Geographic Information System Mapping Technology (esri.com)
+3. [GIS Dictionary (esri.com)](https://support.esri.com/en-us/gis-dictionary)
+4. [Geoanalytics 101:](https://gisgeography.com/geoanalytics/#:~:text=With%20the%20rise%20of%20real-time%20sensors%20and%20the,machine%20learning%20methods%20to%20the%20analysis%20of%20information.) Exploring Spatial Data Science - GIS Geography
+5. [Spatial Analysis Articles](https://gogeomatics.ca/subjects/spatial-analysis/) – GoGeomatics Canada
+6. [Artificial intelligence article list ](https://gogeomatics.ca/?s=artificial+intelligence) – GoGeomatics Canada
+7. [GoGeomatics Meetups ](https://gogeomatics.ca/gogeomatics-meetups/) – GoGeomatics Canada
+8. Volunteer to write a technical article on "software dev/ JavaScript / C#, Git, GitHub or other introductory dev topis for GIS professionals" 
 	- [Editors & Writers Group – GoGeomatics](https://gogeomatics.ca/editors-writers-group/)
-8. Canadian Geospatial Schools & Programs.
+9. Canadian Geospatial Schools & Programs.
 	- [GoGeomatics schools and programs list](https://gogeomatics.ca/resources/schools-programs/)
 	- These are "going back to school" type programs at universities and colleges, so they're not listed in the training section above.
-9. [GIS Stack Exchange](https://gis.stackexchange.com/)
+10. [GIS Stack Exchange](https://gis.stackexchange.com/)
 	1. This would be a good place to ask where you could find a particular type of data set.
-10. 
+
 
 ### Artificial Intelligence Resources
 
