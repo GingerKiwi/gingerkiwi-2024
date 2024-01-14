@@ -32,15 +32,28 @@ There's many references from ESRI (Earth Science Research Institute) because ESR
 
 1. <a href="#definitions">Definitions</a>
 2. <a href="#ai-vector-db">Similarities between AI vector Databases and GIS</a>
-	1. What are AI vector databases?
-	2. How learning GIS and spatial data analysis fundamentals can help you learn AI
+	1. <a href="#what-are-ai-vector-dbs">What are AI vector databases?</a>
+	2. <a href="#learn-gis-to-learn-ai">How learning GIS and spatial data analysis fundamentals can help you learn AI</a>
 3. <a href="#industry-standard-and-opensource-gis">Industry Standard and Open Source GIS</a>
-4.  <a href="#free-gis-spatial-data-analysis-training">Free GIS and spatial data analysis training</a>
-5. <a href="#free-spatial-datasets">Where to find free spatial datasets</a>
+	1. <a href="#esri">ESRI Industry Standard GIS</a>
+	2. <a href="#qgis">QGIS Open Source</a>
+	3. <a href="#avenza">Avenza Innovative Toronto GIS Company</a>
+4. <a href="#free-gis-spatial-data-analysis-training">Free GIS and spatial data analysis training</a>
+	1. <a href="esri-training">Free Training by ESRI </a>- Includes general GIS training, not just ESRI products
+	2. <a href="qgis-training">QGIS Free Training</a>
+	3. <a href="#avenza-training">Avenza Free Training</a>
+	4. <a href="#javascript-gis-training">JavaScript Specific Free GIS Training</a>
+	5. <a href="#postgis-training">Postgres (PostGIS)</a>
+	6. <a href="#python-gis-training">Python and GIS Free Training</a>
+	7. <a href="#Statistics and Maths Refreshers">Statistics and Maths Review Materials</a>
+	8. <a href="#other-free-training">Other Free Training Resources</a>
+5. <a href="#free-spatial-datasets">Free Spatial Datasets</a>
 6. <a href="#references-and-resources">References and more resources </a>- including my favourite statistics book
-	1. References
-	2. GIS Resources
-	3. Artificial Intelligence Resources - Focus on Large Language Models (LLMs) and accessibility.
+	1. <a href="references">References</a>
+	2. <a href="#stats-book">Awesome Statistics Book</a>
+	3. <a href="#gis-resources">GIS Resources</a>
+	4. <a href="#ai-resources">Artificial IntelligenceResources - Focus on Large Language Models (LLMs) and accessibility.</a>
+	5. <a href="#a11y-and-ai">Accessibility and AI</a>
 
 ---
 
@@ -81,7 +94,7 @@ Though the twists and turns of the pandemic I discovered that software developme
 
 I'm working on my web accessibility certification. There's a lot of potential for AI to improve the lives, user experience, and developer experience of disabled people. So I'm also working on my [Microsoft Azure AI Engineer Associate certification](https://learn.microsoft.com/en-ca/credentials/certifications/azure-ai-engineer/). 
 
-### What Are AI Vector Databases?
+<h3 id="#what-are-ai-vector-dbs"> 2a. What Are AI Vector Databases?</h3>
 
 This past Tuesday I watched a [Microsoft Reactor live stream](https://www.youtube.com/live/_iltJI1nnaA?si=6cNW8RLOMZFL-jiW) with LlamaIndex on _"Building AI-powered Retrieval-Augumented Generation apps with LlamaIndex and Azure Cosmos DB"_. Laurie Voss, developer relations at LlamaIndex covered how Large Language Models (LLMs) work. LLMs convert data into numbers, specifically numbers that exist in vector space.
 
@@ -89,7 +102,7 @@ This past Tuesday I watched a [Microsoft Reactor live stream](https://www.youtub
 
 Link to the section of the video that [talks about vector db and LLMs](https://www.youtube.com/live/_iltJI1nnaA?si=cz_WRGuAMyl50PtG&t=1132)
 
-### Similarities Between AI Vector Databases and GIS?
+### 2b. Similarities Between AI Vector Databases and GIS?
 
 <img src="/images/2024-01-13_Screenshot_VectorAI.png"  alt="graphic: cartoon like globe on the left showing a city, farms, fields, and bodies of water. There are arrows pointing from the globe to one of the layers on the right. The right side has a set of six squares one on top of the other with space in between. The top has dots and is labeled customers. Second one is a street map and is labeled streets. Third is an outline of land areas. It's labeled parcels. Fourth layer is a grid with squares different colours. It looks like a river is running diagonally across it. Fifth layer is similar to the fourth, but has different colours. It's labeled land usage. The bottom layer shows different land heights, There's a river running though the middle with a city on one side and trees and rocks on the other. "/>
 
@@ -106,7 +119,7 @@ The two graphics above shows how AI vector databases looked identical to a graph
 	- Therefor there's no need to deal with data on a sphere, and what happens when you reach the geographic edge of your dataset but the actual data (that's not in your dataset) continues on over the surface of a sphere past the edges of your map. 
 	- (If you're curious ask me about the _**"PacMan" spatial data sampling method**_ .)
 
-### How learning GIS and Spatial Data Analysis Fundamentals Can Help You Learn AI
+<h3 id="#learn-gis-to-learn-ai">2c. How learning GIS and Spatial Data Analysis Fundamentals Can Help You Learn AI</h3>
 
 With all the similarities between LLM data storage and analysis in vector data bases and GIS, learning one can help you learn the other. There's other benefits too. Using programming languages that are popular in both AI and Geomatics (e.g. Python) in different contexts helps level up your coding skills.  Also, there's overlap with smart devices and the internet of things (IoT), and autonomous vehicles.
 
@@ -118,7 +131,7 @@ A Canadian company, ESRI, dominates the global GIS market. GIS started in Canada
 
 Note that links to training are in the "where to get <a href="#free-gis-spatial-data-analysis-training">free GIS and spatial data analysis training</a>" section after this one.
 
-### 3a. Industry Standard: ESRI 
+<h3 id="#learn-gis-to-learn-ai">3a. Industry Standard: ESRI</h3>
 
 <img src="/images/2024-01-13_ESRI-ArcGIS-banner.gif" alt="Logo: ArcGIS ESRI. There's a stylized line drawing of a blue and green globe on the left. " />
 
@@ -140,7 +153,7 @@ ESRI was founded in 1969. It went though many versions, different software archi
 1. [ESRI Canada home page](https://www.esri.ca/en-ca/home)
 2. [Canadian pricing for individuals](https://www.esri.ca/en-ca/store/products/buy/arcgis-online#for-individuals)
 
-### 3b. Open Source GIS
+<h3 id="qgis">3b. QGIS: Open Source GIS</h3>
 
 <img src="/images/2024-01-13_QGIS_Logo-transparent.webp" alt="Logo: QGIS. Very simple green all capital letters. The Q has a bit of orange and yellow stripes on the inner part of the line. " />
 
@@ -152,8 +165,11 @@ While there are many open source GISs, QGIS is the major open source GIS. It's t
 2. [QGIS docs](https://qgis.org/en/docs/index.html)
 3. [QGIS Community](https://qgis.org/en/site/getinvolved/index.html)Contribute to open source GIS
 4. [13 Free GIS Software Options](https://gisgeography.com/free-gis-software/): Map the World in Open Source. by [GIS Geography](https://gisgeography.com). Last Updated:October 1, 2023
+5. [Open Source Options](https://opensourceoptions.com/)
+	1. Site listing open source GIS options
+	2. Also has a [YouTube channel](https://www.youtube.com/@opensourceoptions)
 
-### 3c. Avenza Systems: Innovative Toronto GIS Company 
+<h3 id="avenza">3c. Avenza Systems: Innovative Toronto GIS Company</h3>
 
 <img src="/images/GIS_AvenzaSystemsInc-logo_800x300.png" alt="Logo: Avenza Systems Inc. There's a stylized line drawing of a globe with a letter A on it at the top." />
 
@@ -182,10 +198,10 @@ Avenza is [located close to Davisville station](https://maps.app.goo.gl/SQKK4oK5
 	2. [Conference talk summary and recording](https://gogeomatics.ca/geoignite-2020-cartographic-journeys-with-the-avenza-platform-nick-burchell-director-avenza/)
 
 ---
-<h2 id="free-gis-spatial-data-analysis-training">Free Training</h2>
+<h2 id="free-gis-spatial-data-analysis-training">4. Free Training</h2>
 There's so many GIS and spatial data analysis training options. Here's a few to get you started. The ESRI ones require a software licence. Use the free 21 day trials listed above to get started. I've listed both top level sites that have multiple courses and a few individual courses that might interest other developers.
 
-### Free GIS Training by ESRI
+<h3 id="esri-training">4a. Free GIS Training by ESRI</h3>
 
 **These free training resources from ESRI includes general GIS and spatial data analysis training.** They're worth a good look even if you're going the open source GIS route.
 
@@ -198,18 +214,20 @@ There's so many GIS and spatial data analysis training options. Here's a few to 
 		- The Earth being a sphere affects data truth. 
 		- Depending on the projection distances, areas, or shapes of areas are distorted.
 		- This collection of articles, videos, and an interactive "story" (made in a GIS) can be **finished in half a day**.
-### QGIS Free Training
+
+<h3 id="qgis-training">4b. QGIS Free Training</h3>
 
 1. [QGIS Training manual (html)](https://docs.qgis.org/3.28/en/docs/training_manual/index.html)
 2. [PyGIS Cookbook](https://docs.qgis.org/3.28/en/docs/pyqgis_developer_cookbook/index.html) PyGIS is part of QGIS
 3. [Developers Guide for QGIS](https://docs.qgis.org/3.28/en/docs/developers_guide/index.html)
 4. [A Gentle Introduction to GIS](https://docs.qgis.org/3.28/en/docs/gentle_gis_introduction/index.html) Part of the QGIS docs.
+5. [Open Source Options YouTube channel](https://www.youtube.com/@opensourceoptions)
 
-### Avenza Systems Free Training
+<h3 id="avenza-training">4c. Avenza Systems Free Training</h3>
 1. [Avenza Systems Webinars list](https://www.avenza.com/resources/webinars-videos/)
 2. [Avenza Systems YouTube](https://www.youtube.com/@AvenzaSystems)
 
-### JavaScript Specific Training and Resources
+<h3 id="javascript-gis-training">4d. JavaScript Specific GIS Training , Docs and Resources</h3>
 
 Some of these courses are listed in other subsections of this section. 
 But being a TorontoJS member it's nice to have a specific section to refer people to!
@@ -223,18 +241,35 @@ JavaScipt is one of the most under utilized programming languages in GIS and geo
 3. [ESRI: Basics of JavaScript Web Apps](https://www.esri.com/training/catalog/580fc1dea4a46d172b116049/basics-of-javascript-web-apps/) 
 	1. 1 hour, 15 minutes. 
 	2. Includes intro to ArcGIS API for JavaScript
-4. [Open Layers: Geospatial JavaScript Library](https://www.geographyrealm.com/openlayers-geospatial-javascript-library/)
+4. [ArcMaps SDK for JavaScript](https://developers.arcgis.com/javascript/latest/)
+	1. ESRI
+	2. Updated October 2023
+5. [Awesome Frontend GIS](https://joewdavies.github.io/awesome-frontend-gis/)
+	1. _"A compilation of geospatial-related web frameworks, tools, demos, applications, data sources and more."_
+	2. **HUGE** list of resources** by category
+		1. JS Libraries: Mapping, data processing, LiDAR, Remote Sensing
+		2. Data sources: Downloads, web APIs, Collections
+		3. Notebooks: Beginner, intermediate, advanced
+		4. Web maps
+		5. Web Apps
+		6. Colour advices
+		7. Icons
+		8. Videos
+		9. Further reading
+	3. [Github repo](https://github.com/joewdavies/awesome-frontend-gis)
+	4. Author's Twitter/X: [@joewdavies](https://twitter.com/joewdavies)
+6. [Open Layers: Geospatial JavaScript Library](https://www.geographyrealm.com/openlayers-geospatial-javascript-library/)
 	1. By [Geography Realm](https://www.geographyrealm.com/)
-5. [JavaScript for Geospatial applications](https://geoawesomeness.com/javascript-for-geospatial-applications-an-overview/)
-6. [How can you integrate JavaScript with GIS?](https://www.linkedin.com/advice/0/how-can-you-integrate-javascript-gis-5ldde)
+7. [JavaScript for Geospatial applications](https://geoawesomeness.com/javascript-for-geospatial-applications-an-overview/)
+8. [How can you integrate JavaScript with GIS?](https://www.linkedin.com/advice/0/how-can-you-integrate-javascript-gis-5ldde)
 	1. LinkedIn article
-7. [Open Source WebGIS Online Tutorial](http://webgis.pub/)
-8. [U Penn: GEOG 585: Open Web Mapping](https://www.e-education.psu.edu/geog585/)
+9. [Open Source WebGIS Online Tutorial](http://webgis.pub/)
+10. [U Penn: GEOG 585: Open Web Mapping](https://www.e-education.psu.edu/geog585/)
 	1. Free university course
 	2. U Penn College of Earth and Mineral Sciences has a lot of free open courses.
 
 
-### Postgres GIS (PostGIS) Free Training
+<h3 id="postgis-training">4e. Postgres GIS (PostGIS) Free Training</h3>
 
 1. [Introduction to PostGIS](https://postgis.net/workshops/postgis-intro/)
 2. [PostGIS Docs](https://postgis.net/documentation/manual/)
@@ -245,64 +280,100 @@ JavaScipt is one of the most under utilized programming languages in GIS and geo
 5. [Geographical Data Management with PostGIS](https://github.com/dkakkar/Geospatial-data-management-with-PostGIS)
 	1. Github repo
 
-### Other Free Training Resources
+<h3 id="python-gis-training">4f. Python and GIS Free Training</h3>
+1. U Penn [GEOG 489 - Advanced Python Programming for GIS](https://www.e-education.psu.edu/geog489/node/1776) 
+	1. 10-12 weeks, 4 x 20-30 minute lessons per week
+2.  [ESRI: Python for Everyone](https://www.esri.com/training/catalog/57630436851d31e02a43f13c/python-for-everyone/) 4 hours, 15 minutes
+3. [Get started with PyQGIS Series' Articles](https://dev.to/bordoray/series/24614)
+	1. Dev.to !
+	2. [Raymond Lay](https://dev.to/bordoray) - French geospatial engineer
+4. U. Penn [GEOG 865 Cloud and Server GIS](https://www.e-education.psu.edu/geog865/node/25)
+	1. 10-12 hours/week for 10 weeks 
+	2. Master’s level elective course. 
+	3. Software used includes: ESRI ArcGIS Pro/Arcpy, Jupyter Notebook, ESRI ArcGIS API for Python, QGIS, GDAL/OGR.
+5. [Best Courses for Geospatial Python](https://mapscaping.com/best-online-courses-for-geospatial-python/)
+	1. A list of courses from the [Mapscaping](https://mapscaping.com/) blog and podcast
+	2. Updated October 02, 2022 - sStill definitely worth a look.
+6. [Automating GIS Processes 2023](https://autogis-site.readthedocs.io/en/latest/)
+	1. [GitHub repo](https://github.com/Automating-GIS-processes/site/)
+	2. Emphasis on automating with Python
+7. [QGIS Python Tutorial (PyQGIS Tutorial)](https://youtu.be/X-LvGvNor4E?si=BRGogOmp8kRhSEZQ) YouTube - Open Source Options
+8. [QGIS Python Programming (PyGIS) Playlist](https://www.youtube.com/watch?v=W5_3H2UWYms&list=PLzHdTn7Pdxs7bWcdXMaaf3Wpz-W8q0Lbj&pp=iAQB) by Open Source Options
+9. [PyGIS Developer Cookbook](https://docs.qgis.org/3.28/en/docs/pyqgis_developer_cookbook/index.html) by QGIS docs
 
-1. [McMaster Library GIS Services](https://library.mcmaster.ca/services/gis)
+<h3 id="other-free-training">4g. Other Free GIS Training Resources</h3>
+
+1. [# Automating GIS Processes 2023](https://autogis-site.readthedocs.io/en/latest/)
+	1. [GitHub repo](https://github.com/Automating-GIS-processes/site/)
+2. U. Penn [GEOG 865 Cloud and Server GIS](https://www.e-education.psu.edu/geog865/node/25)
+	1. 10-12 hours/week for 10 weeks 
+	2. Master’s level elective course. 
+	3. Software used includes: ESRI ArcGIS Pro/Arcpy, Jupyter Notebook, ESRI ArcGIS API for Python, QGIS, GDAL/OGR.
+3. [McMaster Library GIS Services](https://library.mcmaster.ca/services/gis)
 	- A list of free webinars and other training available to the public. 
 	- Also resources, software, and workstations, available to McMaster staff and students
-2. [GISGeography](https://gisgeography.com/learn-gis/) Learn GIS
+4. [GISGeography](https://gisgeography.com/learn-gis/) Learn GIS
 	- A list of well illustrated articles and written tutorials.
 	- [Cartography: Data Classification](https://gisgeography.com/choropleth-maps-data-classification/) 
 		- Is worth a good look. At first glance devs might not find it relevant because it's about traditional maps and not specifically GIS. But it's important to know about your data before you use it!
-1. [Harvard Centre for Geographic Analysis](https://gis.harvard.edu/page-type/teaching) 
+5. [Harvard Centre for Geographic Analysis](https://gis.harvard.edu/page-type/teaching) 
 	1. List of several free courses on a wide range of topics
-2. [U of Buffalo: Free Online GIS Training](https://research.lib.buffalo.edu/gis-courses/gis-training)
+6. [U of Buffalo: Free Online GIS Training](https://research.lib.buffalo.edu/gis-courses/gis-training)
 	1. List of free online GIS Training
 	2. Maintained by the University of Buffalo Libraries
 	3. Last updated Jan 08, 2024
 
+<h3 id="statistics-and-maths">4h. Statistics and Maths Refreshers</a>
+1. [U Penn:Math and Statistics Review Materials ](https://online.stat.psu.edu/statprogram/)
+2. [Cartoon Guide to Statistics](https://www.larrygonick.com/titles/science/the-cartoon-guide-to-statistics/) by  Larry Gonick and Woollcott Smith
+	1. This is an amazing statistics book both if you've never done statistics, if you need a refresher, or would just like a good reference book.
+	2. Yes, there's "free" pdfs floating around, but it's well done.
+
+
 ---
 
-<h2 id="free-spatial-datasets">Free Spatial Datasets</h2>
-One of the best places to find open data is the master list kept by GoGeomatics Canada. Most of the other references below are on that list.
+<h2 id="free-spatial-datasets">5. Free Spatial Datasets</h2>
+One of the best places to find open data is the [master list by GoGeomatics Canada](https://gogeomatics.ca/resources/open-data). 
+Most of the other references below are on that list.
 
 1. [GoGeomatics: Open Data sources list](https://gogeomatics.ca/resources/open-data/)
-2. [Open Street Map](https://www.openstreetmap.org/export#map=5/51.500/-0.100)
-3. United States Geological Survey [USGS EarthExplorer](https://earthexplorer.usgs.gov)
-	1. Note: for teachers and parents the [USGS Educational Resources](https://www.usgs.gov/educational-resources) also has great geography, earth sciences materials for kids and teens.
-4. [Open Data Inception](https://opendatainception.io) Global listing of open spatial data sources. 
-	1. The listing is a map with a search field at the top right of the site.
-5. [Transit land](https://www.transit.land) Community edited data source of transit data
-6. [Transit feeds](https://transitfeeds.com) Archived public transit data. 
-	1. It has an API and you can login with GitHub.
-7. [Open Mobility.org Twitter account](https://twitter.com/OpenMobilityOrg)
-8. [Canadian Open Data](https://canadiangis.com/data.php) and Free Geospatial data resources
-9. [World Atlas](https://gisgeography.com/world-atlas/) by GISGeography.
-	1. *"Get a blueprint of all countries of the world with 200+ maps. Explore the world atlas with political, satellite, and topographic maps."*
-10. Totiū Te Whenua / Land Information New Zealand [LINZ Data Service](https://data.linz.govt.nz/data/)
-11. UK [Open Geography Portal](https://geoportal.statistics.gov.uk/) Office for National Statistics
-12. [10 Free GIS Data Sources: ](https://gisgeography.com/best-free-gis-data-sources-raster-vector/) Best Global Raster and Vector Datasets - GIS Geography
-13. Maps for Europe [EuoGeographics](https://eurogeographics.org/maps-for-europe/)
-14. Free GIS Data [Free GIS Data](https://freegisdata.rtwilson.com/) Categorised List of over 500 different data sources 
+2. [Free GIS Data](https://freegisdata.rtwilson.com/) Categorized List of over **500 different data sources** 
 	1. All listed sources are ready to go into a GIS database.
-	2. (rtwilson.com)
+	2. [https://rtwilson.com](rtwilson.com)
+3. [Open Street Map](https://www.openstreetmap.org/export#map=5/51.500/-0.100)
+4. United States Geological Survey [USGS EarthExplorer](https://earthexplorer.usgs.gov)
+	1. Note: for teachers and parents the [USGS Educational Resources](https://www.usgs.gov/educational-resources) also has great geography, earth sciences materials for kids and teens.
+5. [Open Data Inception](https://opendatainception.io) Global listing of open spatial data sources. 
+	1. The listing is a map with a search field at the top right of the site.
+6. [Transit land](https://www.transit.land) Community edited data source of transit data
+7. [Transit feeds](https://transitfeeds.com) Archived public transit data. 
+	1. It has an API and you can login with GitHub.
+8. [Open Mobility.org Twitter account](https://twitter.com/OpenMobilityOrg)
+9. [Canadian Open Data](https://canadiangis.com/data.php) and Free Geospatial data resources
+10. [World Atlas](https://gisgeography.com/world-atlas/) by GISGeography.
+	1. *"Get a blueprint of all countries of the world with 200+ maps. Explore the world atlas with political, satellite, and topographic maps."*
+11. Totiū Te Whenua / Land Information New Zealand [LINZ Data Service](https://data.linz.govt.nz/data/)
+12. UK [Open Geography Portal](https://geoportal.statistics.gov.uk/) Office for National Statistics
+13. [10 Free GIS Data Sources: ](https://gisgeography.com/best-free-gis-data-sources-raster-vector/) Best Global Raster and Vector Datasets - GIS Geography
+14. Maps for Europe [EuoGeographics](https://eurogeographics.org/maps-for-europe/)
 15. [Geospatial Data collection](https://mdl.library.utoronto.ca/collections/geospatial-data) Map and Data Library University of Toronto
 
 ---
-<h2 id="references-and-resources">References and Resources</h2>
+<h2 id="references-and-resources">6. References and Resources</h2>
 
-### References
+<h3 id="references">6a. References</a>
 
 1. <span id="ref-esri-spatial-data-analysis"><a href="https://support.esri.com/en-us/gis-dictionary/spatial-analysis#:~:text=%20The%20process%20of%20examining%20the%20locations%2C%20attributes%2C,to%20address%20a%20question%20or%20gain%20useful%20knowledge.">ESRI: spatial analysis | GIS Dictionary </a></span>
 2. <span id="ref-esri-layers"><a href="https://desktop.arcgis.com/en/arcmap/latest/map/working-with-layers/what-is-a-layer-.htm">ESRI: What is a layer?—ArcMap | Documentation (arcgis.com)</a></span>
 3. <span id="ref-esri-history-of-gis"><a href="https://www.esri.com/en-us/what-is-gis/history-of-gis">ESRI: History of GIS | What is GIS (esri.com)</a></span>
 
-### Statistics Book
+<h3 id="stats-book">6b. Statistics Book</h3>
 
 1. [Cartoon Guide to Statistics](https://www.larrygonick.com/titles/science/the-cartoon-guide-to-statistics/) by  Larry Gonick and Woollcott Smith
 	1. This is an amazing statistics book both if you've never done statistics, if you need a refresher, or would just like a good reference book.
 	2. Yes, there's "free" pdfs floating around, but it's well done.
-### GIS Resources
+
+<h3 id="gis-resources">6c. GIS Resources</h3>
 
 1. **Mapscaping Podcast** [JavaScript and GIS](https://mapscaping.com/javascript-for-gis/)
 	1. Highly recommend the Mapscaping podcast! The host Daniel is a Kiwi! (From New Zealand)
@@ -326,14 +397,9 @@ One of the best places to find open data is the master list kept by GoGeomatics 
 	2. Find training and more!
 
 
-### Artificial Intelligence Resources
+<h3 id="ai-resources">6d. Artificial Intelligence Resources</h3>
 
-These are a few I've been referring to as I work on my AI Engineer cert. There's a ton of really good information out there. My focus is on the intersection of AI and accessibility. 
-
-AI and Accessibility: [Be My Eyes and AI](https://youtu.be/dIImXx1C7_g?si=JXjF3gORQnVoL4tZ)The video is embedded below.
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dIImXx1C7_g?si=JXjF3gORQnVoL4tZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen alt="watch video about Be My Eyes AI"></iframe>
+These are a few I've been referring to as I work on my AI Engineer cert. There's a ton of really good information out there. My focus is on Natural Language Processing (NLP) and Large Language Models (LLMs) because of the intersection of AI and accessibility. 
 
 1. [LlamaIndex: Typescript Docs](https://ts.llamaindex.ai)
 2. [LlamaIndex: Python Docs](https://docs.llamaindex.ai/en/stable/)
@@ -343,8 +409,16 @@ AI and Accessibility: [Be My Eyes and AI](https://youtu.be/dIImXx1C7_g?si=JXjF3g
 6. Free Microsoft credential. Build a natural language processing solution with Azure AI Language  [AI Applied Skills credential](https://learn.microsoft.com/en-us/credentials/applied-skills/build-natural-language-solution-azure-ai/?ns-enrollment-type=Collection&ns-enrollment-id=48zjtj6kk2mewn) Microsoft Learn. 
 	- This is an at home assessment completed after the list of courses at the bottom of the page.
 	- [Disability accommodations](https://learn.microsoft.com/en-ca/credentials/support/appliedskills-assessment-lab-accommodations) including use of NVDA and extra time are available.
-7. LinkedIn post commenting about AI and accessibility: [Assistive technology is AI's next billion-person market](https://www.linkedin.com/feed/update/urn:li:activity:7151728939554496512?utm_source=share&utm_medium=member_desktop) Includes a link to the article.
 
+
+<h3 id="a11y-and-ai">6e. Accessibility and AI Resources</h3>
+There's great potential for AI to positively impact disabled, neurodivergent, and deaf/Deaf people. It's already being realized as the video below from Be My Eyes shows.
+
+1. LinkedIn post commenting about AI and accessibility: [Assistive technology is AI's next billion-person market](https://www.linkedin.com/feed/update/urn:li:activity:7151728939554496512?utm_source=share&utm_medium=member_desktop) Includes a link to the article.
+2. [Be My Eyes and AI](https://youtu.be/dIImXx1C7_g?si=JXjF3gORQnVoL4tZ) Integrates accessibility into it's app. The video is embedded below.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dIImXx1C7_g?si=JXjF3gORQnVoL4tZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen alt="watch video about Be My Eyes AI"></iframe>
 
 I hope you find this a valuable resource. It's always awesome when different tech fields come together to develop something new and interesting.
 
