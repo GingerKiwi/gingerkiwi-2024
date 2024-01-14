@@ -4,8 +4,7 @@ date: 2024-01-13
 tags:
   - post
   - featured
-  - history
-  - throwback-thursdays
+  - ai
 image: /images/covers/02_GIS-Spatial-Location-Data-For-Devs_Cover_1200x630.png
 imageAlt: Text says Location (Spatial) Data and Geographical InformationSystems (GIS)for Devs. Rectangular graphic with blue background with white text. There's a graphic of a map with 3 location icons. The largest is red. The one in the front is orange. The location icon in the back is green. There's a thick white border around the graphic.
 description: Here's some information and links for developers to learn more about spatial (location) data, spatial data analysis, and geographical information systems (GIS). I have a background in GIS and geomatics (the collection, analysis, and interpretation of data relating to the earth's surface). There's a lot of similarities between how large geographic data sets are analyzed and large Artificial Intelligence databases like LlamaIndex work.
@@ -281,15 +280,16 @@ JavaScipt is one of the most under utilized programming languages in GIS and geo
 	1. Github repo
 
 <h3 id="python-gis-training">4f. Python and GIS Free Training</h3>
-1. U Penn [GEOG 489 - Advanced Python Programming for GIS](https://www.e-education.psu.edu/geog489/node/1776) 
+
+1. U Penn [GEOG 489 - Advanced Python Programming for GIS](https://www.e-education.psu.edu/geog489/node/1776)
 	1. 10-12 weeks, 4 x 20-30 minute lessons per week
 2.  [ESRI: Python for Everyone](https://www.esri.com/training/catalog/57630436851d31e02a43f13c/python-for-everyone/) 4 hours, 15 minutes
 3. [Get started with PyQGIS Series' Articles](https://dev.to/bordoray/series/24614)
 	1. Dev.to !
 	2. [Raymond Lay](https://dev.to/bordoray) - French geospatial engineer
 4. U. Penn [GEOG 865 Cloud and Server GIS](https://www.e-education.psu.edu/geog865/node/25)
-	1. 10-12 hours/week for 10 weeks 
-	2. Master’s level elective course. 
+	1. 10-12 hours/week for 10 weeks
+	2. Master’s level elective course.
 	3. Software used includes: ESRI ArcGIS Pro/Arcpy, Jupyter Notebook, ESRI ArcGIS API for Python, QGIS, GDAL/OGR.
 5. [Best Courses for Geospatial Python](https://mapscaping.com/best-online-courses-for-geospatial-python/)
 	1. A list of courses from the [Mapscaping](https://mapscaping.com/) blog and podcast
@@ -303,7 +303,7 @@ JavaScipt is one of the most under utilized programming languages in GIS and geo
 
 <h3 id="other-free-training">4g. Other Free GIS Training Resources</h3>
 
-1. [# Automating GIS Processes 2023](https://autogis-site.readthedocs.io/en/latest/)
+1. [Automating GIS Processes 2023](https://autogis-site.readthedocs.io/en/latest/)
 	1. [GitHub repo](https://github.com/Automating-GIS-processes/site/)
 2. U. Penn [GEOG 865 Cloud and Server GIS](https://www.e-education.psu.edu/geog865/node/25)
 	1. 10-12 hours/week for 10 weeks 
@@ -316,14 +316,15 @@ JavaScipt is one of the most under utilized programming languages in GIS and geo
 	- A list of well illustrated articles and written tutorials.
 	- [Cartography: Data Classification](https://gisgeography.com/choropleth-maps-data-classification/) 
 		- Is worth a good look. At first glance devs might not find it relevant because it's about traditional maps and not specifically GIS. But it's important to know about your data before you use it!
-5. [Harvard Centre for Geographic Analysis](https://gis.harvard.edu/page-type/teaching) 
+5. [Harvard Centre for Geographic Analysis](https://gis.harvard.edu/page-type/teaching)
 	1. List of several free courses on a wide range of topics
 6. [U of Buffalo: Free Online GIS Training](https://research.lib.buffalo.edu/gis-courses/gis-training)
 	1. List of free online GIS Training
 	2. Maintained by the University of Buffalo Libraries
 	3. Last updated Jan 08, 2024
 
-<h3 id="statistics-and-maths">4h. Statistics and Maths Refreshers</a>
+<h3 id="statistics-and-maths">4h. Statistics and Maths Refreshers</h3>
+
 1. [U Penn:Math and Statistics Review Materials ](https://online.stat.psu.edu/statprogram/)
 2. [Cartoon Guide to Statistics](https://www.larrygonick.com/titles/science/the-cartoon-guide-to-statistics/) by  Larry Gonick and Woollcott Smith
 	1. This is an amazing statistics book both if you've never done statistics, if you need a refresher, or would just like a good reference book.
@@ -340,23 +341,26 @@ Most of the other references below are on that list.
 2. [Free GIS Data](https://freegisdata.rtwilson.com/) Categorized List of over **500 different data sources** 
 	1. All listed sources are ready to go into a GIS database.
 	2. [https://rtwilson.com](rtwilson.com)
-3. [Open Street Map](https://www.openstreetmap.org/export#map=5/51.500/-0.100)
-4. United States Geological Survey [USGS EarthExplorer](https://earthexplorer.usgs.gov)
+3. [Awesome Frontend GIS - Data Sources](https://joewdavies.github.io/awesome-frontend-gis/#-data-sources)
+	1. Javascript focused data sources
+	2. Downloads, web  APIs, collections
+4. [Open Street Map](https://www.openstreetmap.org/export#map=5/51.500/-0.100)
+5. United States Geological Survey [USGS EarthExplorer](https://earthexplorer.usgs.gov)
 	1. Note: for teachers and parents the [USGS Educational Resources](https://www.usgs.gov/educational-resources) also has great geography, earth sciences materials for kids and teens.
-5. [Open Data Inception](https://opendatainception.io) Global listing of open spatial data sources. 
+6. [Open Data Inception](https://opendatainception.io) Global listing of open spatial data sources. 
 	1. The listing is a map with a search field at the top right of the site.
-6. [Transit land](https://www.transit.land) Community edited data source of transit data
-7. [Transit feeds](https://transitfeeds.com) Archived public transit data. 
+7. [Transit land](https://www.transit.land) Community edited data source of transit data
+8. [Transit feeds](https://transitfeeds.com) Archived public transit data. 
 	1. It has an API and you can login with GitHub.
-8. [Open Mobility.org Twitter account](https://twitter.com/OpenMobilityOrg)
-9. [Canadian Open Data](https://canadiangis.com/data.php) and Free Geospatial data resources
-10. [World Atlas](https://gisgeography.com/world-atlas/) by GISGeography.
+9. [Open Mobility.org Twitter account](https://twitter.com/OpenMobilityOrg)
+10. [Canadian Open Data](https://canadiangis.com/data.php) and Free Geospatial data resources
+11. [World Atlas](https://gisgeography.com/world-atlas/) by GISGeography.
 	1. *"Get a blueprint of all countries of the world with 200+ maps. Explore the world atlas with political, satellite, and topographic maps."*
-11. Totiū Te Whenua / Land Information New Zealand [LINZ Data Service](https://data.linz.govt.nz/data/)
-12. UK [Open Geography Portal](https://geoportal.statistics.gov.uk/) Office for National Statistics
-13. [10 Free GIS Data Sources: ](https://gisgeography.com/best-free-gis-data-sources-raster-vector/) Best Global Raster and Vector Datasets - GIS Geography
-14. Maps for Europe [EuoGeographics](https://eurogeographics.org/maps-for-europe/)
-15. [Geospatial Data collection](https://mdl.library.utoronto.ca/collections/geospatial-data) Map and Data Library University of Toronto
+12. Totiū Te Whenua / Land Information New Zealand [LINZ Data Service](https://data.linz.govt.nz/data/)
+13. UK [Open Geography Portal](https://geoportal.statistics.gov.uk/) Office for National Statistics
+14. [10 Free GIS Data Sources: ](https://gisgeography.com/best-free-gis-data-sources-raster-vector/) Best Global Raster and Vector Datasets - GIS Geography
+15. Maps for Europe [EuoGeographics](https://eurogeographics.org/maps-for-europe/)
+16. [Geospatial Data collection](https://mdl.library.utoronto.ca/collections/geospatial-data) Map and Data Library University of Toronto
 
 ---
 <h2 id="references-and-resources">6. References and Resources</h2>

@@ -32,12 +32,24 @@
             }
           },
           {
+            "id": "23b8354cd019ca9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/2024-01-14-site-updates.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bff1ec3f008bf1eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/2023-12-15-french-fridays-for-developers-21.md",
+                "file": "src/content/blog/2024-01-14-site-updates.md",
                 "mode": "source",
                 "source": false
               }
@@ -174,9 +186,12 @@
   },
   "active": "535a979cb3f192a9",
   "lastOpenFiles": [
-    "src/content/blog/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
-    "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
+    "src/content/blog/2024-01-14-site-updates.md",
+    "public/images/covers/00_BuildingInPublic-Updates_1200x630.png",
+    "Untitled.md",
     "src/content/blog/2023-12-15-french-fridays-for-developers-21.md",
+    "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
+    "src/content/blog/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
     "public/images/covers/02_GIS-Spatial-Location-Data-For-Devs_Cover_1200x630.png",
     "public/images/GIS_AvenzaSystemsInc-logo_800x300.png",
     "public/images/2024-01-13_avenza-logo.webp",
@@ -189,7 +204,6 @@
     "public/images/2024-01-13_QGIS_Logo-transparent.webp.crdownload",
     "public/images/covers/GIS-Spatial-Location-Data-For-Devs_Cover_1200x630.png",
     "public/images/covers/04_TYPOGRAPHY_1200 x630.png",
-    "public/images/covers/02_AIEng_1200x630.png",
     "src/content/blog/2023-12-08-quick-list-of-a11y-resources.md",
     "src/content/blog/2023-12-20-what-are-refreshable-braille-displays.md",
     "src/content/blog/2023-12-08-french-fridays-for-developers-20.md",
@@ -216,8 +230,6 @@
     "src/content/blog/2023-09-10-dsa-javascript-arrays-01.md",
     "src/content/blog/2023-09-08-french-fridays-for-developers-015.md",
     "src/content/blog/2023-08-08-design-tools-and-tips-for-backend-devs-01 1.md",
-    "src/content/blog/quick-a11y-tips-for-devs-02-links-within-pages.md",
-    "src/content/blog/french-fridays-for-developers-018.md",
-    "src/content/blog/french-fridays-for-developers-017.md"
+    "src/content/blog/quick-a11y-tips-for-devs-02-links-within-pages.md"
   ]
 }

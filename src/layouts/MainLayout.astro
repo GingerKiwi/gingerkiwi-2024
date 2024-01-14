@@ -32,7 +32,7 @@ const { seo } = Astro.props;
   </head>
   <body class="flex flex-col min-h-screen">
   
-    <main class="flex-1">
+    <main class="flex-1 md:max-w-full lg:ml-8">
       <slot />
     </main>
   </body><style is:global>
@@ -55,7 +55,8 @@ const { seo } = Astro.props;
 	  /* background: linear-gradient(180deg, var(--bg-medium-dark), var(--bg-dark-article)); */
 	  /* Use line below for testing  */
 	  /* background: linear-gradient(0deg, blue, green 40%, red); */
-      color: #f6f6f6;
+      /* color: #f6f6f6; */
+      color:#e2e8f0;
       background-size: 224px;
     }
     code {

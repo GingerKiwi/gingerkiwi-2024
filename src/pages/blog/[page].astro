@@ -45,7 +45,7 @@ const { page } = Astro.props;
 			)}
 		</div>
 		{page.currentPage}
-		<div class='w-24 text-start'>
+		<div class='w-24 lg:w-32 text-start'>
 			{
 			  page.url.next && (
 				<Link href={page.url.next} rel='prev'>
