@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "535a979cb3f192a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/2023-12-13-accessible-forms-resources.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "08bd108d5601020b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb34b97b5a80d206",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "91e31802f0284838",
             "type": "leaf",
             "state": {
@@ -55,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"

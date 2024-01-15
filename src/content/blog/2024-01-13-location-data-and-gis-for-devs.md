@@ -98,15 +98,22 @@ Some of the definitions below are quoted directly from industry sources. Others 
 
 <h2 id="ai-vector-db">2. Artificial Intelligence Vector Databases and GIS</h2>
 
-Sometimes it takes a non-typical professional background to make connections between seemly separate fields. I have a background in GIS and geomatics, did environmental surveying for the Ontario Ministry of Natural Resources, and had student jobs in spatial analysis in university. In 2019, I changed careers from education as an assistive technology specialist to going back to school for a postgrad program in Urban and Environmental Planning. 
+This past Tuesday I watched a [Microsoft Reactor live stream](https://www.youtube.com/live/_iltJI1nnaA?si=6cNW8RLOMZFL-jiW) with LlamaIndex on _"Building AI-powered Retrieval-Augumented Generation apps with LlamaIndex and Azure Cosmos DB"_. Laurie Voss, developer relations at LlamaIndex covered how Large Language Models (LLMs) work. LLMs convert data into numbers, specifically numbers that exist in vector space.
 
-Though the twists and turns of the pandemic I discovered that software development was a way to use my passion and experience in accessibility, without all the things that led to my burning out in my education career. The developer community is hands down the most supportive, fun, and engaging!
-
-I'm working on my web accessibility certification. There's a lot of potential for AI to improve the lives, user experience, and developer experience of disabled people. So I'm also working on my [Microsoft Azure AI Engineer Associate certification](https://learn.microsoft.com/en-ca/credentials/certifications/azure-ai-engineer/). 
 
 <h3 id="#what-are-ai-vector-dbs"> 2a. What Are AI Vector Databases?</h3>
 
-This past Tuesday I watched a [Microsoft Reactor live stream](https://www.youtube.com/live/_iltJI1nnaA?si=6cNW8RLOMZFL-jiW) with LlamaIndex on _"Building AI-powered Retrieval-Augumented Generation apps with LlamaIndex and Azure Cosmos DB"_. Laurie Voss, developer relations at LlamaIndex covered how Large Language Models (LLMs) work. LLMs convert data into numbers, specifically numbers that exist in vector space.
+Artificial Intelligence Large Language Models (LLMs) face a number of challenges including generating:
+- "hallucinating" - inaccurate information and/or information without common sense
+- irrelevant information
+- repetitive information
+- contradicting themselves
+- offensive or biased answers
+
+>"A vector database is a type of database that stores data as high-dimensional vectors, which are mathematical representations of features or attributes. Each vector has a certain number of dimensions, which can range from tens to thousands, depending on the complexity and granularity of the data."
+>~Microsoft Learn <a href="#ref-microsoft-vector-db" aria-label="link to reference"><sup>4</sup></a>
+
+By storing related information together vector database (VBD) with more related information "closer" together, VBDs overcome many of the challenges that LLMs face.
 
 <iframe width="350" height="197" src="https://www.youtube.com/embed/_iltJI1nnaA?si=A5n5UF0f0k1qnli-&amp;start=1132" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen alt="play video from Microsoft Reactor about LLamaIndex AI and Cosmos DB"></iframe>
 
@@ -115,6 +122,11 @@ Link to the section of the video that [talks about vector db and LLMs](https://w
 ### 2b. Similarities Between AI Vector Databases and GIS?
 
 There's a lot of similarities between AI vector databases and GIS. The following section barely grazes the surface, as the main point of this article is to share GIS and geospatial resources with other developers. However, if you're interested in learning AI, I hope this article will peak your interested in learning geospatial data analysis as well.
+
+Data in a Geographical Information system has location data. By using spatial data analysis you can answer such questions as :
+
+- "Where are students most likely to be misplaced in self-contained special education classes?" (A project I did.)
+- 
 
 <img src="/images/2024-01-13_Screenshot_VectorAI.png"  alt="graphic: cartoon like globe on the left showing a city, farms, fields, and bodies of water. There are arrows pointing from the globe to one of the layers on the right. The right side has a set of six squares one on top of the other with space in between. The top has dots and is labeled customers. Second one is a street map and is labeled streets. Third is an outline of land areas. It's labeled parcels. Fourth layer is a grid with squares different colours. It looks like a river is running diagonally across it. Fifth layer is similar to the fourth, but has different colours. It's labeled land usage. The bottom layer shows different land heights, There's a river running though the middle with a city on one side and trees and rocks on the other. "/>
 
@@ -406,6 +418,7 @@ Most of the other references below are on that list.
 1. <span id="ref-esri-spatial-data-analysis"><a href="https://support.esri.com/en-us/gis-dictionary/spatial-analysis#:~:text=%20The%20process%20of%20examining%20the%20locations%2C%20attributes%2C,to%20address%20a%20question%20or%20gain%20useful%20knowledge.">ESRI: spatial analysis | GIS Dictionary </a></span>
 2. <span id="ref-esri-layers"><a href="https://desktop.arcgis.com/en/arcmap/latest/map/working-with-layers/what-is-a-layer-.htm">ESRI: What is a layer?—ArcMap | Documentation (arcgis.com)</a></span>
 3. <span id="ref-esri-history-of-gis"><a href="https://www.esri.com/en-us/what-is-gis/history-of-gis">ESRI: History of GIS | What is GIS (esri.com)</a></span>
+4. <span id="ref-microsoft-vector-db "><a href="https://www.esri.com/en-us/what-is-gis/history-of-gis">Microsoft Learn: What is a vector database?</a></span>
 
 <h3 id="stats-book">6b. Statistics Book</h3>
 
