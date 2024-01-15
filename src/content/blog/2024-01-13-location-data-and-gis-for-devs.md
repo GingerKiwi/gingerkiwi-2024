@@ -126,7 +126,11 @@ There's a lot of similarities between AI vector databases and GIS. The following
 Data in a Geographical Information system has location data. By using spatial data analysis you can answer such questions as :
 
 - "Where are students most likely to be misplaced in self-contained special education classes?" (A project I did.)
-- 
+- Where are the locations in a city that are food deserts (no access to grocery stores) with poor public transportation have low income?
+- What has changed in this area since [date]?
+- How fast is an infectious disease spreading (eg. covid)?
+
+Vector databases facilitate LLMs and other AI models in answering question by using "location" of data points. Data that is considered to be more related have a closer location than those not as related.
 
 <img src="/images/2024-01-13_Screenshot_VectorAI.png"  alt="graphic: cartoon like globe on the left showing a city, farms, fields, and bodies of water. There are arrows pointing from the globe to one of the layers on the right. The right side has a set of six squares one on top of the other with space in between. The top has dots and is labeled customers. Second one is a street map and is labeled streets. Third is an outline of land areas. It's labeled parcels. Fourth layer is a grid with squares different colours. It looks like a river is running diagonally across it. Fifth layer is similar to the fourth, but has different colours. It's labeled land usage. The bottom layer shows different land heights, There's a river running though the middle with a city on one side and trees and rocks on the other. "/>
 
