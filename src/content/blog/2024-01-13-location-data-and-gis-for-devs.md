@@ -108,7 +108,7 @@ I'm working on my web accessibility certification. There's a lot of potential fo
 
 This past Tuesday I watched a [Microsoft Reactor live stream](https://www.youtube.com/live/_iltJI1nnaA?si=6cNW8RLOMZFL-jiW) with LlamaIndex on _"Building AI-powered Retrieval-Augumented Generation apps with LlamaIndex and Azure Cosmos DB"_. Laurie Voss, developer relations at LlamaIndex covered how Large Language Models (LLMs) work. LLMs convert data into numbers, specifically numbers that exist in vector space.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_iltJI1nnaA?si=A5n5UF0f0k1qnli-&amp;start=1132" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen alt="play video from Microsoft Reactor about LLamaIndex AI and Cosmos DB"></iframe>
+<iframe width="350" height="197" src="https://www.youtube.com/embed/_iltJI1nnaA?si=A5n5UF0f0k1qnli-&amp;start=1132" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen alt="play video from Microsoft Reactor about LLamaIndex AI and Cosmos DB"></iframe>
 
 Link to the section of the video that [talks about vector db and LLMs](https://www.youtube.com/live/_iltJI1nnaA?si=cz_WRGuAMyl50PtG&t=1132)
 
@@ -458,7 +458,7 @@ There's great potential for AI to positively impact disabled, neurodivergent, an
 2. [Be My Eyes and AI](https://youtu.be/dIImXx1C7_g?si=JXjF3gORQnVoL4tZ) Integrates accessibility into it's app. The video is embedded below.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dIImXx1C7_g?si=JXjF3gORQnVoL4tZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen alt="watch video about Be My Eyes AI"></iframe>
+<iframe width="350" height="197" src="https://www.youtube.com/embed/dIImXx1C7_g?si=JXjF3gORQnVoL4tZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen alt="watch video about Be My Eyes AI"></iframe>
 
 I hope you find this a valuable resource. It's always awesome when different tech fields come together to develop something new and interesting.
 
