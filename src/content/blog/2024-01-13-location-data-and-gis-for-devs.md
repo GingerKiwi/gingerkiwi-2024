@@ -370,7 +370,7 @@ JavaScipt is one of the most under utilized programming languages in GIS and geo
 ---
 
 <h2 id="free-spatial-datasets">5. Free Spatial Datasets</h2>
-One of the best places to find open data is the [master list by GoGeomatics Canada](https://gogeomatics.ca/resources/open-data). 
+One of the best places to find open data is the master list by GoGeomatics Canada. 
 Most of the other references below are on that list.
 
 1. [GoGeomatics: Open Data sources list](https://gogeomatics.ca/resources/open-data/)
