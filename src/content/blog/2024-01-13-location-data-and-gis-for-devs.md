@@ -5,10 +5,10 @@ tags:
   - post
   - featured
   - ai
+layout: ../../layouts/BlogPostLayout.astro
 image: /images/covers/02_GIS-Spatial-Location-Data-For-Devs_Cover_1200x630.png
 imageAlt: Text says Location (Spatial) Data and Geographical InformationSystems (GIS)for Devs. Rectangular graphic with blue background with white text. There's a graphic of a map with 3 location icons. The largest is red. The one in the front is orange. The location icon in the back is green. There's a thick white border around the graphic.
 description: Here's some information and links for developers to learn more about spatial (location) data, spatial data analysis, and geographical information systems (GIS). I have a background in GIS and geomatics (the collection, analysis, and interpretation of data relating to the earth's surface). There's a lot of similarities between how large geographic data sets are analyzed and large Artificial Intelligence databases like LlamaIndex work.
-layout: ../../layouts/BlogPostLayout.astro
 category: ai
 draft: "false"
 ---
