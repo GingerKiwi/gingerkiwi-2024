@@ -216,7 +216,7 @@ There's so many GIS and spatial data analysis training options. Here's a few to 
 
 Some of the training resources are listed in multiple categories so readers don't miss something useful if they're scanning for a specific topic.
 
-### Free Training Section Contents
+### Section Contents
 
 This section has so many links that it needs it's own contents list!
 
