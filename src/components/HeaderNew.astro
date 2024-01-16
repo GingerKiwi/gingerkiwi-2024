@@ -7,10 +7,10 @@ import LinkNavMobile from './LinkNavMobile.astro';
 // import menuCloseDark from '../assets/close-slate-900.svg'
 ---
 
-<header class=" relative px-4 flex">
+<!-- <header class=" relative px-4 flex"> -->
 
-  
-    
+	<header class="relative px-4 top-0">
+    <div class='grid items-start grid-cols-2 md:grid-cols-3 md:grid-rows-3'>
 	<nav role="navigation">
 		
 		<!-- MOBILE MENU -->
@@ -41,7 +41,12 @@ import LinkNavMobile from './LinkNavMobile.astro';
 		</ul>
 		
 	</nav>
-    <div class="ml-6 lg:ml-32 lg:mt-32">
+<!-- __________________________________
+	
+	SITE TITLE
+	
+__________________________________ -->
+    <div class="ml-6 lg:ml-32 lg:mt-32 md:col-start-1 cmd:ol-span-2">
         <div>
         <a
              href="/"
@@ -63,8 +68,13 @@ import LinkNavMobile from './LinkNavMobile.astro';
              <p class="text-orange-100 lg:text-2xl my:12 font-sans ">Exploring Software Development, Accessibility,<br/> AI Engineering, and Design</p>
         </div>
 </div>
+</div>
 </header>
-	<!-- OTHER MENU?? -->
+<!-- __________________________________
+	
+	MOBILE POP-OUT MENU
+	
+__________________________________ -->
 	<div class="navbar-menu relative z-50 hidden border-4">
 		<nav class="fixed top-0 right-0 bottom-0 flex flex-col w-5/6 py-6 px-6 bg-slate-900 border-r overflow-y-auto">
 			<div class="flex items-center mb-8">
