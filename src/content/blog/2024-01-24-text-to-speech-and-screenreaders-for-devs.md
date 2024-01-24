@@ -12,7 +12,7 @@ layout: ../../layouts/BlogPostLayout.astro
 category: a11y
 draft: "false"
 ---
-During my online tech talk on Monday I was asked about how developers could go about experiencing what it's like to use a screen reader and text to speech (TTS). So here's a guide with links and resources to get you started. We'll go over the built-in text to speech in MacOS and Windows 10 and 11, the read aloud and focus reader in the Edge browser, and give you some resources to try out the open source, free NVDA screen reader. 
+During my online tech talk on Monday I was asked about how developers could go about experiencing what it's like to use a screen reader and text to speech (TTS). So here's a guide with links and resources to get you started. We'll go over the built-in text to speech in MacOS and Windows 10 and 11, the read aloud and immersive reader in the Edge browser, and give you some resources to try out the open source, free NVDA screen reader. 
 
 <h2 id="#contents">Contents</h2>
 
