@@ -6,7 +6,7 @@ tags:
   - featured
   - a11y
 image: /images/covers/03_A11y_ResourcesForDevs_1200x630.png
-imageAlt: "Graphic on a black background.Pink text: Web Accessibility Wednesdayslaptop emoji + wheelchair emojiOrange text: A11y Resources for Devs!pink to orange gradient text: https://gingerkiwi.blog"
+imageAlt: "Graphic on a black background.Pink text: Web Accessibility Wednesdays laptop emoji + wheelchair emojiOrange text: A11y Resources for Devs!pink to orange gradient text: https://gingerkiwi.dev"
 description: "Web Accessibility Wednesday: Have you ever wondered how to get certified as a web accessibility specialist? Here's a quick article giving the 101 of web accessibility certification and several ways to prepare for it."
 layout: ../../layouts/BlogPostLayout.astro
 category: a11y

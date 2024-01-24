@@ -8,7 +8,7 @@ tags:
   - design
   - a11y
 image: /images/covers/03_A11y_ResourcesForDevs_1200x630.png
-imageAlt: "Graphic on a black background.Pink text: Web Accessibility Wednesdayslaptop emoji + wheelchair emojiOrange text: A11y Resources for Devs!pink to orange gradient text: https://gingerkiwi.blog"
+imageAlt: "Graphic on a black background.Pink text: Web Accessibility Wednesdayslaptop emoji + wheelchair emojiOrange text: A11y Resources for Devs!pink to orange gradient text: https://gingerkiwi.dev"
 description: "Web Accessibility Wednesday: I'm working on the first of several accessible forms tutorial articles today. It's taking longer than I'd planned to code and write another Cats and Coffee themed tutorial. So for this week's Web Accessibility Wednesdays, here's some of the resources I'm using."
 layout: ../../layouts/BlogPostLayout.astro
 category: a11y

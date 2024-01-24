@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/2024-01-17-web-accessibility-certification.md",
+                "file": "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "727b5a41eb4a6c5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/2024-01-24-text-to-speech-and-screenreaders-for-devs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/2024-01-17-web-accessibility-certification.md",
+                "file": "src/content/blog/2024-01-24-text-to-speech-and-screenreaders-for-devs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/2024-01-17-web-accessibility-certification.md",
+                "file": "src/content/blog/2024-01-24-text-to-speech-and-screenreaders-for-devs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/2024-01-17-web-accessibility-certification.md"
+                "file": "src/content/blog/2024-01-24-text-to-speech-and-screenreaders-for-devs.md"
               }
             }
           }
@@ -147,14 +160,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "91e31802f0284838",
+  "active": "727b5a41eb4a6c5f",
   "lastOpenFiles": [
     "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
+    "src/content/blog/2024-01-24-text-to-speech-and-screenreaders-for-devs.md",
     "src/content/blog/2024-01-17-web-accessibility-certification.md",
+    "src/content/blog/2023-11-08-a-handful-of-quick-a11y-tips-for-devs.md",
     "src/content/blog/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
+    "src/content/blog/2023-12-08-quick-list-of-a11y-resources.md",
+    "src/content/blog/2023-12-13-accessible-forms-resources.md",
     "public/images/2023-11-crazy-cats-site-screenshot-article-02.png",
     "src/content/blog/2024-01-14-site-updates.md",
-    "src/content/blog/2023-12-13-accessible-forms-resources.md",
     "public/images/covers/00_BuildingInPublic-Updates_1200x630.png",
     "Untitled.md",
     "src/content/blog/2023-12-15-french-fridays-for-developers-21.md",
@@ -169,7 +185,6 @@
     "public/images/2024-01-13_avenza-logo.webp.crdownload",
     "public/images/2024-01-13_QGIS_Logo-transparent.webp.crdownload",
     "public/images/covers/GIS-Spatial-Location-Data-For-Devs_Cover_1200x630.png",
-    "src/content/blog/2023-12-08-quick-list-of-a11y-resources.md",
     "src/content/blog/2023-12-20-what-are-refreshable-braille-displays.md",
     "src/content/blog/2023-12-08-french-fridays-for-developers-20.md",
     "src/content/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
@@ -188,12 +203,10 @@
     "src/content/blog/2023-11-11-french-fridays-for-developers-018.md",
     "src/content/blog/2023-07-07-french-fridays-for-developers-014.md",
     "src/content/blog/2023-11-25-building-in-public-group-debugging-party.md",
-    "src/content/blog/2023-11-08-a-handful-of-quick-a11y-tips-for-devs.md",
     "src/content/blog/2023-11-03-french-fridays-for-developers-017.md",
     "src/content/blog/2023-09-29-french-fridays-for-developers-016.md",
     "src/content/blog/2023-09-10-dsa-javascript-arrays-01.md",
     "src/content/blog/2023-09-08-french-fridays-for-developers-015.md",
-    "src/content/blog/2023-08-08-design-tools-and-tips-for-backend-devs-01 1.md",
-    "src/content/blog/quick-a11y-tips-for-devs-02-links-within-pages.md"
+    "src/content/blog/2023-08-08-design-tools-and-tips-for-backend-devs-01 1.md"
   ]
 }
