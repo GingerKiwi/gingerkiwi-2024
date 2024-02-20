@@ -86,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "src/content/blog/2023-11-08-a-handful-of-quick-a11y-tips-for-devs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/content/blog/2023-11-08-a-handful-of-quick-a11y-tips-for-devs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/2024-02-15-a11y-resources-from-quick-a11y-tips-for-devs-tech-talk.md"
+                "file": "src/content/blog/2023-11-08-a-handful-of-quick-a11y-tips-for-devs.md"
               }
             }
           }
@@ -147,8 +149,8 @@
   },
   "active": "ba2369a80beaafeb",
   "lastOpenFiles": [
-    "src/content/blog/2023-11-08-a-handful-of-quick-a11y-tips-for-devs.md",
     "src/content/blog/2024-02-15-a11y-resources-from-quick-a11y-tips-for-devs-tech-talk.md",
+    "src/content/blog/2023-11-08-a-handful-of-quick-a11y-tips-for-devs.md",
     "src/content/blog/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
     "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
     "src/content/blog/2024-01-24-text-to-speech-and-screenreaders-for-devs.md",
