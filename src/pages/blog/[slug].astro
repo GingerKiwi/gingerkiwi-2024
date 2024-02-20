@@ -43,6 +43,7 @@ const { Content } = await post.render();
             leading-loose
             "
         >
+        <p>There is a known issue for users with "prefers light theme" where browsers change the h2-h6 level headings to pure black - without changing the background colour. The CSS is actually white headings on an almost black background. I'm completely refactoring my Tailwind CSS with two themes.</p>
         <Content />
         <PostsLike slug="{post.slug}"/>
     </article>
