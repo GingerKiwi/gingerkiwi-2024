@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/2024-02-15-a11y-resources-from-quick-a11y-tips-for-devs-tech-talk.md",
+                "file": "src/content/blog/2023-11-08-a-handful-of-quick-a11y-tips-for-devs.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/2024-02-15-a11y-resources-from-quick-a11y-tips-for-devs-tech-talk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/2024-02-15-a11y-resources-from-quick-a11y-tips-for-devs-tech-talk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
