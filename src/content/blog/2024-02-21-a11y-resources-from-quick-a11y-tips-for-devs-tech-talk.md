@@ -52,9 +52,6 @@ This is a list of resources to accompany my tech talk "Quick Accessibility Tips 
 ___
 <h2 id="disability-101">Disability 101</h2>
 
-
-audi-nissen-u1CAj5HJzO4-unsplash.jpg
-
 ![womens wheelchair basketball. primarily decorative image](/images/audi-nissen-u1CAj5HJzO4-unsplash.jpg)
 <h3 id="disability-culture">Disability Culture</h3>
 
