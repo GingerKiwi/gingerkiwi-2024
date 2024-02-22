@@ -28,7 +28,8 @@ This is a list of resources to accompany my tech talk "Quick Accessibility Tips 
 	7. <a href="#neurodivergent">Neurodivergent</a>
 	8. <a href="#disability-isnt-bad">Disability Isn't a Bad Word</a>
 	9. <a href="#braille">Braille</a>
-	10. <a href="#service-dogs">Service Dogs</a>
+	10. <a href="#disabilities-prefering-reduced-motion">Disabilities Preferring Reduced Motion</a>
+	11. <a href="#service-dogs">Service Dogs</a>
 2. <a href="#a11y-principals">Accessibility Principals</a>
 3. <a href="#wcag">WCAG: Web Content Accessibility Guidelines</a>
 4. <a href="#aria">ARIA</a>
@@ -37,7 +38,6 @@ This is a list of resources to accompany my tech talk "Quick Accessibility Tips 
 	1. <a href="#refreshable-braille-displays">Refreshable Braille Displays</a>
 	2. <a href="#low-vision-blind-tech">Low Vision and Blind Tech Use</a>
 	4. <a href="#mobility-assistive-tech">Mobility and Assistive Technology</a>
-	5. <a href="#disabilities-prefering-reduced-motion">Disabilities Preferring Reduced Motion</a>
 7. <a href="#code-resources-for-devs">A11y Code Resources for Devs</a>
 	1. <a href="#general-a11y-code-resources">General and Comprehensive Coding Resources</a> 
 	2. <a href="#prefers-reduced-motion">Prefers Reduced Motion - Accessible Animations</a> 
@@ -481,6 +481,46 @@ Neurodivergent refers to people with Autism, ADHD, post traumatic stress disorde
 - [James Rath](https://www.youtube.com/@jamesrath)
 - 7:49
 
+<h3 id="disabilities-prefering-reduced-motion">Disabilities Preferring Reduced Motion: <br>Migraines, Dysautonomia, Epilepsy, Seizure Disorders, Vestibular Disorders, Chronic Fatigue/ME</h3>
+
+There are many underlying reasons that users would prefer reduced or no motion on their sites and apps. Motion can trigger migraines and cause pain and discomfort for people experiencing a migraine. Note that migraines are not "bad headaches". They are a neurological condition that causes numerous symptoms including: "brain fog", pain, dizziness, light and/or sound sensitivity, nausea, blurred vision, and more.
+
+Motion can trigger epilepsy and other seizure disorders. Though not as common as other disabilities, seizures can be life threatening so it's important to have an alternative to web animations.
+
+Dysautonomia is the autonomic nervous system not working properly. There's many symptoms of dysautonomia, but the main ones developers should be concerned about is dizziness and vertigo. The vestibular system is responsible for balance and spatial orientation. Vestibular disorders cause people to be dizzy and in some cases vertigo.
+
+[What is Dysautonomia?](https://youtu.be/TGB_cK0olRY?si=kph9DG7Rc7aHOyEo)
+- [DINET - Dysautonomia Information Network](https://www.youtube.com/@DysautonomiaInformationNetwork)
+- 3:24
+
+[Web accessibility for seizures and physical reactions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Seizure_disorders)
+- Mozilla Developer Network
+
+[FOUR STAGES of a MIGRAINE ATTACK](https://youtu.be/oL-OjsXExUQ?si=rETnuWev-8AJqlhK) 
+- Momming with Migraine 
+- 13:22
+
+[History of the Disability Pride Flag](https://www.weinberg.cuimc.columbia.edu/news/history-disability-pride-flag) 
+- Colour contrast and migraines
+- Article
+
+[Day in the Life With POTS](https://youtu.be/cGr0qu_Yetw?si=WpiRjsvszbM8Pjzc) 
+- Izzy K DNA 
+- (POTS is postural orthostatic tachycardia syndrome - dysautonomia). 
+- Izzy is a Board-Certified Cardiovascular Genetic Counselor. 
+- She has hEDS, POTS (dysautonomia), and other common EDS comorbitities.
+
+[I Filmed My Chronic Migraine](https://youtu.be/gUTeH7G8JAw?si=A6E2EWyyg54m-K6l) 
+- [Jessica Kellgren-Fozard](https://www.youtube.com/@jessicaoutofthecloset) 
+
+[The Reality of Migraine:](https://youtu.be/KdTR7VbkQls?si=1qWW9U73paszM0pE) 
+- RAW FOOTAGE & my Real Reaction to Seeing a Migraine for the First Time
+- Jen from Momming with Migraine. 
+	- (Yes, yet another woman with EDS, and dysautonomia / POTS)
+- Note: Jen finally has a correct diagnosis (high cranial pressure). The symptoms are very similar to migraines, and she still has migraines.  This is one of the only videos out there showing someone going through a migraine.
+
+[The Most Prevalent Illness You’ve Never Heard Of! // Severe ME/CFS](https://youtu.be/0lqZ8YchbdM?si=5Q9cNqBGepKeXlaD) 
+- [Jessica Kellgren-Fozard](https://www.youtube.com/@jessicaoutofthecloset) 
 
 <h3 id="service-dogs">Service Dogs</h3>
 
@@ -533,7 +573,11 @@ ___
 
 <h2 id="wcag">WCAG: Web Content Accessibility Guidelines</h2>
 
+The Web Content Accessibility Guidelines (WCAG) are a shared, international, open source, technical standard for web accessibility. Many national and regional governments base their accessibility laws on WCAG.
+
+
 https://www.w3.org/WAI/standards-guidelines/wcag/glance/
+- WCAG at a Glance
 
 [A Roundup Of WCAG 2.2 Explainers](https://www.smashingmagazine.com/2023/10/roundup-wcag-explainers/)
 - [Geoff Graham](https://www.smashingmagazine.com/author/geoff-graham/)
@@ -643,46 +687,6 @@ YouTube Playlist [Computer Control: Full Computer Access via Eye Gaze](https://y
 [What's Wrong With My Hands?! | All About Ring Splints for EDS](https://youtu.be/2Y6BM-1tP4o?si=22AWSiYPODokIlDr) 
 - Robin Hahn (hEDS)
 
-<h3 id="disabilities-prefering-reduced-motion">Disabilities Preferring Reduced Motion: <br>Migraines, Dysautonomia, Epilepsy, Seizure Disorders, Vestibular Disorders, Chronic Fatigue/ME</h3>
-
-There are many underlying reasons that users would prefer reduced or no motion on their sites and apps. Motion can trigger migraines and cause pain and discomfort for people experiencing a migraine. Note that migraines are not "bad headaches". They are a neurological condition that causes numerous symptoms including: "brain fog", pain, dizziness, light and/or sound sensitivity, nausea, blurred vision, and more.
-
-Motion can trigger epilepsy and other seizure disorders. Though not as common as other disabilities, seizures can be life threatening so it's important to have an alternative to web animations.
-
-Dysautonomia is the autonomic nervous system not working properly. There's many symptoms of dysautonomia, but the main ones developers should be concerned about is dizziness and vertigo. The vestibular system is responsible for balance and spatial orientation. Vestibular disorders cause people to be dizzy and in some cases vertigo.
-
-[What is Dysautonomia?](https://youtu.be/TGB_cK0olRY?si=kph9DG7Rc7aHOyEo)
-- [DINET - Dysautonomia Information Network](https://www.youtube.com/@DysautonomiaInformationNetwork)
-- 3:24
-
-[Web accessibility for seizures and physical reactions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Seizure_disorders)
-- Mozilla Developer Network
-
-[FOUR STAGES of a MIGRAINE ATTACK](https://youtu.be/oL-OjsXExUQ?si=rETnuWev-8AJqlhK) 
-- Momming with Migraine 
-- 13:22
-
-[History of the Disability Pride Flag](https://www.weinberg.cuimc.columbia.edu/news/history-disability-pride-flag) 
-- Colour contrast and migraines
-- Article
-
-[Day in the Life With POTS](https://youtu.be/cGr0qu_Yetw?si=WpiRjsvszbM8Pjzc) 
-- Izzy K DNA 
-- (POTS is postural orthostatic tachycardia syndrome - dysautonomia). 
-- Izzy is a Board-Certified Cardiovascular Genetic Counselor. 
-- She has hEDS, POTS (dysautonomia), and other common EDS comorbitities.
-
-[I Filmed My Chronic Migraine](https://youtu.be/gUTeH7G8JAw?si=A6E2EWyyg54m-K6l) 
-- [Jessica Kellgren-Fozard](https://www.youtube.com/@jessicaoutofthecloset) 
-
-[The Reality of Migraine:](https://youtu.be/KdTR7VbkQls?si=1qWW9U73paszM0pE) 
-- RAW FOOTAGE & my Real Reaction to Seeing a Migraine for the First Time
-- Jen from Momming with Migraine. 
-	- (Yes, yet another woman with EDS, and dysautonomia / POTS)
-- Note: Jen finally has a correct diagnosis (high cranial pressure). The symptoms are very similar to migraines, and she still has migraines.  This is one of the only videos out there showing someone going through a migraine.
-
-[The Most Prevalent Illness You’ve Never Heard Of! // Severe ME/CFS](https://youtu.be/0lqZ8YchbdM?si=5Q9cNqBGepKeXlaD) 
-- [Jessica Kellgren-Fozard](https://www.youtube.com/@jessicaoutofthecloset) 
 
 
 ___
