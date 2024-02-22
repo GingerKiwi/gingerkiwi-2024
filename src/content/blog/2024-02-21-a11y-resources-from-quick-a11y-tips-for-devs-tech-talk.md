@@ -589,11 +589,17 @@ ___
 
 <h2 id="aria">ARIA</h2>
 
+ARIA stands for "Accessible Rich Internet Applications". ARIA are attributes you can add to html elements to enhance their accessibility. The first rule of ARIA is don't use aria! HTML is semantic by default.
+
 [ARIA Landmarks Example: WC3](https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/HTML5.html)
 
-https://benmyers.dev/blog/aria-labels-and-descriptions/
+[aria-label, aria-labelledby, and aria-describedby: What's the Difference?](https://benmyers.dev/blog/aria-labels-and-descriptions/)
+- [Ben Myers](https://benmyers.dev/)
+- Dec 7, 2020
 
-https://www.lullabot.com/articles/what-heck-aria-beginners-guide-aria-accessibility
+[What the Heck is ARIA? A Beginner's Guide to ARIA for Accessibility](https://www.lullabot.com/articles/what-heck-aria-beginners-guide-aria-accessibility)
+- [Kat Shaw](https://www.lullabot.com/about/kat-shaw)
+- October 09, 20219
 
 
 ___
