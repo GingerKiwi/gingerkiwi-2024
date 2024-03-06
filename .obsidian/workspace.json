@@ -4,52 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4ab7a6836d4b7a7c",
+        "id": "ddd1dc6a572b842d",
         "type": "tabs",
         "children": [
           {
-            "id": "4c05d47926e22d2c",
+            "id": "8dd915cdfdb79235",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/2024-02-21-a11y-resources-from-quick-a11y-tips-for-devs-tech-talk.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a3596a9953665cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/2024-02-21-a11y-resources-from-quick-a11y-tips-for-devs-tech-talk.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd1a876cd5d3324f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/2023-06-13-creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6137c8c9d244494a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
+                "file": "src/content/blog/2024-03-06-what-are-refreshable-braille-displays.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/2024-02-21-a11y-resources-from-quick-a11y-tips-for-devs-tech-talk.md",
+                "file": "src/content/blog/2024-03-06-what-are-refreshable-braille-displays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/2024-02-21-a11y-resources-from-quick-a11y-tips-for-devs-tech-talk.md",
+                "file": "src/content/blog/2024-03-06-what-are-refreshable-braille-displays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/2024-02-21-a11y-resources-from-quick-a11y-tips-for-devs-tech-talk.md"
+                "file": "src/content/blog/2024-03-06-what-are-refreshable-braille-displays.md"
               }
             }
           }
@@ -183,18 +147,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c05d47926e22d2c",
+  "active": "8dd915cdfdb79235",
   "lastOpenFiles": [
+    "src/content/blog/2024-03-06-what-are-refreshable-braille-displays.md",
     "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
-    "src/content/blog/2024-02-21-a11y-resources-from-quick-a11y-tips-for-devs-tech-talk.md",
-    "public/images/audi-nissen-u1CAj5HJzO4-unsplash.jpg",
-    "public/images/alberto-bogo-LpLGzfo1JjY-unsplash.jpg",
     "src/content/blog/2023-06-13-creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
-    "public/images/elizabeth-woolner-9xxNZCJZ8bA-unsplash.jpg",
-    "src/content/blog/2023-11-08-a-handful-of-quick-a11y-tips-for-devs.md",
-    "src/content/blog/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
+    "src/content/blog/2024-02-21-a11y-resources-from-quick-a11y-tips-for-devs-tech-talk.md",
     "src/content/blog/2024-01-24-text-to-speech-and-screenreaders-for-devs.md",
     "src/content/blog/2024-01-17-web-accessibility-certification.md",
+    "src/content/blog/2023-11-08-a-handful-of-quick-a11y-tips-for-devs.md",
+    "public/images/audi-nissen-u1CAj5HJzO4-unsplash.jpg",
+    "public/images/alberto-bogo-LpLGzfo1JjY-unsplash.jpg",
+    "public/images/elizabeth-woolner-9xxNZCJZ8bA-unsplash.jpg",
+    "src/content/blog/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
     "src/content/blog/2023-12-08-quick-list-of-a11y-resources.md",
     "src/content/blog/2023-12-13-accessible-forms-resources.md",
     "public/images/2023-11-crazy-cats-site-screenshot-article-02.png",
@@ -210,7 +175,6 @@
     "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
     "public/images/2024-01-13_avenza-logo.webp.crdownload",
     "public/images/2024-01-13_QGIS_Logo-transparent.webp.crdownload",
-    "src/content/blog/2023-12-20-what-are-refreshable-braille-displays.md",
     "src/content/blog/2023-12-08-french-fridays-for-developers-20.md",
     "src/content/2023-11-15-quick-a11y-tips-for-devs-02-links-within-pages.md",
     "src/content/blog/2023-11-30-three-topics-in-video-games-history.md",

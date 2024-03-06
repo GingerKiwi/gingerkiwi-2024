@@ -14,6 +14,7 @@ imageAlt: "Rectangular graphic with hot pink and orange text on a black backgrou
 category: a11y
 draft: "false"
 ---
+*Updated February 27, 2024*
 
 Coding with accessibility in mind can be intimidating if you're not familiar with the needs of disabled, neurodiverse, Deaf/deaf, and hard of hearing users. Yet, it's an essential skill to be both legally compliant, and to have easy to read and maintain code. 
 
@@ -29,6 +30,8 @@ Here are five tips to get you started in making your sites accessible for users 
 ## The Cats and Coffee Examples
 
 All code examples are from a website for the fictional *"Crazy Cats Coffee"* coffee shop. View the [Crazy Cats Coffee codepen here](https://codepen.io/gingerkiwi/pen/rNPjmXG?editors=1100)
+View the deployed site here: [https://vanilla.crazycatscoffee.com](https://vanilla.crazycatscoffee.com)
+GitHub repo: [[GingerKiwi/CrazyCatsCoffee-Vanilla (github.com)](https://github.com/GingerKiwi/CrazyCatsCoffee-Vanilla)]
 
 
 <!-- <img class="img-smaller"
@@ -426,7 +429,5 @@ A simple link at the top of the page that allows users to skip hearing the navig
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-## Credits
 
-1. Animated call to action button was restyled from [Izzat Azmi's code pen](https://codepen.io/IzzatAzmi/pen/KWemrY?editors=0100 */)
 

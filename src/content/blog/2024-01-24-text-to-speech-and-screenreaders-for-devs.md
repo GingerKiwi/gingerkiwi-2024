@@ -1,6 +1,6 @@
 ---
 title: An Introduction to Text to Speech and Screen Readers for Developers
-date: 2024-01-17
+date: 2024-01-24
 tags:
   - post
   - featured
@@ -166,9 +166,9 @@ A full list of features is is listed in the  [NV Access | About NVDA](https://ww
 
 **Tip: Make sure you have at least a couple or hours to half a day to get started! Using a screen reader is a steep learning curve, but well worth it.**
 
-You can [download NVDA([NV Access | Download NVDA](https://www.nvaccess.org/download/) for free. Follow the [NVDA 2023.3.2 User Guide (nvaccess.org)](https://www.nvaccess.org/files/nvda/documentation/userGuide.html?) to get started setting up NVDA and learning how to use it.
+You can [download NVDA](https://www.nvaccess.org/download/) for free. Follow the [NVDA 2023.3.2 User Guide (nvaccess.org)](https://www.nvaccess.org/files/nvda/documentation/userGuide.html?) to get started setting up NVDA and learning how to use it.
 
-I believe in not reinventing the wheel. So here's a well done video by Matt Isner, a JavaScript developer from [Deque Systems: Web Accessibility Software, Services & Training](https://www.deque.com/)) on [Accessibility Testing with the NVDA Screenreader](https://youtu.be/Vx1vSd5uYS8?si=65RcHOSA99nnW5cZ) focused on developers. Though it's from 2016, it's still relevant. 
+I believe in not reinventing the wheel. So here's a well done video by Matt Isner, a JavaScript developer from [Deque Systems: Web Accessibility Software, Services & Training](https://www.deque.com/) on [Accessibility Testing with the NVDA Screenreader](https://youtu.be/Vx1vSd5uYS8?si=65RcHOSA99nnW5cZ) focused on developers. Though it's from 2016, it's still relevant. 
 
 <iframe width="320" height="180" src="https://www.youtube.com/embed/Vx1vSd5uYS8?si=qQoizMiwaKMKASLC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
