@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/2024-03-06-what-are-refreshable-braille-displays.md",
+                "file": "src/content/blog/2024-03-06-what-are-refreshable-braille-devices.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "480fb593e133bfb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/2024-02-21-a11y-resources-from-quick-a11y-tips-for-devs-tech-talk.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80322bdfb2a8363c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/2024-03-06-what-are-refreshable-braille-displays.md",
+                "file": "src/content/blog/2024-03-06-what-are-refreshable-braille-devices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/2024-03-06-what-are-refreshable-braille-displays.md",
+                "file": "src/content/blog/2024-03-06-what-are-refreshable-braille-devices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/2024-03-06-what-are-refreshable-braille-displays.md"
+                "file": "src/content/blog/2024-03-06-what-are-refreshable-braille-devices.md"
               }
             }
           }
@@ -149,10 +173,12 @@
   },
   "active": "8dd915cdfdb79235",
   "lastOpenFiles": [
-    "src/content/blog/2024-03-06-what-are-refreshable-braille-displays.md",
-    "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
-    "src/content/blog/2023-06-13-creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
     "src/content/blog/2024-02-21-a11y-resources-from-quick-a11y-tips-for-devs-tech-talk.md",
+    "src/content/blog/2024-03-06-what-are-refreshable-braille-devices.md",
+    "src/content/blog/2024-01-13-location-data-and-gis-for-devs.md",
+    "public/images/braille-perkins-keyboard-diagram.webp",
+    "public/images/braille-perkins-keyboard-diagram.webp.crdownload",
+    "src/content/blog/2023-06-13-creating-a-simple-desktop-layout-in-css-with-just-h1-and-one-paragraph.md",
     "src/content/blog/2024-01-24-text-to-speech-and-screenreaders-for-devs.md",
     "src/content/blog/2024-01-17-web-accessibility-certification.md",
     "src/content/blog/2023-11-08-a-handful-of-quick-a11y-tips-for-devs.md",
@@ -171,7 +197,6 @@
     "public/images/GIS_AvenzaSystemsInc-logo_800x300.png",
     "public/images/2024-01-13_avenza-logo.webp",
     "public/images/2024-01-13_Screenshot_VectorAI.png",
-    "public/images/2024-01-13_QGIS_Logo-transparent.webp",
     "src/content/blog/2023-12-14-tech-history-oreily-animals.md",
     "public/images/2024-01-13_avenza-logo.webp.crdownload",
     "public/images/2024-01-13_QGIS_Logo-transparent.webp.crdownload",
@@ -187,7 +212,6 @@
     "node_modules/@esbuild/freebsd-arm64",
     "node_modules/@esbuild/darwin-arm64",
     "node_modules/@esbuild/android-x64",
-    "node_modules/@esbuild/android-arm64",
     "src/content/blog/2023-11-11-french-fridays-for-developers-018.md",
     "src/content/blog/2023-07-07-french-fridays-for-developers-014.md",
     "src/content/blog/2023-11-25-building-in-public-group-debugging-party.md",

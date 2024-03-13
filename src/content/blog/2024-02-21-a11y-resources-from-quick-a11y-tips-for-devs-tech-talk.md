@@ -705,7 +705,7 @@ Here are some dev specific resources to make your code more accessible. Almost a
 
 [A Complete Guide To Accessible Front-End Components](https://www.smashingmagazine.com/2021/03/complete-guide-accessible-front-end-components/)
 - [Vitaly Friedman](https://www.smashingmagazine.com/author/vitaly-friedman/)
-- [Smashing Magazine](https://www.smashingmagazine.com
+- [Smashing Magazine](https://www.smashingmagazine.com)
 - Updated May 25, 2022
 
 [Structuring Accessible Forms](https://racheleditullio.com/talks/accessible-forms)
