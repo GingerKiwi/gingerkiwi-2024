@@ -147,8 +147,11 @@ The B.BOOK Braille Notetaker in the short, 3 minute video embedded below is a fu
 
 Technology advances fast! One of the most promising cutting edge digital braille display devices are multi-line and tactile graphics displays such as the Monarch by Humanware, and Dotpad by Texas Instruments. Both allow users to read braille more like a book or a full screen of text as well as to access visual data through tactile graphics.
 
+#### Monarch by Humanware
+
 <iframe width="350" height="197" src="https://www.youtube.com/embed/I5JLDkWGkF0?si=kIdCMrPLxHwUEFrr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+#### DotPad by Texas Instruments
 
 <iframe width="350" height="197" src="https://www.youtube.com/embed/Zvg2JckxzwU?si=qs2UGBbrFlgye7rY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
