@@ -45,7 +45,7 @@ Braille writers are very heavy typewriters that emboss braille letters onto card
 
 Molly Burke demonstrates how she used her Perkins brailler in school in the video below. 
 
-<iframe width="350" height="197" src="https://www.youtube.com/embed/a8AEkwtNEiM?si=Jj6OaW6vSa73gTn2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="350" height="197" src="https://www.youtube.com/embed/a8AEkwtNEiM?si=Jj6OaW6vSa73gTn2" title="Molly Burke: How To Read & Write Braille + The History of Braille!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### Braille Slate and Stylus
 
@@ -54,7 +54,7 @@ While very inexpensive ($5-25 on Amazon), and very portable, a braille slate and
 Braille slates come in many different sizes from almost wallet sized ones, to full braille pages that are about the size of a scrapbook page. Certified Braille Transcriber, Elizabeth Symington's excellent video on 10 different types of Braille slates is a great demonstration of the variety in this portable braille writing option. 
 
 
-<iframe width="350" height="197" src="https://www.youtube.com/embed/M6mUNyj3WRM?si=MlrUPbeq6v4ttfKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="350" height="197" src="https://www.youtube.com/embed/M6mUNyj3WRM?si=MlrUPbeq6v4ttfKU" title="Braille Adventures: 10 Different Types of Braille Slates" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ### To Learn More About Classic Braille
@@ -97,9 +97,9 @@ The digital Perkins keyboard mimics modern QWERTY keyboards with the return key 
     <figcaption>Image Credit: <a href="https://www.perkins.org/resource/so-many-braille-displays-which-one-right-my-student-part-three/">Perkins School for the Blind</a></figcaption>
 </figure>
 
-There's a newer refreshable braille display by Humanware - the [Mantis Q40 braille display](https://store.humanware.com/hus/mantis-q40.html) has a QWERTY keyboard instead of a braille keyboard above it's 40 cell braille display. 
+There's a newer refreshable braille display by HumanWare - the [Mantis Q40 braille display](https://store.humanware.com/hus/mantis-q40.html) has a QWERTY keyboard instead of a braille keyboard above it's 40 cell braille display. 
 
-<iframe width="350" height="197" src="https://www.youtube.com/embed/zaIjhRzc80E?si=yk9StNsoFz906gpV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="350" height="197" src="https://www.youtube.com/embed/zaIjhRzc80E?si=yk9StNsoFz906gpV" title="APH: Mantis Q40: An All-in-One QWERTY Keyboard and Refreshable Braille Display" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Types of Refreshable Braille Devices
 
@@ -117,20 +117,20 @@ Refreshable braille displays range in size from ultra portable 12, 14, or 20 cel
 
 To see how blind and low vision adult users use their refreshable braille displays take a look at the video below by [Stuart Lawler](https://www.linkedin.com/in/stuart-lawler-1513652/overlay/about-this-profile/) on [Sight and Sound Technology's](https://www.sightandsound.co.uk ) YouTube channel
 
-<iframe width="350" height="197" src="https://www.youtube.com/embed/s3HgWT_Ya9E?si=xd9-S0QFNiSSAVIy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="350" height="197" src="https://www.youtube.com/embed/s3HgWT_Ya9E?si=xd9-S0QFNiSSAVIy" title="Sight and Sound Technology: Introducing the Focus: Refreshable Braille Display" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Like many of us during the pandemic, blind students switched to online learning. Refreshable braille displays allowed blind and low vision students that can read braille to access Google classroom. Have a quick watch of the video below by [Dr Denise M Robinson](https://www.youtube.com/@DrDeniseMRobinsontech) to see how a student (Aubrey) accessed her Google classroom in 2020 using a Focus 40, 40 cell braille display.
 
-<iframe width="350" height="197" src="https://www.youtube.com/embed/3mEy2QPSNgk?si=3zCtwQbgbS3uqk7z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="350" height="197" src="https://www.youtube.com/embed/3mEy2QPSNgk?si=3zCtwQbgbS3uqk7z" title="Dr Denise M Robinson: Google Classroom using Focus 40 Braille Display by Aubrey" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 One of the most portable (and cute) refreshable braille displays is the HIMS Smart Beetle 14 cell braille display. The quick 2 minute video below shows Mycael an assistive technology content creator unboxing one. Though Mycael can't read braille, this is the best short and up to date video showing the Smart Beetle. (The device has been around for more than 7 years, so there's some long, really dry videos on this really cute device.)
 
-<iframe width="350" height="197" src="https://www.youtube.com/embed/IDl148Iuhqc?si=NJcYfDeD_rM4g7de" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="350" height="197" src="https://www.youtube.com/embed/IDl148Iuhqc?si=NJcYfDeD_rM4g7de" title="ATSpear: HIMS Smart Beetle Braille Display Unboxing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-The [Mantis Q40 braille display](https://store.humanware.com/hus/mantis-q40.html)in the video in the keyboard section above is an example of a refreshable braille display. Humanware's cute 35 second video ad below is worth a watch as well.
+The [Mantis Q40 braille display](https://store.humanware.com/hus/mantis-q40.html)in the video in the keyboard section above is an example of a refreshable braille display. HumanWare's cute 35 second video ad below is worth a watch as well.
 
-<iframe width="350" height="197" src="https://www.youtube.com/embed/jdjGFMzOdjU?si=LWItcjO9n_ox54Zb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="350" height="197" src="https://www.youtube.com/embed/jdjGFMzOdjU?si=LWItcjO9n_ox54Zb" title="HumanWare: # Mantis Q40: A new species of refreshable Braille displays" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ### 2. Braille Notetaker 
@@ -141,19 +141,19 @@ There are also Android braille notetakers, that function a lot like Chrome Books
 
 The B.BOOK Braille Notetaker in the short, 3 minute video embedded below is a full functioning Windows laptop computer.
 
-<iframe width="350" height="197" src="https://www.youtube.com/embed/80NfUNLdugs?si=d4Bqqogqw9S9AMu1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="350" height="197" src="https://www.youtube.com/embed/80NfUNLdugs?si=d4Bqqogqw9S9AMu1" title="Irie AT Inc.: B.BOOK Braille Notetaker: New braille notetaker" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Other Digital Braille Display Devices
 
 Technology advances fast! One of the most promising cutting edge digital braille display devices are multi-line and tactile graphics displays such as the Monarch by Humanware, and Dotpad by Texas Instruments. Both allow users to read braille more like a book or a full screen of text as well as to access visual data through tactile graphics.
 
-#### Monarch by Humanware
+#### Monarch by HumanWare
 
-<iframe width="350" height="197" src="https://www.youtube.com/embed/I5JLDkWGkF0?si=kIdCMrPLxHwUEFrr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="350" height="197" src="https://www.youtube.com/embed/I5JLDkWGkF0?si=kIdCMrPLxHwUEFrr" title="HumanWare: Monarch: The dynamic, tactile device that will render multiple lines of braille and tactile graphics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### DotPad by Texas Instruments
 
-<iframe width="350" height="197" src="https://www.youtube.com/embed/Zvg2JckxzwU?si=qs2UGBbrFlgye7rY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="350" height="197" src="https://www.youtube.com/embed/Zvg2JckxzwU?si=qs2UGBbrFlgye7rY" title="Texas Instruments: TI & Dot Inc.: Discussing the innovative technology behind the Dot Pad accessibility tablet" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ___
 <h2 id="code">How to Code for Refreshable Braille Device Accessibility</h2>
@@ -215,8 +215,8 @@ ___
 - Brailler Depot store [Hims Smart Beetle 14 Cell Braille Display](https://braillerdepot.com/smart_beetle.html)
 - Bureau of Internet Accessibility [How Braille Displays Help Users with Visual Impairments Access the Web](https://www.boia.org/blog/how-braille-displays-help-users-with-visual-impairments-access-the-web)
 - Freedom Scientific shop [Braille Displays & Notetakers – Freedom Scientific eStore](https://store.freedomscientific.com/collections/braille-display-and-notetakers)
-- Humanware store [Mantis Q40 braille display](https://store.humanware.com/hus/mantis-q40.html
-- Humanare store [Braille Notetakers](https://store.humanware.com/hus/braille-devices/braille-notetakers)
+- HumanWare store [Mantis Q40 braille display](https://store.humanware.com/hus/mantis-q40.html
+- HumanWare store [Braille Notetakers](https://store.humanware.com/hus/braille-devices/braille-notetakers)
 - [Inclusive Design Research Centre](http://idrc.ocad.ca/)[OCAD University](http://ocad.ca/) [Refreshable Braille Display](https://legacy.idrc.ocadu.ca/13-resources/technical-glossary/43-refreshable-braille-display)
 - MSN News [Tech I can't live without: ]([Tech I Can't Live Without: Mantis Q40 Braille display (msn.com)](https://www.msn.com/en-us/news/technology/tech-i-can-t-live-without-mantis-q40-braille-display/vi-AA18Ir6O#details))
 - Perkins School for the Blind [An overview of Braille Devices](https://www.perkins.org/resource/overview-braille-devices/) Article
