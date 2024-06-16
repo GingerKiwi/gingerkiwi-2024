@@ -15,16 +15,9 @@ const posts = (await getCollection('blog')).reverse();
 <MainLayout seo={{ title: "Welcome to GingerKiwi.dev"}}>
 	<div class='flex flex-col justify-center items-start mx-6 lg:mt-4'>
 		<div class='mx-2 my-4 bg-slate-950 text-sky-100  max-w-xl rounded-md px-5 py-2 border-8 border-pink-800 '>
-			<h2 class="py-2 text-pink-400 text-xl font-bold">Building in Public</h2>
-			<p class="font-bold">Things might look a little janky for a bit, but that&#x0027;s okay! </p>
-				<p class="py-2 font-normal">There is a known issue for users with "prefers light theme" where browsers change the h2-h6 level headings to pure black - without changing the background colour. The CSS is actually white headings on an almost black background. I'm completely refactoring my Tailwind CSS with two themes.<br />
-
-					Read <a href="blog/2024-01-14-site-updates/" 
-					class="underline hover:text-pink-500 hove:font-bold hover:underline-offset-8 focus:text-pink-500 focus:font-bold focus:underline-offset-8">
-					this post</a> 
-					to learn more. 
-					<br />The new header image is on a <a href="/hello-world" class="underline hover:text-pink-500 hove:font-bold hover:underline-offset-8 focus:text-pink-500 focus:font-bold focus:underline-offset-8">hello world page</a>. I drew it by hand in Figma.
-					<br />   Note: The new header layout is a work in progress.</p>	
+			<h2 class="py-2 text-pink-400 text-xl font-bold">Building in Public <a href="http://gingerkiwi.xyz">GingerKiwi.xyz</a></h2>
+			<p class="font-bold">This site is being completely redesigned in June 2024.</p>
+				<p class="py-2 font-normal">There is a known issue for users with "prefers light theme" where browsers change the h2-h6 level headings to pure black - without changing the background colour. The CSS is actually white headings on an almost black background. 
 			</div>	
 		</div>
 		<div class="mx-4 md:ml-12 md:mr-8 text-sm lg:text-lg">
